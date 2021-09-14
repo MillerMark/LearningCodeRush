@@ -43,17 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" />
+    <Compile Include="CapsB.cs" />
     <Compile Include="CapsDelete.cs" />
     <Compile Include="CapsG.cs" />
+    <Compile Include="CapsC.cs" />
     <Compile Include="CapsH.cs" />
     <Compile Include="CapsP.cs" />
     <Compile Include="CtrlCapsDelete.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Customer.cs" />
     <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Support Files Only - No Lessons Here\App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

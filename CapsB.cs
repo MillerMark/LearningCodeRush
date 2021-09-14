@@ -21,8 +21,7 @@ namespace CapsModifierTests
 		*/
 
 		bool started;
-		bool loaded;
-
+		
 		public void Startup()
 		{
 			

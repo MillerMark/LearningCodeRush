@@ -42,6 +42,14 @@ namespace CapsModifierTests
 				return "Static:" + Path.GetDirectoryName(assembly.Location);
 		}
 
+		public string GetEncodedPath2(Assembly assembly)
+		{
+			if (assembly.IsDynamic)
+				return "Dynamic:" + Path.GetDirectoryName(assembly.Location);
+			else
+				return "Static:" + Path.GetDirectoryName(assembly.Location);
+		}
+
 		public CapsP()
 		{
 			assemblyLoadEventArgs = new AssemblyLoadEventArgs(System.Reflection.Assembly.GetExecutingAssembly());
