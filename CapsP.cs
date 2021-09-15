@@ -18,6 +18,12 @@ namespace CapsModifierTests
 				* Promote to Generic Parameter
 				* Promote to Parameter
 				* Pull Members Up
+				* Reorder Parameters
+				* Declare Parameter
+				* Declare Partial Class Part
+				* Declare Property (auto-implemented)
+				* Declare Property (with default body)
+				* Declare Property with Initializer
 			 
 		 Examples follow in the source code below.
 		*/
@@ -96,12 +102,12 @@ namespace CapsModifierTests
 	{
 		public BaseTool()
 		{
-			
+
 		}
 		// When the target picker is up, use Up/Down arrows and Enter to select the target location.
 	}
 
-	public class Tool: BaseTool
+	public class Tool : BaseTool
 	{
 		public Tool()
 		{
@@ -114,14 +120,70 @@ namespace CapsModifierTests
 		}
 
 		public string Id { get; }
+		bool engaging;
 
 		// Use Caps+P to Pull this Engage() member up to the parent class BaseTool.
 		// Use arrow keys to position it, and Enter to accept (or Escape to cancel).
 		//` ![](ArrowDown)
 		public void Engage()
 		{
-			
+			engaging = true;
 		}
+
+		public void RockOn()
+		{
+			engaging = false;
+			double x = 0, y = 0, z = 0;
+			//`                       ![](LookHere) Look here after you try the next one.
+			LotsOfParameters("End", y, "Start", z, x);
+		}
+
+
+		// Use Caps+P to Reorder Parameters.
+		// Use the tab and arrow keys to select and move parameters.
+		// Enter accepts (Escape cancels).
+		//`                      ![](ArrowDown)
+		void LotsOfParameters(string msg2, double Y, string msg1, double Z, double X)
+		{
+
+		}
+
+		void CallingMethod()
+		{
+			// You can also use Caps+P to Reorder Parameters from a *calling method*.
+			//                  ![](ArrowDown)
+			LotsOfParameters("Message 2", 2, "Message 1", 3, 1);
+		}
+
+		public static double ConvertToUSD(double amount)
+		{
+			// Press Caps+P to declare "source" as a parameter.
+			//`                                  ![](ArrowDown)
+			return amount / GetCurrencyRate(source);
+		}
+
+		protected static double GetCurrencyRate(Currency source)
+		{
+			// Press Caps+P to declare "LastSelected" as a property:
+			//`   ![](ArrowDown)
+			LastSelected = source;
+			throw new NotImplementedException();
+		}
+
+		public enum Currency
+		{
+			USD,
+			EUR,
+			GBR
+		}
+	}
+
+	// Press Caps+P to create a partial class part:
+	//`   ![](ArrowDown)
+	public class MyUtils
+	{
+		
+		
 	}
 }
 

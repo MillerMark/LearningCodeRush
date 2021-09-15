@@ -6,9 +6,7 @@ namespace CapsModifierTests
 	/* 
 	   ![Enable Rich Comments to see embedded images](CapsPlusDelete)
 
-	 Use Caps+Delete to remove redundant and unnecessary code. Usually available when the caret is at the start of the item to remove.
-
-	 Use Caps+Delete to Remove:
+	 Use Caps+Delete to remove redundant and unnecessary code, including:
 
 	  * Discard Variables
 	  * Redundant Block Delimiters
@@ -19,42 +17,51 @@ namespace CapsModifierTests
 	  * Unused Types
 
 	 Examples are below:
+
 	 */
 	
 
 	public class CapsDelete
 	{
-		// Caps+Delete for Remove Redundant Constructor:
+
+		// Caps+Delete to remove the redundant constructor:
+		//`   ![](ArrowDown)
 		public CapsDelete()
 		{
 		}
 
-		// Caps+Delete for Remove Redundant Destructor:
+
+
+		// Caps+Delete to remove the redundant destructor:
+		//`   ![](ArrowDown)
 		~CapsDelete() { 
 		}
 
+
+
 		public void CallMethod()
 		{
+			//`                     ![](LookHere) Look here when you try the next one.
 			GetMethodName(null, "Yo yo yo");
 		}
 
-		// Remove the unused parameter (available on the unused argument above or parameter below):
-
+		// Caps+Delete to remove the unused parameter:
+		//`                                              ![](ArrowDown)
 		string GetMethodName(ISymbol symbol, string unusedMessage)
 		{
-			// Remove the redundant type qualifier (available on the "CapsModifierTests")
-			// Remove the discard variable (available on the "_")
-			// Remove redundant block delimiters (available on either brace in the block above).
-
+			// Caps+Delete to remove:
+			//   * Redundant type qualifiers
+			//   * Discard variables ("_")
+			//   * Redundant block delimiters
+			//`                  ![](ArrowDown)
 			if (symbol is CapsModifierTests.IMethodSymbol _)
-			{
+			{//`![](ArrowLeft)
 				return symbol.Name;
 			}
-			
 
-			//! Remove redundant assignment??? 
 
-			// Remove unused local:
+			// Caps+Delete to remove the unused local:
+			//`        ![](ArrowDown)
 			string varName = null;
 			varName = "Yo";
 
@@ -64,7 +71,8 @@ namespace CapsModifierTests
 		event EventHandler TextChanged;
 		void HookEvents()
 		{
-			// Remove the redundant delegate creation (available on "new EventHandler"):
+			// Caps+Delete to remove the redundant delegate creation:
+			//`                     ![](ArrowDown)
 			TextChanged += new EventHandler(ProcessText);
 		}
 
@@ -74,7 +82,8 @@ namespace CapsModifierTests
 		}
 	}
 
-	// Remove unused type:
+	// Caps+Delete to remove the unused type:
+	//`                ![](ArrowDown)
 	internal class UnusedType
 	{
 		public UnusedType()

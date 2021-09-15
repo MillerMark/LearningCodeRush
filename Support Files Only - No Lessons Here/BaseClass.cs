@@ -9,7 +9,15 @@ namespace CapsModifierTests
 		{
 			a = value;
 		}
+
+		public BaseClass(int value, string name)
+		{
+			Name = name;
+			a = value;
+		}
+
 		private int a;
+		public string Name { get; set; }
 	}
 }
 
