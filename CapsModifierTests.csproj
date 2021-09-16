@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapsC.cs" />
     <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" />
     <Compile Include="CapsB.cs" />
     <Compile Include="CapsDelete.cs" />
     <Compile Include="CapsG.cs" />
-    <Compile Include="CapsC.cs" />
+    <Compile Include="CapsA.cs" />
     <Compile Include="CapsH.cs" />
     <Compile Include="CapsP.cs" />
     <Compile Include="CtrlCapsDelete.cs" />

@@ -18,6 +18,10 @@ namespace CapsModifierTests
 				* Use an expression Body (or expand an expression body into a method or property)
 			 
 		 Examples follow in the source code below.
+
+		 Arrows (![](ArrowDown)) show caret position. 
+
+		 Move to where the arrow points before pressing the shortcut.
 		*/
 
 		bool started;
@@ -26,7 +30,7 @@ namespace CapsModifierTests
 		{
 			
 			if (DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
-				//`![](ArrowDown) Press Caps+B to add a new block delimiters here.
+				//`![](ArrowDown) Press Caps+B to add new block delimiters here.
 				Console.WriteLine("It's Saturday!");
 
 

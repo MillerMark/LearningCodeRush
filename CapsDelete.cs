@@ -3,26 +3,30 @@ using System.Linq;
 
 namespace CapsModifierTests
 {
-	/* 
-	   ![Enable Rich Comments to see embedded images](CapsPlusDelete)
-
-	 Use Caps+Delete to remove redundant and unnecessary code, including:
-
-	  * Discard Variables
-	  * Redundant Block Delimiters
-	  * Redundant Constructors
-	  * Redundant Destructors
-	  * Unused Locals
-	  * Unused Parameters
-	  * Unused Types
-
-	 Examples are below:
-
-	 */
-	
-
 	public class CapsDelete
 	{
+		/* 
+	   ![Enable Rich Comments to see embedded images](CapsPlusDelete)
+
+		 Use Caps+Delete to remove redundant and unnecessary code, including:
+
+			* Discard Variables
+			* Redundant Block Delimiters
+			* Redundant Constructors
+			* Redundant Destructors
+			* Unused Locals
+			* Unused Parameters
+			* Unused Types
+
+		 Examples are below.
+
+		 Arrows (![](ArrowDown)) show caret position. 
+
+		 Move to where the arrow points before pressing the shortcut.
+
+	 */
+
+
 
 		// Caps+Delete to remove the redundant constructor:
 		//`   ![](ArrowDown)

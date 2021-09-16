@@ -11,12 +11,21 @@
 				* Remove all redundant brace blocks inside a method.
 			 
 		 Examples follow in the source code below.
+
+		 Arrows (![](ArrowDown)) show caret position. 
+
+		 Move to where the arrow points before pressing the shortcut.
 		
 		*/
+
+
 
 		// Use Ctrl+Caps+Delete to remove all **type qualifiers** matching the type qualifier at the caret.
 		//`![](ArrowDown)
 		System.AssemblyLoadEventArgs assemblyLoadEventArgs;
+
+
+
 		public CtrlCapsDelete()
 		{                                                          //`![](ArrowDown)
 			assemblyLoadEventArgs = new System.AssemblyLoadEventArgs(System.Reflection.Assembly.GetExecutingAssembly());
@@ -39,6 +48,8 @@
 		{
 			System.Boolean isDynamic = AssemblyIsDynamic(assemblyLoadEventArgs);
 		}
+
+
 
 		// Use Ctrl+Caps+Delete to remove all redundant **block delimiters** inside this method,
 		// available on the first token of the method declaration.

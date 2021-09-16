@@ -15,6 +15,11 @@ namespace CapsModifierTests
 				* Promote a parameter type or a return type to a Generic type parameter
 			 
 		 Examples follow in the source code below.
+
+		 Arrows (![](ArrowDown)) show caret position. 
+
+		 Move to where the arrow points before pressing the shortcut.
+
 		*/
 
 
