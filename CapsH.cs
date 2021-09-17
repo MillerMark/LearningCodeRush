@@ -6,7 +6,7 @@
 using System;
 using System.Linq;
 
-namespace CapsModifierTests
+namespace CapsModifier
 {
 	public class CapsH
 	{

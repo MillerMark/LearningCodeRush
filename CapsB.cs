@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace CapsModifierTests
+namespace CapsModifier
 {
 	public class CapsB
 	{
@@ -28,7 +28,6 @@ namespace CapsModifierTests
 		
 		public void Startup()
 		{
-			
 			if (DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
 				//`![](ArrowDown) Press Caps+B to add new block delimiters here.
 				Console.WriteLine("It's Saturday!");

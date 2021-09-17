@@ -1,4 +1,4 @@
-﻿namespace CapsModifierTests
+﻿namespace CapsModifier
 {
 	public interface IMethodSymbol: ISymbol
 	{

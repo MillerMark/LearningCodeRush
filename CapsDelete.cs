@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace CapsModifierTests
+namespace CapsModifier
 {
 	public class CapsDelete
 	{
@@ -58,7 +58,7 @@ namespace CapsModifierTests
 			//   * Discard variables ("_")
 			//   * Redundant block delimiters
 			//`                  ![](ArrowDown)
-			if (symbol is CapsModifierTests.IMethodSymbol _)
+			if (symbol is CapsModifier.IMethodSymbol _)
 			{//`![](ArrowLeft)
 				return symbol.Name;
 			}

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapsModifierTests", "CapsModifierTests.csproj", "{0D40D803-BB72-4C1F-9316-23EBC0A07A35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapsModifier", "CapsModifier.csproj", "{0D40D803-BB72-4C1F-9316-23EBC0A07A35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

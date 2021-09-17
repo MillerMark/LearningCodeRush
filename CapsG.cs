@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace CapsModifierTests
+namespace CapsModifier
 {
 	public class CapsG
 	{

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0D40D803-BB72-4C1F-9316-23EBC0A07A35}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CapsModifierTests</RootNamespace>
-    <AssemblyName>CapsModifierTests</AssemblyName>
+    <RootNamespace>CapsModifier</RootNamespace>
+    <AssemblyName>CapsModifier</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,7 +54,7 @@
     <Compile Include="CtrlCapsDelete.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Customer.cs" />
     <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="_StartHere_.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
