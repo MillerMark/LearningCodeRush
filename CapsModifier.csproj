@@ -54,6 +54,8 @@
     <Compile Include="CtrlCapsDelete.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Customer.cs" />
     <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Space.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\World.cs" />
     <Compile Include="_StartHere_.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

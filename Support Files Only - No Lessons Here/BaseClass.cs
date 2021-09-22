@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CapsModifier
 {
-	public class BaseClass
+  public class BaseClass
 	{
 		public BaseClass(int value)
 		{

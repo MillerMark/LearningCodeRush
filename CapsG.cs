@@ -6,9 +6,13 @@ namespace CapsModifier
 {
 	public class CapsG
 	{
-		/* 
-		 ![Enable Rich Comments to see embedded images](CapsG)
+		//`![Enable Rich Comments to see embedded images](CapsG)
 
+		/* 
+		 Caps+G lets you add Getters to properties and work with Generic 
+		 type parameters.
+		 
+		 
 		 Use Caps+G to:
 		
 				* Add a Getter to a property
@@ -68,7 +72,7 @@ namespace CapsModifier
 		}
 
 		List<IChecker> checkers = new List<IChecker>();
-
+			
 		public interface IChecker
 		{
 			string Name { get; }

@@ -5,8 +5,10 @@ namespace CapsModifier
 {
 	public class CapsB
 	{
-		/* 
-		 ![Enable Rich Comments to see embedded images](CapsB)
+		//`![Enable Rich Comments to see embedded images](CapsB)
+
+		/*
+		 Learn how Caps+B is a great toggling tool for your code...
 
 		 Use Caps+B to:
 		
@@ -107,4 +109,19 @@ namespace CapsModifier
 		internal bool GetStarted() => started;
 
 	}
+
+	//`++Great Work!
+
+	/* 
+	 You used Caps+B to:
+	
+	   * expand and collapse expression Bodies
+	   * Break apart and line up arguments and parameters
+	   * add or remove Block delimiters
+	   * convert a Boolean to an enum
+
+	 ![](NextLesson;crcommand:OpenFile:CapsC.cs)
+
+	 */
+
 }

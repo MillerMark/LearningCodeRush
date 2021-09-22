@@ -71,6 +71,8 @@
       you can use the power of CodeRush to get more done with less 
       effort.
 
+      ![](NextLesson;crcommand:OpenFile:CapsA.cs)
+
     */
 
 

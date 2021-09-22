@@ -5,8 +5,9 @@ namespace CapsModifier
 {
 	public class CapsA
 	{
+		//`![Enable Rich Comments to see embedded images](CapsA)
+
 		/* 
-		 ![Enable Rich Comments to see embedded images](CapsA)
 
 		 Use Caps+A to:
 		
@@ -46,6 +47,16 @@ namespace CapsModifier
 			// on the Editor | C# | Code Actions | Name Anonymous Type Settings page ![](Gear;crcommand:Options:Editor\C#\Code Actions\Name Anonymous Type Settings).
 		}
 
+
+
+		//`++Great Work!
+
+		/* 
+     You used Caps+A to declare Auto-implemented properties and name Anonymous types!
+		
+		 ![](NextLesson;crcommand:OpenFile:CapsB.cs)
+
+     */
 	}
 }
 

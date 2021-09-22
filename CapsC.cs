@@ -11,18 +11,20 @@ namespace CapsModifier
 {
 	public class CapsC
 	{
+		//`![Enable Rich Comments to see embedded images](CapsC)
+
 		/* 
-		 ![Enable Rich Comments to see embedded images](CapsC)
+		 Caps+C lets you add Copyrights, Constructors, Classes, and Contracts, and 
+		 lets you work with Conditionals and switch/Case statements.
 
 		 Use Caps+C to:
 		
-				* Add a Copyright header
-				* Add missing Constructors
-				* Switch/Case to Conditional
-				* Conditional to Switch/Case
-				* Declare a Class
-				* Combine/Split Conditionals
-				* Add method Contracts
+				* add a Copyright header
+				* add missing Constructors
+				* convert a Conditional to a switch/Case statement (and back)
+				* declare a Class
+				* Combine/split Conditionals
+				* add method Contracts
 				
 			 
 		 Examples follow in the source code below (and above).
@@ -152,22 +154,21 @@ namespace CapsModifier
 		}
 	}
 
-	public class Space
-	{
-		public bool SomeoneHasBeenHere { get; set; }
-		public Space()
-		{
-			
-		}
-	}
-	public class World
-	{
-		public bool Explored { get; set; }
-		public World()
-		{
-			
-		}
-	}
+	//`++Great Work!
+
+	/* 
+	 You used Caps+C to:
+	
+	   * add a Copyright header
+		 * add missing Constructors
+		 * convert a Conditional to a switch/Case statement (and back)
+		 * declare a Class
+		 * Combine and split Conditionals
+		 * add method Contracts
+
+	 ![](NextLesson;crcommand:OpenFile:CapsDelete.cs)
+
+	 */
 }
 
 

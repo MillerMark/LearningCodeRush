@@ -5,9 +5,9 @@ namespace CapsModifier
 {
 	public class CapsDelete
 	{
-		/* 
-	   ![Enable Rich Comments to see embedded images](CapsPlusDelete)
+		//`![Enable Rich Comments to see embedded images](CapsPlusDelete)
 
+		/* 
 		 Use Caps+Delete to remove redundant and unnecessary code, including:
 
 			* Discard Variables
@@ -95,6 +95,23 @@ namespace CapsModifier
 
 		}
 	}
+
+	//`++Great Work!
+
+	/* 
+	 You used Caps+Delete to remove unnecessary or unused code, including:
+	
+	   * Discard Variables
+		 * Block Delimiters
+		 * Constructors
+		 * Destructors
+		 * Locals
+		 * Parameters
+		 * Types
+
+	 ![](NextLesson;crcommand:OpenFile:CapsG.cs)
+
+	 */
 }
 
 
