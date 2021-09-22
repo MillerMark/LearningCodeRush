@@ -8,7 +8,7 @@ namespace CapsModifier
 		//`![Enable Rich Comments to see embedded images](CapsB)
 
 		/*
-		 Learn how Caps+B is a great toggling tool for your code...
+		 Caps+B is a great toggling tool for your code...
 
 		 Use Caps+B to:
 		

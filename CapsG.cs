@@ -92,9 +92,16 @@ namespace CapsModifier
 			public string Name => nameof(Trimmer);
 		}
 
-    
 
-    
+		//`++Great Work!
+		/* 
+		 You used Caps+G to add a Getter to a property and to promote 
+		 parameter types and return types to Generic type parameters.
 
-  }
+	 ![](NextLesson;crcommand:OpenFile:CapsH.cs)
+
+	 */
+
+
+	}
 }
