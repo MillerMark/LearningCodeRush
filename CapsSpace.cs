@@ -161,14 +161,7 @@ namespace CapsModifier
 
 
 		internal bool GetState() => started;
-		static Dictionary<int, Customer> dictionary = new Dictionary<int, Customer>();
 
-
-		private static string FoundRecord(int value)
-		{
-			//`         ![](ArrowDown) Caps+Space to convert to string interpolation: 
-			return "Found record #" + value + "!";
-		}
 
 
 		public void AssignmentCompression(ref int a)
@@ -199,6 +192,7 @@ namespace CapsModifier
 
 
 
+
 	//! IMessageSender is an interface...
 	public interface IMessageSender
 	{
@@ -208,17 +202,18 @@ namespace CapsModifier
 
 	public class GreetingsSender : IMessageSender
 	{
-		Dictionary<string, List<Customer>> customerLists = new Dictionary<string, List<Customer>>();
-
-		//! CreateCustomerLists is a member of IMessageSender (see above).
 		public void CreateCustomerLists(string key)
 		{
 			List<Customer> customerList = new List<Customer>();
 			customerLists.Add(key, customerList);
+
 			//`  ![](ArrowDown)  Press Caps+Space to convert this proc to a function.
 			return customerLists[key];
 		}
+
+		Dictionary<string, List<Customer>> customerLists = new Dictionary<string, List<Customer>>();
 	}
+
 
 
 
@@ -233,7 +228,11 @@ namespace CapsModifier
 
 		public void SafeEngageWarpDrive()
 		{//` ![](ArrowDown) Press Caps+Space to combine (and split) these conditionals:
-			if (warpDriveDamaged || dilithiumCrystalCount == 0 || weNeedMorePower && weCannotDoItCaptain)
+			if (warpDriveDamaged)
+				return;
+			if (dilithiumCrystalCount == 0)
+				return;
+			if (weNeedMorePower && weCannotDoItCaptain)
 				return;
 
 
@@ -320,20 +319,28 @@ namespace CapsModifier
 			}
 		}
 
+		static Dictionary<int, Customer> dictionary = new Dictionary<int, Customer>();
+
+		private static string FoundRecord(int value)
+		{
+			//`         ![](ArrowDown) Caps+Space to convert to string interpolation: 
+			return "Found record #" + value + "!";
+		}
+
 
 		public static void InitializeImplicitly(int? foo)
 		{
 			//`![](ArrowDown) Caps+Space to make these variable declarations implicit: 
-			byte[] bar4 = dictionary[foo.Value].Id.ToByteArray();
+			byte[] bar1 = dictionary[foo.Value].Id.ToByteArray();
 
 			//`![](ArrowDown) 
-			string bar1 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
+			string bar2 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
 
 			//`![](ArrowDown) 
 			Dictionary<int, Customer>.KeyCollection bar3 = dictionary.Keys;
 
 			//`![](ArrowDown) 
-			System.String bar2 = (new int[foo.Value * foo.Value, 5])[0, 0].ToString();
+			System.String bar4 = (new int[foo.Value * foo.Value, 5])[0, 0].ToString();
 		}
 
 
@@ -351,11 +358,11 @@ namespace CapsModifier
 		public static void InitializeExplicitly(int? foo)
 		{
 			//`![](ArrowDown) Caps+Space to make explicit (and then Caps+Down to move the caret): 
-			var bar4 = dictionary[foo.Value].Id.ToByteArray();
+			var bar1 = dictionary[foo.Value].Id.ToByteArray();
 
 
 			//`![](ArrowDown) 
-			var bar1 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
+			var bar2 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
 
 
 			//`![](ArrowDown) 
@@ -363,13 +370,13 @@ namespace CapsModifier
 
 
 			//`![](ArrowDown) 
-			var bar2 = new int[foo.Value * foo.Value, 5];
+			var bar4 = new int[foo.Value * foo.Value, 5];
 		}
 	}
 
 
 	//! Note: InterstellarRocket implements INotifyPropertyChanged!!!
-	// Caps+Space can help you here, too.
+	// Caps+Space can help you here, too (see below).
 	public class InterstellarRocket: INotifyPropertyChanged
 	{
 		double fuelLevel;
@@ -377,7 +384,7 @@ namespace CapsModifier
 
 
 
-		//`![](ArrowDown) Caps+Space to introduce a change notification to an existing property: 
+		//`![](ArrowDown) Caps+Space adds change notification (in setter) to an existing property: 
 		public double FuelLevel
 		{
 			get => fuelLevel;
@@ -386,7 +393,7 @@ namespace CapsModifier
 
 
 
-		//`![](ArrowDown) Caps+Space to convert to a property with a change notification: 
+		//`![](ArrowDown) Caps+Space converts to a property with a change notification: 
 		public double PayloadTotalWeight
 		{
 			get; 
@@ -396,12 +403,12 @@ namespace CapsModifier
 
 	//`++Great Work!
 	/* 
-	 Caps+Space is a great tool for compressing and expanding code. Use it to 
+	 Caps+Space is a powerful tool for compressing and expanding code. Use it to 
 	 work with expression bodies, ternary or null coalescing expressions, block 
 	 delimiters, conditionals, implicit/explicit variable declarations, and a 
 	 host of other toggling features. 
 
-	 You also got an introduction to Smart Nav (Caps+arrow keys). Good job!
+	 You also got an introduction to Smart Nav (Caps + arrow keys). Good job!
 
  ![](NextLesson;crcommand:OpenFile:CapsDelete.cs)
 
