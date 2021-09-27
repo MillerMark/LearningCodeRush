@@ -131,11 +131,19 @@ namespace CapsModifier
 		}
 
 
+		public void CreateTestCustomer()
+		{
+			//`                  ![](ArrowDown) Caps+Space to convert to Initializer: 
+			Customer Andrew = new Customer();
+			Andrew.FirstName = "Andrew";
+			Andrew.LastName = "Fuller";
+			Andrew.Age = 48;
+			Andrew.Ready();
+		}
+
 
 		//`                           ![](ArrowDown) Caps+Space to expand this lambda function: 
 		Func<string, int> func = s => s == null ? 0 : s.Length;
-
-
 
 
 		private static int? Foo;

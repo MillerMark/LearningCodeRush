@@ -8,15 +8,7 @@ namespace CapsModifier
 		//`![Enable Rich Comments to see embedded images](CapsB)
 
 		/*
-		 Caps+B works with Braces ("{" and "}"), expression Bodies, and Booleans,
-		 and it can Break apart (or line up) parameters...
-
-		 Use Caps+B to:
-		
-				* add or remove Block delimiters - "{" and "}" in C#
-				* convert a Boolean to an enum
-				* Break apart (or line up) Arguments & Parameters (and Attributes in XAML)
-				* use an expression Body (or expand an expression Body to a method/property)
+		 Use Caps+B to convert a Boolean to an enum
 			 
 		 Examples follow in the source code below.
 
@@ -42,42 +34,15 @@ namespace CapsModifier
 			else
 				return false;
 		}
-
-		internal void CreateTestCustomers()
-		{
-			//` ![](ArrowDown) Press Caps+B to break these parameters onto multiple lines.
-			AddCustomer("Mark", "Miller", Guid.NewGuid());
-
-
-
-			//` ![](ArrowDown) Press Caps+B to line up these parameters onto a single line.
-			AddCustomer("Rory", 
-				null, 
-				Guid.NewGuid());
-		}
-
-
-
-		//`      ![](ArrowDown) Press Caps+B to break apart or line up these parameters:
-		void AddCustomer(string firstName, string lastName, Guid id)
-		{
-			Customer customer = new Customer();
-			customer.FirstName = firstName;
-			customer.LastName = lastName;
-			customer.Id = id;
-		}
-
 	}
 
 	//`++Great Work!
 
 	/* 
-	 You used Caps+B to:
-	
-	   * expand and collapse expression Bodies
-	   * Break apart and line up arguments and parameters
-	   * add or remove Block delimiters
-	   * convert a Boolean to an enum
+	 You used Caps+B to convert a Boolean to an enum, improving code 
+	 readability and flexibility (for example, instead of being limited
+	 to only two states, true or false, three or more states are possible
+	 with an enum).
 
 	 ![](NextLesson;crcommand:OpenFile:CapsC.cs)
 

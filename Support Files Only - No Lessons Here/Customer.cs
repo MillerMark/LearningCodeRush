@@ -4,11 +4,15 @@ namespace CapsModifier
 {
 	public class Customer
 	{
-		public Customer()
+		private DateTime creationTime;
+
+		public string FirstName { get; set; }
+		public Guid Id { get; set; }
+		public string LastName { get; set; }
+		public int Age { get; set; }
+		public void Ready()
 		{
+			creationTime = DateTime.Now;
 		}
-		public string FirstName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-		public Guid Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-		public string LastName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 	}
 }
