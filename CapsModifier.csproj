@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CapsC.cs" />
-    <Compile Include="CapsLessThan.cs" />
+    <Compile Include="CapsSpace.cs" />
     <Compile Include="ShiftCapsF.cs" />
     <Compile Include="CapsF.cs" />
     <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" />

@@ -65,10 +65,7 @@ namespace CapsModifier
 		static int numVanillaLikes;
 		static int numChocolateLikes;
 		static int numStrawberryLikes;
-		static bool warpDriveDamaged;
-		static int dilithiumCrystalCount;
-		static bool weNeedMorePower;
-		static bool cannotDoItCaptain;
+		
 		public static double GetTotal(IEnumerable<object> values)
 		{
 			double sum = 0;
@@ -118,23 +115,6 @@ namespace CapsModifier
 		}
 
 
-		public static void SafeEngageWarpDrive()
-		{
-			//`![](ArrowDown) Press Caps+C to combine these conditionals:
-			if (warpDriveDamaged)
-				return;
-			if (dilithiumCrystalCount == 0)
-				return;
-			if (weNeedMorePower && cannotDoItCaptain)
-				return;
-			EngageWarpDrive();
-		}
-
-		static void EngageWarpDrive()
-		{
-
-		}
-
 		static TimeSpan fiveYears = TimeSpan.FromDays(365.25 * 5);
 
 
@@ -166,7 +146,7 @@ namespace CapsModifier
 		 * Combine and split Conditionals
 		 * add method Contracts
 
-	 ![](NextLesson;crcommand:OpenFile:CapsDelete.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsF.cs)
 
 	 */
 }

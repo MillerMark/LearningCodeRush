@@ -8,16 +8,15 @@ namespace CapsModifier
 		//`![Enable Rich Comments to see embedded images](CapsB)
 
 		/*
-		 Caps+B is a great toggling tool for your code...
+		 Caps+B works with Braces ("{" and "}"), expression Bodies, and Booleans,
+		 and it can Break apart (or line up) parameters...
 
 		 Use Caps+B to:
 		
-				* Add or remove Block delimiters - "{" and "}" in C#
-				* Convert a Boolean to an Enum
-				* Break apart (or line up) Arguments
-				* Break apart (or line up) Attributes (in XAML)
-				* Break apart (or line up) Parameters
-				* Use an expression Body (or expand an expression body into a method or property)
+				* add or remove Block delimiters - "{" and "}" in C#
+				* convert a Boolean to an enum
+				* Break apart (or line up) Arguments & Parameters (and Attributes in XAML)
+				* use an expression Body (or expand an expression Body to a method/property)
 			 
 		 Examples follow in the source code below.
 
@@ -30,19 +29,6 @@ namespace CapsModifier
 		
 		public void Startup()
 		{
-			if (DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
-				//`![](ArrowDown) Press Caps+B to add new block delimiters here.
-				Console.WriteLine("It's Saturday!");
-
-
-
-			if (DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
-			//`![](ArrowDown) Press Caps+B to remove these block delimiters.
-			{
-				Console.WriteLine("It's Saturday!");
-			}
-
-
 			//`           ![](LookHere) Look here when you try the next one.
 			if (GetState())
 				Console.WriteLine("All good!");
@@ -80,33 +66,6 @@ namespace CapsModifier
 			customer.LastName = lastName;
 			customer.Id = id;
 		}
-
-
-
-		//`![](ArrowDown) Press Caps+B to use an expression body for this property:
-		public bool AllGood
-		{
-			get
-			{
-				return GetState();
-			}
-		}
-
-
-		//`![](ArrowDown) Press Caps+B to use an expression body for this method:
-		internal bool AllStarted()
-		{
-			return started;
-		}
-
-
-
-		//`![](ArrowDown) Press Caps+B to expand this expression body into a property:
-		public bool NotGood => !GetState();
-
-
-		//`![](ArrowDown) Press Caps+B to expand this expression body into a method:
-		internal bool GetStarted() => started;
 
 	}
 

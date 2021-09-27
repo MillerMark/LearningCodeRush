@@ -109,7 +109,7 @@ namespace CapsModifier
 		 * Parameters
 		 * Types
 
-	 ![](NextLesson;crcommand:OpenFile:CapsF.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsA.cs)
 
 	 */
 }
