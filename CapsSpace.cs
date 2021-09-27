@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace CapsModifier
 {
-	public class CapsSpace
+	public abstract class CapsSpace
 	{
 
 		//`![Enable Rich Comments to see embedded images](CapsSpace)
@@ -19,10 +20,12 @@ namespace CapsModifier
 		    * Ternary Expressions
 		    * Null Coalescing Operations
 		    * Shorter Assignments
+		    * Initializers
 		    
-		 And you can use Caps+Space to Split or Combine Conditionals, 
-		 Simplify Expressions, and add/remove block delimiters around/from 
-		 child statements.
+		 And you can use Caps+Space to flatten conditionals, simplify 
+		 expressions, add/remove block delimiters around/from child 
+		 statements, convert procedures to functions, expand lambda 
+		 functions, and more.
 
 
 		 Examples follow in the source code below.
@@ -41,7 +44,7 @@ namespace CapsModifier
 
 
 
-		void BlockDelimeters()
+		internal void BlockDelimeters()
 		{
 			if (DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
 				//`![](ArrowDown) Press Caps+Space to add new block delimiters here.
@@ -50,7 +53,8 @@ namespace CapsModifier
 			if (DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
 			{
 				Console.WriteLine("It's Saturday!");
-			}//`![](ArrowUp) Press Caps+Space to remove these block delimiters.
+			}
+			//`![](ArrowUp) Press Caps+Space to remove these block delimiters.
 		}
 
 
@@ -65,6 +69,7 @@ namespace CapsModifier
 			//`![](ArrowDown) Caps+Space to toggle between accessor and expression bodies.
 			set => name = value;
 		}
+
 
 
 		//`![](ArrowDown) Caps+Space to toggle... 
@@ -85,12 +90,14 @@ namespace CapsModifier
 
 
 
-		//`![](ArrowDown) Press Caps+Space to expand this expression body into a property:
+		//`![](ArrowDown) Press Caps+Space to expand this expression body into a property body:
 		public bool WeHaveIssues => !GetState();
 
 
-		//`![](ArrowDown) Press Caps+Space to expand this expression body into a method:
+
+		//`![](ArrowDown) Press Caps+Space to expand this expression body into a method body:
 		internal bool GetStarted() => started;
+
 
 
 		public string CheckName(string name)
@@ -123,7 +130,7 @@ namespace CapsModifier
 				throw new ArgumentOutOfRangeException(nameof(n), "n must be greater than or equal to zero.");
 			return Fib(n);
 
-			//`![](ArrowDown) Caps+Space to expand or compress this local function: 
+			//`![](ArrowDown) Caps+Space to expand (or compress) this local function: 
 			int Fib(int n2)
 			{
 				return n2 < 2 ? n2 : Fib(n2 - 1) + Fib(n2 - 2);
@@ -131,14 +138,21 @@ namespace CapsModifier
 		}
 
 
-		public void CreateTestCustomer()
+		public void CreateTestCustomer1()
 		{
-			//`                  ![](ArrowDown) Caps+Space to convert to Initializer: 
-			Customer Andrew = new Customer();
-			Andrew.FirstName = "Andrew";
-			Andrew.LastName = "Fuller";
-			Andrew.Age = 48;
-			Andrew.Ready();
+			//`                  ![](ArrowDown) Caps+Space to Convert to an Initializer: 
+			Customer andrew = new Customer();
+			andrew.FirstName = "Andrew";
+			andrew.LastName = "Fuller";
+			andrew.Age = 48;
+			andrew.Ready();
+		}
+
+		public void CreateTestCustomer2()
+		{
+			//`                  ![](ArrowDown) Caps+Space to Decompose this Initializer: 
+			Customer jackson = new Customer() { FirstName = "Jackson", LastName = "Grand", Age = 35 };
+			jackson.Ready();
 		}
 
 
@@ -146,27 +160,8 @@ namespace CapsModifier
 		Func<string, int> func = s => s == null ? 0 : s.Length;
 
 
-		private static int? Foo;
 		internal bool GetState() => started;
 		static Dictionary<int, Customer> dictionary = new Dictionary<int, Customer>();
-
-
-
-		static void Initialize()
-		{
-			//`![](ArrowDown) Caps+Space to convert between implicit and explicit declarations: 
-			var bar1 = Foo.HasValue ? FoundRecord(Foo.Value) : "baz";
-
-			//`![](ArrowDown) 
-			int[,] bar2 = new int[Foo.Value * Foo.Value, 5];
-
-			//`![](ArrowDown) 
-			var bar3 = dictionary.Keys;
-
-			//`![](ArrowDown) 
-			var bar4 = dictionary[Foo.Value].Id.ToByteArray();
-		}
-
 
 
 		private static string FoundRecord(int value)
@@ -185,27 +180,217 @@ namespace CapsModifier
 		}
 
 
+
+
+		internal double GetCube(double value)
+		{//`         ![](ArrowDown) Caps+Space to use Math.Pow instead.
+			return value * value * value;
+		}
+
+
+
+
+		//`         ![](LookHere) Look here when you try the next one.
+		internal void GetSquare(double value)
+		{//`  ![](ArrowDown) Caps+Space to convert this procedure to a function.
+			return Math.Pow(value, 2);
+		}
+	}
+
+
+
+	//! IMessageSender is an interface...
+	public interface IMessageSender
+	{
+		//`![](LookHere) Look here when you try the next one.
+		void CreateCustomerLists(string key);
+	}
+
+	public class GreetingsSender : IMessageSender
+	{
+		Dictionary<string, List<Customer>> customerLists = new Dictionary<string, List<Customer>>();
+
+		//! CreateCustomerLists is a member of IMessageSender (see above).
+		public void CreateCustomerLists(string key)
+		{
+			List<Customer> customerList = new List<Customer>();
+			customerLists.Add(key, customerList);
+			//`  ![](ArrowDown)  Press Caps+Space to convert this proc to a function.
+			return customerLists[key];
+		}
+	}
+
+
+
+	public abstract class Starship
+	{
 		static bool warpDriveDamaged;
 		static int dilithiumCrystalCount;
 		static bool weNeedMorePower;
-		static bool cannotDoItCaptain;
+		static bool weCannotDoItCaptain;
 
 
 
-		public static void SafeEngageWarpDrive()
+		public void SafeEngageWarpDrive()
 		{//` ![](ArrowDown) Press Caps+Space to combine (and split) these conditionals:
-			if (warpDriveDamaged)
+			if (warpDriveDamaged || dilithiumCrystalCount == 0 || weNeedMorePower && weCannotDoItCaptain)
 				return;
-			if (dilithiumCrystalCount == 0)
-				return;
-			if (weNeedMorePower && cannotDoItCaptain)
-				return;
+
+
+			//`++Pro Tip: Split Conditionals
+			// You can split conditionals with Caps+Space on boolean operators
+			// where it makes sense. For example, move to any "||" in the
+			// combined expression above and then press Caps+Space.
+
+			// Try it!
+
 			EngageWarpDrive();
 		}
 
-		static void EngageWarpDrive()
-		{
 
+		public abstract void Start();
+		public abstract void ReadData();
+		public abstract void Draw();
+		public abstract void DoMoreWork();
+		public abstract void FinishDrawing();
+		internal abstract void EngageWarpDrive();
+
+
+
+
+		internal void NestedMethod1(bool okayToStart, bool okayToReadData, bool okayToDraw)
+		{
+			// Flatten Conditional can make a deeply nested method flatter.
+
+			//`![](ArrowDown) Press Caps+Space to flatten this conditional.
+			if (okayToStart)
+			{
+				Start();
+
+
+				//`![](ArrowDown) Flatten this conditional too.
+				if (okayToReadData)
+				{
+					ReadData();
+
+
+					//`![](ArrowDown) And flatten this.
+					if (okayToDraw)
+					{
+						Draw();
+						DoMoreWork();
+						FinishDrawing();
+					}
+				}
+			}
+		}
+
+		//`++ Pro Tip: SmartNav
+		// You can use Caps plus the arrow keys to navigate among sibling nodes
+		// (like the if-statements in the method above).
+
+		// You can alternate Caps+Space with Caps+Down to flatten a deeply nested
+		// methods even faster.
+
+		// Below, you can try it again. This time, press Caps+Down after you
+		// flatten each conditional with Caps+Space.
+
+		internal void NestedMethod2(bool okayToStart, bool okayToReadData, bool okayToDraw)
+		{
+			//`![](ArrowDown) Press Caps+Space to flatten (and then Caps+Down to move the caret).
+			if (okayToStart)
+			{
+				Start();
+
+
+				//`![](ArrowDown) Flatten this conditional too.
+				if (okayToReadData)
+				{
+					ReadData();
+
+
+					//`![](ArrowDown) And flatten this.
+					if (okayToDraw)
+					{
+						Draw();
+						DoMoreWork();
+						FinishDrawing();
+					}
+				}
+			}
+		}
+
+
+		public static void InitializeImplicitly(int? foo)
+		{
+			//`![](ArrowDown) Caps+Space to make these variable declarations implicit: 
+			byte[] bar4 = dictionary[foo.Value].Id.ToByteArray();
+
+			//`![](ArrowDown) 
+			string bar1 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
+
+			//`![](ArrowDown) 
+			Dictionary<int, Customer>.KeyCollection bar3 = dictionary.Keys;
+
+			//`![](ArrowDown) 
+			System.String bar2 = (new int[foo.Value * foo.Value, 5])[0, 0].ToString();
+		}
+
+
+
+		//`++ Pro Tip: SmartNav
+		// Remember to use Caps+Down/Up to navigate among sibling nodes
+		// (like the variable declarations in the method above).
+
+		// You can alternate Caps+Space with Caps+Down to convert variable 
+		// declarations even faster.
+
+
+
+
+		public static void InitializeExplicitly(int? foo)
+		{
+			//`![](ArrowDown) Caps+Space to make explicit (and then Caps+Down to move the caret): 
+			var bar4 = dictionary[foo.Value].Id.ToByteArray();
+
+
+			//`![](ArrowDown) 
+			var bar1 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
+
+
+			//`![](ArrowDown) 
+			var bar3 = dictionary.Keys;
+
+
+			//`![](ArrowDown) 
+			var bar2 = new int[foo.Value * foo.Value, 5];
+		}
+	}
+
+
+	//! Note: InterstellarRocket implements INotifyPropertyChanged!!!
+	// Caps+Space can help you here, too.
+	public class InterstellarRocket: INotifyPropertyChanged
+	{
+		double fuelLevel;
+		public event PropertyChangedEventHandler PropertyChanged;
+
+
+
+		//`![](ArrowDown) Caps+Space to introduce a change notification to an existing property: 
+		public double FuelLevel
+		{
+			get => fuelLevel;
+			set => fuelLevel = value;
+		}
+
+
+
+		//`![](ArrowDown) Caps+Space to convert to a property with a change notification: 
+		public double PayloadTotalWeight
+		{
+			get; 
+			set;
 		}
 	}
 
@@ -213,7 +398,10 @@ namespace CapsModifier
 	/* 
 	 Caps+Space is a great tool for compressing and expanding code. Use it to 
 	 work with expression bodies, ternary or null coalescing expressions, block 
-	 delimiters, conditionals, and implicit/explicit variable declarations. 
+	 delimiters, conditionals, implicit/explicit variable declarations, and a 
+	 host of other toggling features. 
+
+	 You also got an introduction to Smart Nav (Caps+arrow keys). Good job!
 
  ![](NextLesson;crcommand:OpenFile:CapsDelete.cs)
 

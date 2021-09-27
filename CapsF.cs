@@ -18,7 +18,6 @@ namespace CapsModifier
 				* Convert to Function
 				* Declare Fields
 				* Introduce Format Item
-				* Flatten Conditional
 				* ForEach to For (and back)
 				* Format Selection
 				* Move Type to File
@@ -54,24 +53,8 @@ namespace CapsModifier
 
 
 
-		public interface IMessageSender
+		public class GreetingsSender
 		{
-			string Message { get; }
-			//`![](LookHere) Look here when you try the next one.
-			void Send();
-		}
-
-		public class GreetingsSender : IMessageSender
-		{
-			public void Send()
-			{
-				Console.WriteLine(Message);
-				//`  ![](ArrowDown)  Press Caps+F to convert this proc to a function.
-				return true;
-			}
-
-
-
 			private const int minAuthorizationsNeeded = 5;
 
 			public void Start(int authorizationCount, bool allSystemsReady)
@@ -119,7 +102,7 @@ namespace CapsModifier
 					ReadData();
 
 
-					//`![](ArrowDown) And flatten this conditional.
+					//`![](ArrowDown) And flatten this.
 					if (okayToDraw)
 					{
 						Draw();
