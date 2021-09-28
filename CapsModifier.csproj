@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapsInsert.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Book.cs" />
     <Compile Include="CapsDot.cs" />
     <Compile Include="CapsC.cs" />
