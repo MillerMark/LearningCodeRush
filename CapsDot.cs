@@ -13,7 +13,8 @@ namespace CapsModifier
 		 Use Caps+. to:
 		
 				* Break apart (or line up) Arguments & Parameters (and Attributes in XAML)
-				* Collapse or expand property accessors
+				* Collapse/expand property accessors, local functions, methods, and properties
+
 			 
 		 Examples follow in the source code below.
 

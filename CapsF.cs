@@ -129,7 +129,7 @@ namespace CapsModifier
 
 
 
-		List<int> GetOdd(List<int> numberList)
+		internal List<int> GetOdd(List<int> numberList)
 		{
 			List<int> results = new List<int>();
 

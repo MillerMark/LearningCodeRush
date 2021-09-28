@@ -53,59 +53,8 @@ namespace CapsModifier
 
 
 
-	public enum Flavors
+	public class Enterprise
 	{
-		Vanilla,
-		Chocolate,
-		Strawberry
-	}
-	
-	public static class Utils
-	{
-		static int numVanillaLikes;
-		static int numChocolateLikes;
-		static int numStrawberryLikes;
-		
-		public static double GetTotal(IEnumerable<object> values)
-		{
-			double sum = 0;
-
-			foreach (var item in values)
-			{
-				//`![](ArrowDown) Press Caps+C to convert this Switch statement into an if/then conditional.
-				switch (item)
-				{
-					case int val:
-						sum += val;
-						break;
-					case IEnumerable<object> sublist:
-						sum += GetTotal(sublist);
-						break;
-					default:
-						sum += 0.5;
-						break;
-				}
-			}
-			return sum;
-		}
-
-		public static void Like(Flavors flavor)
-		{
-			//`![](ArrowDown) Press Caps+C to convert this Conditional statement into a Switch/Case statement.
-			if (flavor == Flavors.Chocolate)
-			{
-				numChocolateLikes++;
-			}
-			else if (flavor == Flavors.Strawberry)
-			{
-				numStrawberryLikes++;
-			}
-			else if (flavor == Flavors.Vanilla)
-			{
-				numVanillaLikes++;
-			}
-		}
-
 		static void WorkWithCustomers()
 		{
 			//`                 ![](ArrowDown) Press Caps+C to declare a new class "RedShirt".

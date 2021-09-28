@@ -46,7 +46,7 @@
     <Compile Include="Support Files Only - No Lessons Here\Book.cs" />
     <Compile Include="CapsDot.cs" />
     <Compile Include="CapsC.cs" />
-    <Compile Include="CtrlCapsSpace.cs" />
+    <Compile Include="ShiftCapsSpace.cs" />
     <Compile Include="CapsSpace.cs" />
     <Compile Include="ShiftCapsF.cs" />
     <Compile Include="CapsF.cs" />
@@ -57,7 +57,7 @@
     <Compile Include="CapsA.cs" />
     <Compile Include="CapsH.cs" />
     <Compile Include="CapsP.cs" />
-    <Compile Include="CtrlCapsDelete.cs" />
+    <Compile Include="ShiftCapsDelete.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Customer.cs" />
     <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Space.cs" />

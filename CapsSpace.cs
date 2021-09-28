@@ -124,17 +124,14 @@ namespace CapsModifier
 		}
 
 
-		internal int Fibonacci(int n)
+		internal int Fibonacci(int index)
 		{
-			if (n < 0)
-				throw new ArgumentOutOfRangeException(nameof(n), "n must be greater than or equal to zero.");
-			return Fib(n);
+			if (index < 0)
+				throw new ArgumentOutOfRangeException(nameof(index), "n must be greater than or equal to zero.");
+			return Fib(index);
 
 			//`![](ArrowDown) Caps+Space to expand (or compress) this local function: 
-			int Fib(int n2)
-			{
-				return n2 < 2 ? n2 : Fib(n2 - 1) + Fib(n2 - 2);
-			}
+			int Fib(int n) { return n < 2 ? n : Fib(n - 1) + Fib(n - 2); }
 		}
 
 

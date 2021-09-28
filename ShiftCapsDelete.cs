@@ -1,11 +1,11 @@
 ﻿namespace CapsModifier
 {
-	public class CtrlCapsDelete
+	public class ShiftCapsDelete
 	{
 		/* 
-		 ![Enable Rich Comments to see embedded images](CtrlCapsDelete)
+		 ![Enable Rich Comments to see embedded images](ShiftCapsDelete)
 
-		 Use Ctrl+Caps+Delete to:
+		 Use Shift+Caps+Delete to:
 		
 				* Remove all type qualifiers matching the qualifier at the caret.
 				* Remove all redundant brace blocks inside a method.
@@ -20,13 +20,13 @@
 
 
 
-		// Use Ctrl+Caps+Delete to remove all **type qualifiers** matching the type qualifier at the caret.
+		// Use Shift+Caps+Delete to remove all **type qualifiers** matching the type qualifier at the caret.
 		//`![](ArrowDown)
 		System.AssemblyLoadEventArgs assemblyLoadEventArgs;
 
 
 
-		public CtrlCapsDelete()
+		public ShiftCapsDelete()
 		{                                                          //`![](ArrowDown)
 			assemblyLoadEventArgs = new System.AssemblyLoadEventArgs(System.Reflection.Assembly.GetExecutingAssembly());
 		}
@@ -51,7 +51,7 @@
 
 
 
-		// Use Ctrl+Caps+Delete to remove all redundant **block delimiters** inside this method,
+		// Use Shift+Caps+Delete to remove all redundant **block delimiters** inside this method,
 		// available on the first token of the method declaration.
 		//`![](ArrowDown)
 		static void Main(string[] args)
