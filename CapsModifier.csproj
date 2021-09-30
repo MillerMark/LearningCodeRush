@@ -46,24 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CapsQ.cs" />
+    <Compile Include="More Lessons\CapsQ.cs" />
     <Compile Include="CapsInsert.cs" />
     <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Book.cs" />
     <Compile Include="CapsDot.cs" />
-    <Compile Include="CapsC.cs" />
-    <Compile Include="ShiftCapsSpace.cs" />
+    <Compile Include="More Lessons\CapsC.cs" />
+    <Compile Include="Advanced\ShiftCapsSpace.cs" />
     <Compile Include="CapsSpace.cs" />
-    <Compile Include="ShiftCapsF.cs" />
-    <Compile Include="CapsF.cs" />
+    <Compile Include="Advanced\ShiftCapsF.cs" />
+    <Compile Include="More Lessons\CapsF.cs" />
     <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" />
-    <Compile Include="CapsB.cs" />
+    <Compile Include="More Lessons\CapsB.cs" />
     <Compile Include="CapsDelete.cs" />
-    <Compile Include="CapsG.cs" />
-    <Compile Include="CapsA.cs" />
-    <Compile Include="CapsH.cs" />
-    <Compile Include="CapsP.cs" />
-    <Compile Include="ShiftCapsDelete.cs" />
+    <Compile Include="More Lessons\CapsG.cs" />
+    <Compile Include="More Lessons\CapsA.cs" />
+    <Compile Include="More Lessons\CapsH.cs" />
+    <Compile Include="More Lessons\CapsP.cs" />
+    <Compile Include="Advanced\ShiftCapsDelete.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Customer.cs" />
     <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Space.cs" />

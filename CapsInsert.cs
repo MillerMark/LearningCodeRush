@@ -10,11 +10,11 @@ namespace CapsModifier
 		/* 
 		 Use Caps+Insert to add new code, including:
 
-			* Add Else Statement
-			* Add Getter/Setter
 			* Add Missing Constructors
 			* Add Parameter
 			* Add to Interface
+
+		 You can also use Caps+Insert to add Getters, Setters, and Else statements
 
 		 Examples are below.
 
@@ -72,7 +72,7 @@ namespace CapsModifier
 			{
 				//`         ![](ArrowDown) Caps+Insert to add greeting as a new parameter.
 				LateStart(50, TimeSpan.FromSeconds(5));
-			}
+			}//` ![](ArrowLeft) Caps+Insert to add an else block.
 		}
 
 		void LateStart(int count, TimeSpan timeSpan)
@@ -147,7 +147,7 @@ namespace CapsModifier
 	 You used Caps+Insert to add new parameters, constructors, and more.
 	
 
-	 ![](NextLesson;crcommand:OpenFile:CapsA.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsDot.cs)
 
 	 */
 }

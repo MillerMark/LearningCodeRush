@@ -75,8 +75,6 @@ namespace CapsModifier
 		public static bool HasAssignment(SimpleNameSyntax identifier)
 		{
 			SyntaxNode assignment;
-
-			// TODO: Remove before shipping if Discard Variable shortcut Binding isn't fixed.
 			// Caps+Delete to discard the variable: ![](ArrowDown) 
 			return identifier.HasAssignment(out assignment);
 		}
@@ -117,7 +115,7 @@ namespace CapsModifier
 		 * Parameters
 		 * Types
 
-	 ![](NextLesson;crcommand:OpenFile:CapsA.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsInsert.cs)
 
 	 */
 }

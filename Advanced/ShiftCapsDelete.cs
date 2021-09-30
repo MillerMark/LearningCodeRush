@@ -71,6 +71,16 @@
 			System.Console.ReadKey();
 		}
 	}
+
+	//`++Great Work!
+	/* 
+	 You used Shift+Caps+Delete to remove all type qualifiers and to remove 
+	 all redundant brace blocks inside a method. 
+
+		![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs)
+
+ */
+
 }
 
 

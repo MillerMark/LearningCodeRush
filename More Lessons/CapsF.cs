@@ -23,26 +23,17 @@ namespace CapsModifier
 				* Move Type to File
 				* Use String.Format
 				* Widen Scope (Promote to Field)
-		
-			*/
 
-
-		//`![](ShiftCapsF)
-		/*
-
-		 Combine with the Shift key (Shift+Caps+F) to: 
-
-				* Rename Type to Match File
-				* ForEach to Linq
-				
-			 
 		 Examples follow in the source code below.
 
 		 Arrows (![](ArrowDown)) show caret position. 
 
 		 Move to where the arrow points before pressing the shortcut.
-
+		
 		*/
+
+
+
 
 		public abstract void Start();
 		public abstract void ReadData();
@@ -115,7 +106,6 @@ namespace CapsModifier
 
 
 
-
 		void ConcatLongerThan(List<string> strings, int minLength)
 		{
 			string result = string.Empty;
@@ -165,6 +155,7 @@ negativeCount     ++            ;
 		}
 	}
 
+	//` ![](Selection IncreaseDecrease;https://www.youtube.com/watch?v=cdJ4D3xmnFw )  << More on Selection Increase/Decrease
 
 
 
@@ -227,7 +218,7 @@ negativeCount     ++            ;
 	 statements and For loops, Format the selection, move types to Files, 
 	 use string.Format, and promote local variables to Fields.
 
- ![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs)
+ ![](NextLesson;crcommand:OpenFile:CapsG.cs)
 
  */
 

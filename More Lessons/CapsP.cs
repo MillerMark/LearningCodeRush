@@ -26,6 +26,11 @@ namespace CapsModifier
 				* Declare Property with Initializer
 			 
 		 Examples follow in the source code below.
+
+		 Arrows (![](ArrowDown)) show caret position. 
+
+		 Move to where the arrow points before pressing the shortcut.
+
 		*/
 
 		AssemblyLoadEventArgs assemblyLoadEventArgs;
@@ -159,6 +164,28 @@ namespace CapsModifier
 		
 		
 	}
+
+	//`++Great Work!
+
+	/* 
+	 You used Caps+P to:
+	
+	  * Add Parameters
+		* Decompose Parameters
+		* Promote to Generic Parameter
+		* Promote to Parameter
+		* Pull Members Up
+		* Reorder Parameters
+		* Declare Parameter
+		* Declare Partial Class Part
+		* Declare Property (auto-implemented)
+		* Declare Property (with default body)
+		* Declare Property with Initializer
+	   
+
+	 ![](NextLesson;crcommand:OpenFile:CapsQ.cs)
+
+	 */
 }
 
 

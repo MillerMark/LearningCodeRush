@@ -27,25 +27,7 @@ namespace CapsModifier
 		*/
 
 
-		string second;
-		object first;
-
-		public object First
-		{//`![](ArrowDown) Press Caps+G to add a new Getter here.
-			set => first = value;
-		}
-		
-		public string Second
-		{//`![](ArrowDown) Press Caps+G to add a new Getter here.
-			set
-			{
-				if (second == value)
-					return;
-				second = value;
-			}
-		}
-
-    void SetRules<V>(V verifier) where V : Trimmer
+		void SetRules<V>(V verifier) where V : Trimmer
     {
       verifier.TrimSpaces = true;
     }
@@ -60,7 +42,8 @@ namespace CapsModifier
 		//`                    ![](ArrowDown) Press Caps+G to promote this to a type parameter.		
 		public string Check(Trimmer verifier, string text)
     {
-      SetRules<Trimmer>(verifier);
+			//`         ![](LookHere) Also look here when you try this one.
+			SetRules<Trimmer>(verifier);
       return verifier.CheckText(text);
     }
 
@@ -95,8 +78,8 @@ namespace CapsModifier
 
 		//`++Great Work!
 		/* 
-		 You used Caps+G to add a Getter to a property and to promote 
-		 parameter types and return types to Generic type parameters.
+		 You used Caps+G to promote both parameter types and return types to 
+		 Generic type parameters.
 
 	 ![](NextLesson;crcommand:OpenFile:CapsH.cs)
 

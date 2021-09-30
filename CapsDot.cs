@@ -101,12 +101,11 @@ namespace CapsModifier
 	/* 
 	 You used Caps+. to:
 	
-	   * expand and collapse expression Bodies
-	   * Break apart and line up arguments and parameters
-	   * add or remove Block delimiters
-	   * convert a Boolean to an enum
+	   * expand and collapse property getters and setters, and expression bodies
+	   * Break apart and line-up arguments and parameters
+	   
 
-	 ![](NextLesson;crcommand:OpenFile:CapsC.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsA.cs)
 
 	 */
 
