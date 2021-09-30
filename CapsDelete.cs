@@ -72,11 +72,19 @@ namespace CapsModifier
 			return null;
 		}
 
+		public static bool HasAssignment(SimpleNameSyntax identifier)
+		{
+			SyntaxNode assignment;
+
+			// TODO: Remove before shipping if Discard Variable shortcut Binding isn't fixed.
+			// Caps+Delete to discard the variable: ![](ArrowDown) 
+			return identifier.HasAssignment(out assignment);
+		}
+
 		event EventHandler TextChanged;
 		void HookEvents()
 		{
-			// Caps+Delete to remove the redundant delegate creation:
-			//`                     ![](ArrowDown)
+			// Caps+Delete ![](ArrowDown) to remove the redundant delegate creation:
 			TextChanged += new EventHandler(ProcessText);
 		}
 

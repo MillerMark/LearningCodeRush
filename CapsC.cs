@@ -6,6 +6,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics;
 
 namespace CapsModifier
 {
@@ -39,9 +40,9 @@ namespace CapsModifier
 	public class ContractTests
 	{
 
-		protected void Play(string file, TimeSpan duration)
+		protected void Play(string playlist, string file, TimeSpan duration)
 		{//`![](ArrowDown) Press Caps+C to add a contract for this method.
-
+			
 		}
 	}
 
@@ -57,8 +58,8 @@ namespace CapsModifier
 	{
 		static void WorkWithCustomers()
 		{
-			//`                 ![](ArrowDown) Press Caps+C to declare a new class "RedShirt".
-			var andrew = new RedShirt("Andrew", "Fuller");
+			//`               Caps+C ![](ArrowDown) to declare a new class "RedShirt".
+			RedShirt andrew = new RedShirt("Andrew", "Fuller");
 			andrew.Age = 47;
 			andrew.SaveToDB();
 		}
@@ -76,10 +77,6 @@ namespace CapsModifier
 				return false;
 
 			return true;
-		}
-
-		static Utils()
-		{
 		}
 	}
 

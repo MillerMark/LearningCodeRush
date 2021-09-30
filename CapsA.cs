@@ -36,9 +36,10 @@ namespace CapsModifier
 		public void TestMethod()
 		{
 			// Press Caps+A to Name an Anonymous Type.
-			// CodeRush will take you to the new file.
-			// Press Escape (or Alt+Shift+Home) to get back.
-			//`    ![](ArrowDown)
+			// CodeRush will take you to the new file and you 
+			// can press Escape (or Alt+End) to get back.
+
+			//`    ![](ArrowDown) (caret on the variable names)
 			var employee = new { ID = 1, Name = "Scotty", Department = "Engineering" };
 			var employee1 = new { ID = 2, Name = "Spock", Department = "Science" };
 			var employee2 = new { ID = 3, Name = "Kirk",  Department = "Command" };

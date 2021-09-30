@@ -52,7 +52,7 @@ namespace CapsModifier
 
 		public void LogText(string text)
 		{
-			//`                         ![](LookHere) Look here when you try the next one.
+			//`                           ![](LookHere) Look here when you try the next one.
 			string verifiedText = Check(new Trimmer(), text);
 			Console.WriteLine(verifiedText);
 		}

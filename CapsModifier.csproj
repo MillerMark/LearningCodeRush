@@ -5,6 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0D40D803-BB72-4C1F-9316-23EBC0A07A35}</ProjectGuid>
+    <LangVersion>8</LangVersion>
     <OutputType>Exe</OutputType>
     <RootNamespace>CapsModifier</RootNamespace>
     <AssemblyName>CapsModifier</AssemblyName>
@@ -17,6 +18,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
+    <LangVersion>8</LangVersion>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -26,6 +28,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
+    <LangVersion>8</LangVersion>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -43,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapsQ.cs" />
     <Compile Include="CapsInsert.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Book.cs" />
     <Compile Include="CapsDot.cs" />
     <Compile Include="CapsC.cs" />
@@ -63,6 +68,7 @@
     <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Space.cs" />
     <Compile Include="Support Files Only - No Lessons Here\World.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\SyntaxNode.cs" />
     <Compile Include="_StartHere_.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

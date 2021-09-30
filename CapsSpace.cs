@@ -2,6 +2,8 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Reflection;
+using System.IO;
 
 namespace CapsModifier
 {
@@ -22,10 +24,10 @@ namespace CapsModifier
 		    * Shorter Assignments
 		    * Initializers
 		    
-		 And you can use Caps+Space to flatten conditionals, simplify 
-		 expressions, add/remove block delimiters around/from child 
-		 statements, convert procedures to functions, expand lambda 
-		 functions, and more.
+		 And you can use Caps+Space to flatten conditionals, inline 
+		 temporary variables, simplify expressions, add/remove block 
+		 delimiters around/from child statements, convert procedures 
+		 to functions, expand lambda functions, and more.
 
 
 		 Examples follow in the source code below.
@@ -58,6 +60,7 @@ namespace CapsModifier
 		}
 
 
+
 		public string Name
 		{
 			//`![](ArrowDown) Caps+Space to toggle between accessor and expression bodies. 
@@ -80,6 +83,7 @@ namespace CapsModifier
 				return GetState();
 			}
 		}
+
 
 
 		//`![](ArrowDown) Press Caps+Space to use an expression body for this method:
@@ -110,11 +114,13 @@ namespace CapsModifier
 		}
 
 
+
 		public string CheckPostalCode(string postalCode)
 		{
 			//`![](ArrowDown) Caps+Space to expand this null coalescing operation: 
 			return postalCode ?? STR_NullValue;
 		}
+
 
 
 		public string CheckAddress(string address)
@@ -124,15 +130,19 @@ namespace CapsModifier
 		}
 
 
-		internal int Fibonacci(int index)
+		internal int Fibonacci(int n)
 		{
-			if (index < 0)
-				throw new ArgumentOutOfRangeException(nameof(index), "n must be greater than or equal to zero.");
-			return Fib(index);
+			if (n < 0)
+				throw new ArgumentOutOfRangeException(nameof(n), "n must be greater than or equal to zero.");
+			return Fib(n);
 
 			//`![](ArrowDown) Caps+Space to expand (or compress) this local function: 
-			int Fib(int n) { return n < 2 ? n : Fib(n - 1) + Fib(n - 2); }
+			int Fib(int n)
+			{
+				return n < 2 ? n : Fib(n - 1) + Fib(n - 2);
+			}
 		}
+
 
 
 		public void CreateTestCustomer1()
@@ -145,6 +155,8 @@ namespace CapsModifier
 			andrew.Ready();
 		}
 
+
+
 		public void CreateTestCustomer2()
 		{
 			//`                  ![](ArrowDown) Caps+Space to Decompose this Initializer: 
@@ -153,7 +165,30 @@ namespace CapsModifier
 		}
 
 
-		//`                           ![](ArrowDown) Caps+Space to expand this lambda function: 
+
+		public string GetThisEncodedPath()
+		{
+			Assembly executingAssembly = Assembly.GetExecutingAssembly();
+
+			//`                     ![](LookHere) Look here when you try the next one.
+			return GetEncodedPath(executingAssembly);
+		}
+
+		// Press Caps+Space to Decompose this Parameter:
+		//`                             ![](ArrowDown)
+		public string GetEncodedPath(Assembly assembly)
+		{
+			if (assembly.IsDynamic)
+				return "Dynamic:" + Path.GetDirectoryName(assembly.Location);
+			else
+				return "Static:" + Path.GetDirectoryName(assembly.Location);
+		}
+
+		//` ![](Decompose Parameter2;https://www.youtube.com/watch?v=_sTWyDjd4oY&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=12 )  << More on Decompose Parameter.
+
+
+
+		//`                Caps+Space ![](ArrowDown) on the "=>" to expand this lambda function: 
 		Func<string, int> func = s => s == null ? 0 : s.Length;
 
 
@@ -199,6 +234,7 @@ namespace CapsModifier
 
 	public class GreetingsSender : IMessageSender
 	{
+		//! CreateCustomerLists is from IMessageSender...
 		public void CreateCustomerLists(string key)
 		{
 			List<Customer> customerList = new List<Customer>();
@@ -210,7 +246,6 @@ namespace CapsModifier
 
 		Dictionary<string, List<Customer>> customerLists = new Dictionary<string, List<Customer>>();
 	}
-
 
 
 
@@ -316,6 +351,37 @@ namespace CapsModifier
 			}
 		}
 
+
+
+		void ComplexExpression(bool six, bool bravo, bool halfDozen)
+		{
+			//`![](ArrowDown) Caps+Space to simplify this expression: 
+			if (((six || (!bravo && (!(!six)))) || halfDozen))
+				return;
+
+			if (bravo)
+			{
+				
+			}
+		}
+
+
+
+		float GetCurrentDiscount() => 25;
+
+		public float CalculateDiscountedPrice(float price)
+		{
+			float percentage = GetCurrentDiscount();
+			float fraction = percentage * 0.01f;
+
+
+
+			//`                 ![](ArrowDown) Caps+Space to inline this temp: 
+			return price - fraction * price;
+		}
+
+
+
 		static Dictionary<int, Customer> dictionary = new Dictionary<int, Customer>();
 
 		private static string FoundRecord(int value)
@@ -351,7 +417,6 @@ namespace CapsModifier
 
 
 
-
 		public static void InitializeExplicitly(int? foo)
 		{
 			//`![](ArrowDown) Caps+Space to make explicit (and then Caps+Down to move the caret): 
@@ -373,7 +438,7 @@ namespace CapsModifier
 
 
 	//! Note: InterstellarRocket implements INotifyPropertyChanged!!!
-	// Caps+Space can help you here, too (see below).
+	// Caps+Space can help you with INotifyPropertyChanged (see below)...
 	public class InterstellarRocket: INotifyPropertyChanged
 	{
 		double fuelLevel;

@@ -203,9 +203,9 @@ negativeCount     ++            ;
 	{
 		public void SetUrl(string url)
 		{
-		
-			//`      ![](ArrowDown) Press Caps+F to turn "completeUrl" into a field variable (arrows & Enter pick location):
-			var completeUrl = string.Format("http://{0}", url);
+
+			//`        ![](ArrowDown) Press Caps+F to turn "completeUrl" into a field variable (arrows & Enter pick location):
+			string completeUrl = string.Format("http://{0}", url);
 
 
 

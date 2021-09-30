@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 
 namespace CapsModifier
 {
@@ -36,6 +37,7 @@ namespace CapsModifier
 
 
 
+
 		public void AddBooks()
 		{
 			//`       ![](LookHere) Look here when you try the next one.
@@ -48,7 +50,7 @@ namespace CapsModifier
 		//`             ![](ArrowDown) Shift+Caps+Space to convert these parameters into a Tuple: 
 		public void AddBook(string Title, string Author)
 		{
-			shelf = shelf ?? new List<Book>();
+			shelf ??= new List<Book>();
 
 			//`                   ![](LookHere) Also look here when you try this one.
 			shelf.Add(new Book(Title, Author, DateTime.Now));

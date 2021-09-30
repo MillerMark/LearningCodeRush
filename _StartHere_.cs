@@ -14,12 +14,24 @@
     ![](DevExpress;www.devexpress.com )
 
     If not, you'll see only markdown (enable Rich Comments in the 
-    CodeRush Options dialog on the Quick Setup page).
+    CodeRush *Options* dialog on the *Quick Setup* page).
      
-    Also, gear icons can be clicked to bring up the corresponding 
-    CodeRush options page, like this:
+    Gear icons in this solution can be clicked to bring up 
+    CodeRush options pages, like this:
 
-    ![](Gear;crcommand:Options:Quick Setup) (click the gear to bring up the Quick Setup page)
+    ![](Gear;crcommand:Options:Quick Setup) << Quick Setup page.
+
+    For the best experience working through this solution, enable the 
+    "Hide comment delimiters" option on the Rich Comments options page.
+
+    ![](HideCommentDelimiters;crcommand:Options:Editor\All Languages\Rich Comments)
+
+    ![](Gear;crcommand:Options:Editor\All Languages\Rich Comments) << Rich Comments settings.
+
+    Finally, run the Setup Wizard if you haven't yet. It's a fast way 
+    to enable or disable major CodeRush features for the way you work.
+    
+                ![](CodeRushSetup;crcommand:RunSetupWizard)  << Run the Setup Wizard
 
     */
 
@@ -29,25 +41,18 @@
 
     //`+Markers
     /*
-      Some features create code in a new location (and take 
-      you there so you can see the new code). Before shifting
-      the view, CodeRush drops a marker so you can get back.
-
-      A marker usually appears as a triangle in the code and 
-      looks like this:
-                            ![](Marker)
-
-      To get back to where you were, press Escape 
-      (or Alt+Shift+Home).
-
-      To change marker settings, open this CodeRush options page:
+      Some features create code in *new locations* (and take 
+      you there so you can see the new code). 
     
-        Editor | All Languages | Markers ![](Gear;crcommand:Options:Editor\All Languages\Markers)
-         
+      Before shifting the view, CodeRush drops a marker so you 
+      can get back.
 
-      To learn more about Markers, check out this short video:
+      To get back, press Escape (or Alt+End).
 
-                  ![](VideoMarkers;https://www.youtube.com/watch?v=_awmO-WZ_vw&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=23 )
+      ![](Gear;crcommand:Options:Editor\All Languages\Markers) << Marker settings.
+    
+
+       ![](Markers;https://www.youtube.com/watch?v=_awmO-WZ_vw&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=23 ) << Learn more about Markers.
     */
 
 

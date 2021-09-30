@@ -30,32 +30,6 @@ namespace CapsModifier
 
 		AssemblyLoadEventArgs assemblyLoadEventArgs;
 
-		public string GetThisEncodedPath()
-		{
-			Assembly executingAssembly = Assembly.GetExecutingAssembly();
-
-			//`                     ![](LookHere) Look here when you try the next one.
-			return GetEncodedPath(executingAssembly);
-		}
-
-		// Press Caps+P to Decompose this Parameter:
-		//`                             ![](ArrowDown)
-		public string GetEncodedPath(Assembly assembly)
-		{
-			if (assembly.IsDynamic)
-				return "Dynamic:" + Path.GetDirectoryName(assembly.Location);
-			else
-				return "Static:" + Path.GetDirectoryName(assembly.Location);
-		}
-
-		public string GetEncodedPath2(Assembly assembly)
-		{
-			if (assembly.IsDynamic)
-				return "Dynamic:" + Path.GetDirectoryName(assembly.Location);
-			else
-				return "Static:" + Path.GetDirectoryName(assembly.Location);
-		}
-
 		public CapsP()
 		{
 			assemblyLoadEventArgs = new AssemblyLoadEventArgs(System.Reflection.Assembly.GetExecutingAssembly());

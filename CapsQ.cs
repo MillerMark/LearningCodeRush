@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace CapsModifier
 {
-	public class CapsB
+	public class CapsQ
 	{
-		//`![Enable Rich Comments to see embedded images](CapsB)
+		//`![Enable Rich Comments to see embedded images](CapsQ)
 
 		/*
 		 Use Caps+B to convert a Boolean to an enum
@@ -18,7 +18,7 @@ namespace CapsModifier
 		*/
 
 		bool started;
-
+		
 		public void Startup()
 		{
 			//`           ![](LookHere) Look here when you try the next one.
