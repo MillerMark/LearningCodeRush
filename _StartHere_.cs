@@ -30,8 +30,12 @@
 
     Finally, run the Setup Wizard if you haven't yet. It's a fast way 
     to enable or disable major CodeRush features for the way you work.
+    Many of the features in this solution rely upon Caps as a Modifier, 
+    so make sure you enable that in the Setup Wizard (if it's not already 
+    enabled):
     
-                ![](CodeRushSetup;crcommand:RunSetupWizard)  << Run the Setup Wizard
+    
+                ![](CodeRushSetup;crcommand:RunSetupWizard)  << Click to run the Setup Wizard
 
     */
 
