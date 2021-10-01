@@ -13,12 +13,9 @@ namespace CapsModifier
 
 		 Use Caps+P to:
 		
-				* Add Parameters
-				* Decompose Parameters
 				* Promote to Generic Parameter
 				* Promote to Parameter
 				* Pull Members Up
-				* Reorder Parameters
 				* Declare Parameter
 				* Declare Partial Class Part
 				* Declare Property (auto-implemented)
@@ -31,15 +28,26 @@ namespace CapsModifier
 
 		 Move to where the arrow points before pressing the shortcut.
 
+		 And when declaring a initialized properties, CodeRush will let 
+		 you select the location for the property using the target picker. 
+		
+		 It looks like this:
+
+		![](TargetPicker)
+
+		 Just use the up and down arrow keys, followed by the Enter key
+		 to select the location for the generated code. 
+
+		 After using the target picker, you can press Escape (or Alt+End)
+		 to get back.
+
 		*/
 
-		AssemblyLoadEventArgs assemblyLoadEventArgs;
+
 
 		public CapsP()
 		{
-			assemblyLoadEventArgs = new AssemblyLoadEventArgs(System.Reflection.Assembly.GetExecutingAssembly());
-
-			//`        ![](LookHere) Look here when you try the next one.
+			//`       ![](LookHere) Look here when you try the next one.
 			SayHello();
 		}
 
@@ -51,23 +59,7 @@ namespace CapsModifier
 			Console.WriteLine($"Greetings, {userName}!");
 		}
 
-		//`                         ![](LookHere) Look here when you try the next one.
-		void SayGoodbye(string message)
-		{
-			Console.WriteLine($"Until next time! {message}");
-		}
 
-		void EndSession()
-		{
-			string userName = "Rory";
-			// Press Caps+P to add a new Parameter. First move the 
-			// caret to where you want the new parameters to go, then 
-			// press Caps+P. Specify the value/expression to pass in
-			// (you can use the userName local, above, if you like).
-			// CodeRush will do the rest.
-			//`                         ![](ArrowDown)
-			SayGoodbye("This was fun!");
-		}
 
 		// Press Caps+P to Promote "Tool" to a generic parameter:
 		//`![](ArrowDown)
@@ -77,62 +69,58 @@ namespace CapsModifier
 		}
 	}
 
-	public class BaseTool
-	{
-		public BaseTool()
-		{
 
+
+	public class DeclaringInitializedProperties
+	{
+		// Sometimes you need to assign a parameter to a property that
+		// doesn't exist yet.
+
+		// Use Caps+P to declare a property initialized to the parameter value.
+
+		//`                       ![](ArrowDown) Caps+P
+		public void Start(Guid sessionId)
+		{
 		}
-		// When the target picker is up, use Up/Down arrows and Enter to select the target location.
+
+		//`++Pro Tip: Initialized Properties
+		// CodeRush drops a marker for you on the parameters before
+		// declaring the initialized property. CodeRush also gives you 
+		// a chance to rename the property. If you like the name you can 
+		// press Enter or Escape. Then to get back to the parameter marker
+		// you can press Escape again (or Alt+Home).
+
+		// So if you need to declare several initialized properties in
+		// a row, just press repeat this sequence:
+		//
+		//		Caps+P
+		//		Select the target location (up/down + Enter keys)
+		//    Rename the property (or press Escape to accept the given name)
+		//    Press Escape (or Alt+Home) to get back.
+
+		// Try declaring initialized properties for each of these parameters!
+
+		//`                           ![](ArrowDown) Caps+P
+		void SetCoordinates(double x, double y, double z)
+		{
+			
+		}
 	}
+
+
 
 	public class Tool : BaseTool
 	{
-		public Tool()
-		{
-
-		}
-
-		public Tool(string id)
-		{
-			Id = id;
-		}
-
-		public string Id { get; }
 		bool engaging;
 
-		// Use Caps+P to Pull this Engage() member up to the parent class BaseTool.
-		// Use arrow keys to position it, and Enter to accept (or Escape to cancel).
+		// Use Caps+P to Pull this Engage() member up to the parent class (BaseTool).
 		//` ![](ArrowDown)
 		public void Engage()
 		{
 			engaging = true;
 		}
 
-		public void RockOn()
-		{
-			engaging = false;
-			double x = 0, y = 0, z = 0;
-			//`                       ![](LookHere) Look here after you try the next one.
-			LotsOfParameters("End", y, "Start", z, x);
-		}
 
-
-		// Use Caps+P to Reorder Parameters.
-		// Use the tab and arrow keys to select and move parameters.
-		// Enter accepts (Escape cancels).
-		//`                      ![](ArrowDown)
-		void LotsOfParameters(string msg2, double Y, string msg1, double Z, double X)
-		{
-
-		}
-
-		void CallingMethod()
-		{
-			// You can also use Caps+P to Reorder Parameters from a *calling method*.
-			//                  ![](ArrowDown)
-			LotsOfParameters("Message 2", 2, "Message 1", 3, 1);
-		}
 
 		public static double ConvertToUSD(double amount)
 		{
@@ -170,17 +158,13 @@ namespace CapsModifier
 	/* 
 	 You used Caps+P to:
 	
-	  * Add Parameters
-		* Decompose Parameters
 		* Promote to Generic Parameter
 		* Promote to Parameter
 		* Pull Members Up
-		* Reorder Parameters
 		* Declare Parameter
 		* Declare Partial Class Part
-		* Declare Property (auto-implemented)
-		* Declare Property (with default body)
-		* Declare Property with Initializer
+		* Declare Property
+		* Declare Initialized Property
 	   
 
 	 ![](NextLesson;crcommand:OpenFile:CapsQ.cs)

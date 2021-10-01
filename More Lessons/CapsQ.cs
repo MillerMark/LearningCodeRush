@@ -44,7 +44,7 @@ namespace CapsModifier
 	/* 
 	 You used Caps+Q to declare constants. Nice!
 
-	 ![](NextLesson;crcommand:OpenFile:ShiftCapsSpace.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsR.cs)
 
 	 */
 

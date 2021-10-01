@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advanced\ShiftCapsR.cs" />
+    <Compile Include="More Lessons\CapsL.cs" />
+    <Compile Include="More Lessons\CapsM.cs" />
+    <Compile Include="More Lessons\CapsR.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\DataProcessor.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\BaseTool.cs" />
     <Compile Include="More Lessons\CapsQ.cs" />
     <Compile Include="CapsInsert.cs" />
     <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" />

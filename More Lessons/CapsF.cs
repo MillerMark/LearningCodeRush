@@ -192,9 +192,23 @@ negativeCount     ++            ;
 
 	public class SiteLoader
 	{
-		public void SetUrl(string url)
+		bool IsValid(string completeUrl)
+		{
+			throw new NotImplementedException();
+		}
+
+
+		// TODO: Make sure this works!
+		//`       Press Caps+F ![](ArrowDown) to declare a field variable initialized to this parameter:
+		void SetName(string siteName)
 		{
 
+		}
+
+
+
+		public void SetUrl(string url)
+		{
 			//`        ![](ArrowDown) Press Caps+F to turn "completeUrl" into a field variable (arrows & Enter pick location):
 			string completeUrl = string.Format("http://{0}", url);
 
@@ -203,20 +217,15 @@ negativeCount     ++            ;
 			if (!IsValid(completeUrl))
 				throw new Exception($"\"{completeUrl}\" has errors!");
 		}
-
-		bool IsValid(string completeUrl)
-		{
-			throw new NotImplementedException();
-		}
 	}
 
 
 	//`++Great Work!
 	/* 
-	 You used Caps+F to declare Fields, convert void procs into Functions, 
+	 You used Caps+F to declare Fields & Fields with initializers, 
 	 introduce Format items, Flatten conditionals, convert between ForEach 
-	 statements and For loops, Format the selection, move types to Files, 
-	 use string.Format, and promote local variables to Fields.
+	 statements and For loops, Format selection, move types to Files, 
+	 use string.Format, and promote local variables into Fields.
 
  ![](NextLesson;crcommand:OpenFile:CapsG.cs)
 

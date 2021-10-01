@@ -53,12 +53,11 @@ namespace CapsModifier
 	/* 
 	 You used Shift+Caps+F to rename a class to match its file name and to 
 	 convert foreach statements into Linq statements.
-	
-	 To learn more, check out the CodeRush Feature of the Week playlist on 
-	 YouTube:
 
-		![](Tab to Next Reference;https://www.youtube.com/playlist?list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk )
+			![](NextLesson;crcommand:OpenFile:ShiftCapsR.cs)
 
- */
+	*/
+
+
 
 }
