@@ -16,13 +16,11 @@ namespace CapsModifier
 
 		 Move to where the arrow points before pressing the shortcut.
 
-		 And when declaring a constant, CodeRush will let you select the 
-		 location using the target picker. It looks like this:
+		 And when declaring a constant, use the target picker to tell 
+		 CodeRush where you want to put the new constant.
 
-		![](TargetPicker)
+		 ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
 
-		 Just use the up/down arrow keys and the Enter key to select the 
-		 location for the generated code.
 		*/
 
 		public static string GetRelativePath(string str)
@@ -62,5 +60,4 @@ namespace CapsModifier
 	 ![](NextLesson;crcommand:OpenFile:CapsR.cs)
 
 	 */
-
 }

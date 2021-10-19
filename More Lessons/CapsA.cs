@@ -24,6 +24,7 @@ namespace CapsModifier
 
 		public bool Initialized { get; set; }
 
+		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn more about the Target Picker.
 
 		void Increment(int value)
 		{
@@ -35,11 +36,13 @@ namespace CapsModifier
 
 		public void TestMethod()
 		{
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
+
 			// Press Caps+A to Name an Anonymous Type.
 			// CodeRush will take you to the new file and you 
 			// can press Escape (or Alt+End) to get back.
 
-			//`    ![](ArrowDown) (caret on the variable names)
+			//`    ![](ArrowDown) (Caps+A on the variable name)
 			var employee = new { ID = 1, Name = "Scotty", Department = "Engineering" };
 			var employee1 = new { ID = 2, Name = "Spock", Department = "Science" };
 			var employee2 = new { ID = 3, Name = "Kirk",  Department = "Command" };

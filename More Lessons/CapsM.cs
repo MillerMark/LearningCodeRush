@@ -76,6 +76,8 @@ namespace CapsModifier
 		public Analysis()
 		{
 			// After moving this class to its own file, use Escape (or Alt+End) to get back.
+
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
 		}
 	}
 

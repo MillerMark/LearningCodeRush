@@ -47,6 +47,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Advanced\ShiftCapsR.cs" />
+    <Compile Include="CapsSpace\BlockDelimiters.cs" />
+    <Compile Include="CapsSpace\ChangeNotifications.cs" />
+    <Compile Include="CapsSpace\CombineSplitConditionals.cs" />
+    <Compile Include="CapsSpace\CombineSplitConditionals1.cs" />
+    <Compile Include="CapsSpace\ConvertToFunction.cs" />
+    <Compile Include="CapsSpace\StringInterpolation.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" />
+    <Compile Include="CapsSpace\DecomposeParameter.cs" />
+    <Compile Include="CapsSpace\ExpressionBodies.cs" />
+    <Compile Include="CapsSpace\FlattenConditionals.cs" />
+    <Compile Include="CapsSpace\NullCoalescing.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\NullCoalescingPart.cs" />
+    <Compile Include="CapsSpace\SimplifyExpressions.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\SimplifyExpressionsPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionals.cs" />
+    <Compile Include="CapsSpace\InlineTemp.cs" />
+    <Compile Include="CapsSpace\TernaryExpressions.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\TernaryExpressionsPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineTempPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ExpressionBodiesPart.cs" />
+    <Compile Include="CapsSpace\ImplicitExplicit.cs" />
+    <Compile Include="CapsSpace\Initializers.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ImplicitExplicitPart.cs" />
     <Compile Include="More Lessons\CapsL.cs" />
     <Compile Include="More Lessons\CapsM.cs" />
     <Compile Include="More Lessons\CapsR.cs" />
@@ -59,7 +83,7 @@
     <Compile Include="CapsDot.cs" />
     <Compile Include="More Lessons\CapsC.cs" />
     <Compile Include="Advanced\ShiftCapsSpace.cs" />
-    <Compile Include="CapsSpace.cs" />
+    <Compile Include="CapsSpace\CapsSpace.cs" />
     <Compile Include="Advanced\ShiftCapsF.cs" />
     <Compile Include="More Lessons\CapsF.cs" />
     <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" />
@@ -79,7 +103,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="Support Files Only - No Lessons Here\App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

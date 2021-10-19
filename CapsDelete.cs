@@ -26,10 +26,13 @@ namespace CapsModifier
 
 	 */
 
+		int count;
+		public void Filler(int count)
+		{
+			this.count = count;
+		}
 
-
-		// Caps+Delete to remove the redundant constructor:
-		//`   ![](ArrowDown)
+		//`![](ArrowSW) Caps+Delete to remove the redundant constructor:
 		public CapsDelete()
 		{
 		}
@@ -46,12 +49,12 @@ namespace CapsModifier
 		public void CallMethod()
 		{
 			//`                     ![](LookHere) Look here when you try the next one.
-			GetMethodName(null, "Yo yo yo");
+			GetSymbolName(null, "Yo yo yo");
 		}
 
 		// Caps+Delete to remove the unused parameter:
 		//`                                              ![](ArrowDown)
-		string GetMethodName(ISymbol symbol, string unusedMessage)
+		string GetSymbolName(ISymbol symbol, string unusedMessage)
 		{
 			// Caps+Delete to remove:
 			//   * Redundant type qualifiers
@@ -75,6 +78,8 @@ namespace CapsModifier
 		public static bool HasAssignment(SimpleNameSyntax identifier)
 		{
 			SyntaxNode assignment;
+			
+			// TODO: Remove this example if we don't fix our ability to trigger Discard Variable from Execute Refactoring.
 			// Caps+Delete to discard the variable: ![](ArrowDown) 
 			return identifier.HasAssignment(out assignment);
 		}

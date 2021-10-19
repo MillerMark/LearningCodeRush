@@ -14,7 +14,11 @@ namespace CapsModifier
 		// When the target picker is active, use Up/Down arrows and Enter
 		// to select the target location.
 
-		// When you're done here, press Escape (or Alt+End) to get back.
+		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+
+		// When you're done here, you can collect the marker to get back.
+
+		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
 	}
 }
 

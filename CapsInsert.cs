@@ -11,8 +11,8 @@ namespace CapsModifier
 		 Use Caps+Insert to add new code, including:
 
 			* Add Missing Constructors
-			* Add Parameter
 			* Add to Interface
+			* Add Parameters
 
 		 You can also use Caps+Insert to add Getters, Setters, and Else statements
 
@@ -41,6 +41,8 @@ namespace CapsModifier
 			//`                            ![](LookHere) Look here when you try the next one.
 			Start(TimeSpan.FromSeconds(5), Guid.Empty, 25);
 		}
+
+		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs)  << Learn about Text Fields.
 
 
 		//`                        ![](ArrowDown) Caps+Insert to add a new parameter.

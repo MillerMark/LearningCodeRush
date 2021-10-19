@@ -158,21 +158,6 @@ negativeCount     ++            ;
 	//` ![](Selection IncreaseDecrease;https://www.youtube.com/watch?v=cdJ4D3xmnFw )  << More on Selection Increase/Decrease
 
 
-
-	//`![](ArrowDown) Press Caps+F to move this type to its own file (and then use Escape or Alt+End to get back):
-	public class Automobile
-	{
-		public string Model { get; set; }
-		public int Year { get; set; }
-		public Guid ID { get; set; }
-		public Automobile()
-		{
-
-		}
-	}
-
-
-
 	public static class MathEx
 	{
 		public static void ShowMultiplicationTable(int numColumns = 10, int numRows = 10)
@@ -186,6 +171,20 @@ negativeCount     ++            ;
 					//`                   ![](ArrowDown) Press Caps+F to replace this string concatenation with a String.Format call:
 					Console.WriteLine(column + " * " + row + " = " + result);
 				}
+		}
+	}
+
+
+
+	//`![](ArrowDown) Press Caps+F to move this type to its own file (and then use Escape or Alt+End to get back):
+	public class Automobile
+	{
+		public string Model { get; set; }
+		public int Year { get; set; }
+		public Guid ID { get; set; }
+		public Automobile()
+		{
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
 		}
 	}
 

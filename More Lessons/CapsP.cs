@@ -28,18 +28,10 @@ namespace CapsModifier
 
 		 Move to where the arrow points before pressing the shortcut.
 
-		 And when declaring a initialized properties, CodeRush will let 
-		 you select the location for the property using the target picker. 
+		 And when declaring a initialized properties, use the Target Picker
+		 to specify where to generate the property. 
 		
-		 It looks like this:
-
-		![](TargetPicker)
-
-		 Just use the up and down arrow keys, followed by the Enter key
-		 to select the location for the generated code. 
-
-		 After using the target picker, you can press Escape (or Alt+End)
-		 to get back.
+		 ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
 
 		*/
 
@@ -84,19 +76,22 @@ namespace CapsModifier
 		}
 
 		//`++Pro Tip: Initialized Properties
-		// CodeRush drops a marker for you on the parameters before
-		// declaring the initialized property. CodeRush also gives you 
-		// a chance to rename the property. If you like the name you can 
-		// press Enter or Escape. Then to get back to the parameter marker
-		// you can press Escape again (or Alt+Home).
+		// CodeRush invokes the rename refactoring on new initialized
+		// properties. If you like the suggested name you can press Enter
+		// (or Escape). To get back to where you started, just collect the
+		// marker CodeRush dropped where you started.
+
+		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
 
 		// So if you need to declare several initialized properties in
 		// a row, just press repeat this sequence:
 		//
 		//		Caps+P
-		//		Select the target location (up/down + Enter keys)
-		//    Rename the property (or press Escape to accept the given name)
-		//    Press Escape (or Alt+Home) to get back.
+		//		Pick your Target location
+		//    Rename the property (or press Enter/Escape to accept the given name)
+		//    Collect the marker to get back.
+
+		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
 
 		// Try declaring initialized properties for each of these parameters!
 
