@@ -27,6 +27,13 @@ namespace CapsModifier
 
 		*/
 
+		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs)  << Learn about Text Fields.
+
+		//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+
+		//`![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
+
+
 		void Start(Dictionary<int, string> lookup, Action<Customer> callback)
 		{
 			//                  Caps+M ![](ArrowDown) to declare this method. 
@@ -89,7 +96,7 @@ namespace CapsModifier
 	 initialization to its declaration, and Move a declaration near its first 
 	 reference.
 
-	 ![](NextLesson;crcommand:OpenFile:CapsP.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsP.cs)  << Caps+P for Parameters, Partial classes, and Properties...
 
 	 */
 }

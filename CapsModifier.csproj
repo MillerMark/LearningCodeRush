@@ -50,8 +50,13 @@
     <Compile Include="CapsSpace\BlockDelimiters.cs" />
     <Compile Include="CapsSpace\ChangeNotifications.cs" />
     <Compile Include="CapsSpace\CombineSplitConditionals.cs" />
-    <Compile Include="CapsSpace\CombineSplitConditionals1.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CombineSplitConditionalsPart.cs" />
     <Compile Include="CapsSpace\ConvertToFunction.cs" />
+    <Compile Include="CapsSpace\ExpandLambda.cs" />
+    <Compile Include="CapsSpace\InlineLambda.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineLambdaPart.cs" />
+    <Compile Include="CapsSpace\MathDotPow.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" />
     <Compile Include="CapsSpace\StringInterpolation.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" />

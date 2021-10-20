@@ -12,7 +12,7 @@ namespace CapsModifier
 			float percentage = GetCurrentDiscount();
 			float fraction = percentage * 0.01f;
 
-			//`                 ![](ArrowDown) Caps+Space to inline this temp: 
+			//`                 ![](ArrowDown) Caps+Space to inline this temp (twice if you like): 
 			return price - fraction * price;
 		}
 	}

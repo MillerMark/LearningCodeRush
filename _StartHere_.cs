@@ -52,7 +52,7 @@
       source files located in this project to learn how to use the 
 			power of CodeRush to get more done with less effort.
 
-      ![](NextLesson;crcommand:OpenFile:CapsSpace.cs)
+      ![](NextLesson;crcommand:OpenFile:CapsSpace.cs) << Caps+Space to toggle/convert/inline code
 
     */
 

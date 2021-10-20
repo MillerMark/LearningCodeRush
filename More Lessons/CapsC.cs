@@ -92,7 +92,7 @@ namespace CapsModifier
 		 * Combine and split Conditionals
 		 * add method Contracts
 
-	 ![](NextLesson;crcommand:OpenFile:CapsF.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsF.cs)  << Caps+F for Fields, Formatting, For loops, and more...
 
 	 */
 }

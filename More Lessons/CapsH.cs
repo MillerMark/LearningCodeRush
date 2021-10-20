@@ -29,7 +29,7 @@ namespace CapsModifier
 	 header, you can think of the first letter of either word and 
 	 use it along with the Caps key. Easy.
 
- ![](NextLesson;crcommand:OpenFile:CapsL.cs)
+ ![](NextLesson;crcommand:OpenFile:CapsL.cs)  << Caps+L to declare Locals...
 
  */
 }

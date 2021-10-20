@@ -47,10 +47,7 @@ namespace CapsModifier
 			return Fib(n);
 
 			//`![](ArrowDown) Caps+Space to expand (or compress) this local function: 
-			int Fib(int n)
-			{
-				return n < 2 ? n : Fib(n - 1) + Fib(n - 2);
-			}
+			int Fib(int n) => n < 2 ? n : Fib(n - 1) + Fib(n - 2);
 		}
 	}
 

@@ -10,9 +10,13 @@ namespace CapsModifier
 	public class ConvertToFunction
 	{
 		//`         ![](LookHere) Look here when you try the next one.
-		internal void GetSquare(double value)
-		{//`  ![](ArrowDown) Caps+Space to convert this procedure to a function.
-			return Math.Pow(value, 2);
+		internal void GetSquareRoot(double value)
+		{
+			if (value < 0)
+				throw new ArgumentException($"value must be positive");
+
+			//`  ![](ArrowDown) Caps+Space to convert this procedure to a function.
+			return Math.Pow(value, 0.5);
 		}
 	}
 
@@ -38,9 +42,8 @@ namespace CapsModifier
 			return customerLists[key];
 		}
 
-		
 
-		//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs) << Flatten Conditionals and more...
+		//`![](BtnMoreLikeThis;crcommand:OpenFile:DecomposeParameter.cs) << Decompose Parameter and more...
 	}
 }
 

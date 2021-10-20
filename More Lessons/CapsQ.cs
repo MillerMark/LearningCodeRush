@@ -57,7 +57,7 @@ namespace CapsModifier
 	/* 
 	 You used Caps+Q to declare constants. Nice!
 
-	 ![](NextLesson;crcommand:OpenFile:CapsR.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsR.cs)  << Caps+R to Reorder parameters...
 
 	 */
 }

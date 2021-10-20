@@ -30,6 +30,6 @@ namespace CapsModifier
 		//` ![](Decompose Parameter2;https://www.youtube.com/watch?v=_sTWyDjd4oY&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=12 )  << More on Decompose Parameter.
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToFunction.cs) << Convert to Function and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:ExpandLambda.cs) << Expand Lambda and more...
 }
 

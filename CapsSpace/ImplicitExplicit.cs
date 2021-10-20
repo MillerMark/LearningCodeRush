@@ -17,9 +17,6 @@ namespace CapsModifier
 
 			//`![](ArrowDown) 
 			Dictionary<int, Customer>.KeyCollection bar3 = dictionary.Keys;
-
-			//`![](ArrowDown) 
-			string bar4 = (new int[foo.Value * foo.Value, 5])[0, 0].ToString();
 		}
 
 

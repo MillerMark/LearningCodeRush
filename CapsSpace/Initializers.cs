@@ -20,7 +20,10 @@ namespace CapsModifier
 		public void CreateTestCustomer2()
 		{
 			//`                  ![](ArrowDown) Caps+Space to Decompose this Initializer: 
-			Customer jackson = new Customer() { FirstName = "Jackson", LastName = "Grand", Age = 35 };
+			Customer jackson = new Customer() { 
+													FirstName = "Jackson", 
+													LastName = "Grand", 
+													Age = 35 };
 			jackson.Ready();
 		}
 	}

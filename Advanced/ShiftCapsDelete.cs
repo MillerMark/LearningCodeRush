@@ -77,7 +77,7 @@
 	 You used Shift+Caps+Delete to remove all type qualifiers and to remove 
 	 all redundant brace blocks inside a method. 
 
-		![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs)
+		![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs)  << Shift+Caps+F to rename types to match a File and more...
 
  */
 

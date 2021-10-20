@@ -47,7 +47,7 @@ namespace CapsModifier
 	/* 
 	 You used Caps+L to declare a new local based on an expression on the line.
 
-	 ![](NextLesson;crcommand:OpenFile:CapsM.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsM.cs)  << Caps+M to declare Methods and for Moving...
 
 	 */
 }

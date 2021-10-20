@@ -81,7 +81,7 @@ namespace CapsModifier
 		 You used Caps+G to promote both parameter types and return types to 
 		 Generic type parameters.
 
-	 ![](NextLesson;crcommand:OpenFile:CapsH.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsH.cs)  << Caps+H for Copyright headers...
 
 	 */
 

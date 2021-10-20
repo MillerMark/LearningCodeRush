@@ -47,7 +47,7 @@ namespace CapsModifier
 	 You used Caps+R to Reorder Parameters.
 	   
 
-	 ![](NextLesson;crcommand:OpenFile:ShiftCapsSpace.cs)
+	 ![](NextLesson;crcommand:OpenFile:ShiftCapsSpace.cs)  << Shift+Caps+Space for tuples, types, and more...
 
 	 */
 }

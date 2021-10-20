@@ -22,6 +22,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs) << Flatten Conditionals and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:CombineSplitConditionals.cs) << Combine & Split Conditionals and more...
 }
 

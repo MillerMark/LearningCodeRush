@@ -26,6 +26,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:DecomposeParameter.cs) << Decompose Parameter and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:InlineLambda.cs) << Inline Lambda and more...
 }
 

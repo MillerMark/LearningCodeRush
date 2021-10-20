@@ -54,10 +54,7 @@ namespace CapsModifier
 	 You used Shift+Caps+F to rename a class to match its file name and to 
 	 convert foreach statements into Linq statements.
 
-			![](NextLesson;crcommand:OpenFile:ShiftCapsR.cs)
+			![](NextLesson;crcommand:OpenFile:ShiftCapsR.cs)  << Shift+Caps+R to Reverse boolean logic...
 
 	*/
-
-
-
 }

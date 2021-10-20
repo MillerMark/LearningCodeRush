@@ -28,7 +28,7 @@ namespace CapsModifier
 
 		 Move to where the arrow points before pressing the shortcut.
 
-		 And when declaring a initialized properties, use the Target Picker
+		 And when declaring initialized properties, use the Target Picker
 		 to specify where to generate the property. 
 		
 		 ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
@@ -162,7 +162,7 @@ namespace CapsModifier
 		* Declare Initialized Property
 	   
 
-	 ![](NextLesson;crcommand:OpenFile:CapsQ.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsQ.cs)  >> Caps+Q for Constants...
 
 	 */
 }

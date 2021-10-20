@@ -44,7 +44,7 @@ namespace CapsModifier
 	 to only two states, true or false, three or more states are possible
 	 with an enum).
 
-	 ![](NextLesson;crcommand:OpenFile:CapsC.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsC.cs)  << Caps+C for Classes, Constructors, Contracts, and more...
 
 	 */
 

@@ -105,7 +105,7 @@ namespace CapsModifier
 	   * Break apart and line-up arguments and parameters
 	   
 
-	 ![](NextLesson;crcommand:OpenFile:CapsA.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsA.cs)  << Caps+A for Auto-implemented properties and more
 
 	 */
 

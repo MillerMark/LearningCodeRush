@@ -58,7 +58,7 @@ namespace CapsModifier
 		/* 
      You used Caps+A to declare Auto-implemented properties and name Anonymous types!
 		
-		 ![](NextLesson;crcommand:OpenFile:CapsB.cs)
+		 ![](NextLesson;crcommand:OpenFile:CapsB.cs)  << Caps+B to convert booleans to enums...
 
      */
 	}

@@ -19,12 +19,14 @@ namespace CapsModifier
 			//`++Pro Tip: Split Conditionals
 			// You can split conditionals with Caps+Space on **boolean operators**
 			// where it makes sense. For example, move to any "||" in the
-			// combined expression above and then press Caps+Space.
+			// **combined** expression above and then press Caps+Space.
 
 			// Try it!
 
 			EngageWarpDrive();
 		}
 	}
+
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs) << Flatten Conditionals and more...
 }
 

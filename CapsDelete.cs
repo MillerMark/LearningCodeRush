@@ -120,7 +120,7 @@ namespace CapsModifier
 		 * Parameters
 		 * Types
 
-	 ![](NextLesson;crcommand:OpenFile:CapsInsert.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsInsert.cs)  << Caps+Insert to add new code...
 
 	 */
 }

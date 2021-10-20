@@ -149,7 +149,7 @@ namespace CapsModifier
 	 You used Caps+Insert to add new parameters, constructors, and more.
 	
 
-	 ![](NextLesson;crcommand:OpenFile:CapsDot.cs)
+	 ![](NextLesson;crcommand:OpenFile:CapsDot.cs)  << Caps+. to expand and collapse code formatting
 
 	 */
 }

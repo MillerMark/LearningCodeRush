@@ -130,7 +130,7 @@ namespace CapsModifier
 	/* 
 	 Use Shift+Caps+Space to go toggle between system and built-in types. 
 
-	 ![](NextLesson;crcommand:OpenFile:ShiftCapsDelete.cs)
+	 ![](NextLesson;crcommand:OpenFile:ShiftCapsDelete.cs)  << Shift+Caps+Delete for larger removal operations...
 
  */
 }
