@@ -44,7 +44,6 @@ namespace CapsModifier
 		![](BtnConvertToFunction;crcommand:OpenFile:ConvertToFunction.cs)
 		![](BtnDecomposeParameter;crcommand:OpenFile:DecomposeParameter.cs)
 		![](BtnExpandLambda;crcommand:OpenFile:ExpandLambda.cs)
-		![](BtnMathDotPow;crcommand:OpenFile:MathDotPow.cs)
 
 	*/
 

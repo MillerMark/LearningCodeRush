@@ -55,7 +55,6 @@
     <Compile Include="CapsSpace\ExpandLambda.cs" />
     <Compile Include="CapsSpace\InlineLambda.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineLambdaPart.cs" />
-    <Compile Include="CapsSpace\MathDotPow.cs" />
     <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" />
     <Compile Include="CapsSpace\StringInterpolation.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" />
