@@ -50,47 +50,47 @@
     <Compile Include="CapsSpace\BlockDelimiters.cs" />
     <Compile Include="CapsSpace\ChangeNotifications.cs" />
     <Compile Include="CapsSpace\CombineSplitConditionals.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CombineSplitConditionalsPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CombineSplitConditionalsPart.cs" Visible="False" />
     <Compile Include="CapsSpace\ConvertToFunction.cs" />
     <Compile Include="CapsSpace\ExpandLambda.cs" />
     <Compile Include="CapsSpace\InlineLambda.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineLambdaPart.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineLambdaPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" Visible="False" />
     <Compile Include="CapsSpace\StringInterpolation.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" Visible="False" />
     <Compile Include="CapsSpace\DecomposeParameter.cs" />
     <Compile Include="CapsSpace\ExpressionBodies.cs" />
     <Compile Include="CapsSpace\FlattenConditionals.cs" />
     <Compile Include="CapsSpace\NullCoalescing.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\NullCoalescingPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\NullCoalescingPart.cs" Visible="False" />
     <Compile Include="CapsSpace\SimplifyExpressions.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\SimplifyExpressionsPart.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionals.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\SimplifyExpressionsPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionals.cs" Visible="False" />
     <Compile Include="CapsSpace\InlineTemp.cs" />
     <Compile Include="CapsSpace\TernaryExpressions.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\TernaryExpressionsPart.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineTempPart.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ExpressionBodiesPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\TernaryExpressionsPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineTempPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ExpressionBodiesPart.cs" Visible="False" />
     <Compile Include="CapsSpace\ImplicitExplicit.cs" />
     <Compile Include="CapsSpace\Initializers.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ImplicitExplicitPart.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ImplicitExplicitPart.cs" Visible="False" />
     <Compile Include="More Lessons\CapsL.cs" />
     <Compile Include="More Lessons\CapsM.cs" />
     <Compile Include="More Lessons\CapsR.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\DataProcessor.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\BaseTool.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\DataProcessor.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\BaseTool.cs" Visible="False" />
     <Compile Include="More Lessons\CapsQ.cs" />
     <Compile Include="CapsInsert.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Book.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Book.cs" Visible="False" />
     <Compile Include="CapsDot.cs" />
     <Compile Include="More Lessons\CapsC.cs" />
     <Compile Include="Advanced\ShiftCapsSpace.cs" />
     <Compile Include="CapsSpace\CapsSpace.cs" />
     <Compile Include="Advanced\ShiftCapsF.cs" />
     <Compile Include="More Lessons\CapsF.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" Visible="False" />
     <Compile Include="More Lessons\CapsB.cs" />
     <Compile Include="CapsDelete.cs" />
     <Compile Include="More Lessons\CapsG.cs" />
@@ -98,17 +98,16 @@
     <Compile Include="More Lessons\CapsH.cs" />
     <Compile Include="More Lessons\CapsP.cs" />
     <Compile Include="Advanced\ShiftCapsDelete.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Customer.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Space.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\World.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\SyntaxNode.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Customer.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Space.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\World.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\SyntaxNode.cs" Visible="False" />
     <Compile Include="_StartHere_.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" Visible="False" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig" />
-    <None Include="Support Files Only - No Lessons Here\App.config" />
+    <None Include="Support Files Only - No Lessons Here\App.config" Visible="False" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
