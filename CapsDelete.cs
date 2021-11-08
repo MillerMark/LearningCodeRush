@@ -5,6 +5,7 @@ namespace CapsModifier
 {
 	public class CapsDelete
 	{
+
 		//`![Enable Rich Comments to see embedded images](CapsPlusDelete)
 
 		/* 
@@ -58,7 +59,6 @@ namespace CapsModifier
 		{
 			// Caps+Delete to remove:
 			//   * Redundant type qualifiers
-			//   * Discard variables ("_")
 			//   * Redundant block delimiters
 			//`                  ![](ArrowDown)
 			if (symbol is CapsModifier.IMethodSymbol _)
@@ -79,8 +79,7 @@ namespace CapsModifier
 		{
 			SyntaxNode assignment;
 			
-			// TODO: Remove this example if we don't fix our ability to trigger Discard Variable from Execute Refactoring.
-			// Caps+Delete to discard the variable: ![](ArrowDown) 
+			// Caps+Delete to discard the unused variable: ![](ArrowDown) 
 			return identifier.HasAssignment(out assignment);
 		}
 
@@ -110,19 +109,19 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+Delete to remove unnecessary or unused code, including:
+	You used Caps+Delete to remove unnecessary or unused code, including:
 	
-	   * Discard Variables
-		 * Block Delimiters
-		 * Constructors
-		 * Destructors
-		 * Locals
-		 * Parameters
-		 * Types
+		* Discard Variables
+		* Block Delimiters
+		* Constructors
+		* Destructors
+		* Locals
+		* Parameters
+		* Types
 
-	 ![](NextLesson;crcommand:OpenFile:CapsInsert.cs)  << Caps+Insert to add new code...
+	![](NextLesson;crcommand:OpenFile:CapsInsert.cs)  << Caps+Insert to add new code...
 
-	 */
+	*/
 }
 
 

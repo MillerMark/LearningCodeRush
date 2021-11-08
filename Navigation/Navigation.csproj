@@ -47,7 +47,6 @@
     <Compile Include="SmartNav.cs" />
     <Compile Include="TargetPicker.cs" />
     <Compile Include="TextFields.cs" />
-    <Compile Include="_StartHere_.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" Visible="False" />
   </ItemGroup>
   <ItemGroup>

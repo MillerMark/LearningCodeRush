@@ -5,6 +5,7 @@ namespace CapsModifier
 {
 	public class CapsB
 	{
+
 		//`![Enable Rich Comments to see embedded images](CapsB)
 
 		/*
@@ -39,13 +40,13 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+B to convert a Boolean to an enum, improving code 
-	 readability and flexibility (for example, instead of being limited
-	 to only two states, true or false, three or more states are possible
-	 with an enum).
+	You used Caps+B to convert a Boolean to an enum, improving code 
+	readability and flexibility (for example, instead of being limited
+	to only two states, true or false, three or more states are possible
+	with an enum).
 
-	 ![](NextLesson;crcommand:OpenFile:CapsC.cs)  << Caps+C for Classes, Constructors, Contracts, and more...
+	![](NextLesson;crcommand:OpenFile:CapsC.cs)  << Caps+C for Classes, Constructors, Contracts, and more...
 
-	 */
+	*/
 
 }

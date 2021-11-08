@@ -12,13 +12,14 @@ namespace CapsModifier
 {
 	public class CapsC
 	{
+
 		//`![Enable Rich Comments to see embedded images](CapsC)
 
 		/* 
-		 Caps+C lets you add Copyrights, Constructors, Classes, and Contracts, and 
-		 lets you work with Conditionals and switch/Case statements.
+		Caps+C lets you add Copyrights, Constructors, Classes, and Contracts, and 
+		lets you work with Conditionals and switch/Case statements.
 
-		 Use Caps+C to:
+		Use Caps+C to:
 		
 				* add a Copyright header
 				* add missing Constructors
@@ -28,11 +29,11 @@ namespace CapsModifier
 				* add method Contracts
 				
 			 
-		 Examples follow in the source code below (and above).
+		Examples follow in the source code below (and above).
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
 		
 		*/
 	}
@@ -52,6 +53,59 @@ namespace CapsModifier
 		
 	}
 
+	public enum Flavors
+	{
+		Vanilla,
+		Chocolate,
+		Strawberry
+	}
+
+	public static class Utils
+	{
+		static int numVanillaLikes;
+		static int numChocolateLikes;
+		static int numStrawberryLikes;
+
+		public static double GetTotal(IEnumerable<object> values)
+		{
+			double sum = 0;
+
+			foreach (var item in values)
+			{
+				//`![](ArrowDown) Press Caps+C to convert this Switch statement into an if/then conditional.
+				switch (item)
+				{
+					case int val:
+						sum += val;
+						break;
+					case IEnumerable<object> sublist:
+						sum += GetTotal(sublist);
+						break;
+					default:
+						sum += 0.5;
+						break;
+				}
+			}
+			return sum;
+		}
+
+		public static void Like(Flavors flavor)
+		{
+			//`![](ArrowDown) Press Caps+C to convert this Conditional statement into a Switch/Case statement.
+			if (flavor == Flavors.Chocolate)
+			{
+				numChocolateLikes++;
+			}
+			else if (flavor == Flavors.Strawberry)
+			{
+				numStrawberryLikes++;
+			}
+			else if (flavor == Flavors.Vanilla)
+			{
+				numVanillaLikes++;
+			}
+		}
+	}
 
 
 	public class Enterprise
@@ -83,18 +137,18 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+C to:
+	You used Caps+C to:
 	
-	   * add a Copyright header
-		 * add missing Constructors
-		 * convert a Conditional to a switch/Case statement (and back)
-		 * declare a Class
-		 * Combine and split Conditionals
-		 * add method Contracts
+		* add a Copyright header
+		* add missing Constructors
+		* convert a Conditional to a switch/Case statement (and back)
+		* declare a Class
+		* Combine and split Conditionals
+		* add method Contracts
 
-	 ![](NextLesson;crcommand:OpenFile:CapsF.cs)  << Caps+F for Fields, Formatting, For loops, and more...
+	![](NextLesson;crcommand:OpenFile:CapsF.cs)  << Caps+F for Fields, Formatting, For loops, and more...
 
-	 */
+	*/
 }
 
 

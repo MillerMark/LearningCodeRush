@@ -9,30 +9,28 @@ namespace CapsModifier
 		//`![Enable Rich Comments to see embedded images](CapsF)
 
 		/* 
-		 Caps+F lets you declare Fields, Flatten conditionals, work with For 
-		 and Foreach loops, and convert void procs to Functions.
-		 
-		 
-		 Use Caps+F to:
+		Caps+F lets you declare Fields, Flatten conditionals, work with For 
+		and Foreach loops, and convert void procs to Functions.
 		
-				* Convert to Function
-				* Declare Fields
-				* Introduce Format Item
-				* ForEach to For (and back)
-				* Format Selection
-				* Move Type to File
-				* Use String.Format
-				* Widen Scope (Promote to Field)
+		
+		Use Caps+F to:
+		
+			* Convert to Function
+			* Declare Fields
+			* Introduce Format Item
+			* ForEach to For (and back)
+			* Format Selection
+			* Move Type to File
+			* Use String.Format
+			* Widen Scope (Promote to Field)
 
-		 Examples follow in the source code below.
+		Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
 		
 		*/
-
-
 
 
 		public abstract void Start();
@@ -40,8 +38,6 @@ namespace CapsModifier
 		public abstract void Draw();
 		public abstract void FinishDrawing();
 		public abstract void DoMoreWork();
-
-
 
 
 		public class GreetingsSender
@@ -60,8 +56,6 @@ namespace CapsModifier
 			//  Select the text "Mark" below ![](ArrowDown) and press Caps+F to introduce a format item.
 			public string Message => "Hello Mark!";
 		}
-
-
 
 
 		public bool MyBinaryOperator(bool a, bool b)
@@ -197,7 +191,6 @@ negativeCount     ++            ;
 		}
 
 
-		// TODO: Make sure this works!
 		//`       Press Caps+F ![](ArrowDown) to declare a field variable initialized to this parameter:
 		void SetName(string siteName)
 		{
@@ -221,14 +214,11 @@ negativeCount     ++            ;
 
 	//`++Great Work!
 	/* 
-	 You used Caps+F to declare Fields & Fields with initializers, 
-	 introduce Format items, Flatten conditionals, convert between ForEach 
-	 statements and For loops, Format selection, move types to Files, 
-	 use string.Format, and promote local variables into Fields.
+	You used Caps+F to declare Fields & Fields with initializers, 
+	introduce Format items, Flatten conditionals, convert between ForEach 
+	statements and For loops, Format selection, move types to Files, 
+	use string.Format, and promote local variables into Fields.
 
- ![](NextLesson;crcommand:OpenFile:CapsG.cs)  << Caps+G for Getters and Generic type parameters...
-
-
- */
-
+	![](NextLesson;crcommand:OpenFile:CapsG.cs)  << Caps+G for Getters and Generic type parameters...
+	*/
 }

@@ -6,8 +6,11 @@ namespace CapsModifier
 {
 	public abstract partial class CombineSplitConditionals
 	{
+
+		//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to combine or split conditionals.
+
 		public void SafeEngageWarpDrive()
-		{//` ![](ArrowDown) Press Caps+Space to combine (or later split) these conditionals:
+		{	//`![](ArrowDown) Press Caps+Space to combine (or later split) these conditionals:
 			if (warpDriveDamaged)
 				return;
 			if (dilithiumCrystalCount == 0)

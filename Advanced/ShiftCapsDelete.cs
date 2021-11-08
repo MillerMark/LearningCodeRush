@@ -3,18 +3,18 @@
 	public class ShiftCapsDelete
 	{
 		/* 
-		 ![Enable Rich Comments to see embedded images](ShiftCapsDelete)
+		![Enable Rich Comments to see embedded images](ShiftCapsDelete)
 
-		 Use Shift+Caps+Delete to:
+		Use Shift+Caps+Delete to:
 		
-				* Remove all type qualifiers matching the qualifier at the caret.
-				* Remove all redundant brace blocks inside a method.
-			 
-		 Examples follow in the source code below.
+			* Remove all type qualifiers matching the qualifier at the caret.
+			* Remove all redundant brace blocks inside a method.
+		 
+		Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
 		
 		*/
 
@@ -74,12 +74,12 @@
 
 	//`++Great Work!
 	/* 
-	 You used Shift+Caps+Delete to remove all type qualifiers and to remove 
-	 all redundant brace blocks inside a method. 
+	You used Shift+Caps+Delete to remove all type qualifiers and to remove 
+	all redundant brace blocks inside a method. 
 
-		![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs)  << Shift+Caps+F to rename types to match a File and more...
-
- */
+	![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs)  << Shift+Caps+F to rename types to match a File and more...
+	
+	*/
 
 }
 

@@ -14,12 +14,13 @@ namespace CapsModifier
 				//`![](ArrowSW) Press Caps+Space (at start of line) to add new block delimiters here.
 				Console.WriteLine("Have a great weekend!");
 
+
 			if (DateTime.Now.DayOfWeek == DayOfWeek.Saturday)
 			{
 				Console.WriteLine("It's Saturday!");
 			}
-			//`![](ArrowUp) Press Caps+Space to remove these block delimiters (also works when 
-			//`   the caret is on the leading "{").
+			//` ![](ArrowNW) Press Caps+Space to remove these block delimiters.
+			//`    This also works when the caret is on the leading "{").
 		}
 	}
 

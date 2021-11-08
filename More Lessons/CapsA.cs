@@ -5,20 +5,22 @@ namespace CapsModifier
 {
 	public class CapsA
 	{
+
 		//`![Enable Rich Comments to see embedded images](CapsA)
 
 		/* 
 
-		 Use Caps+A to:
+		Use Caps+A to:
 		
-				* Declare an Auto-implemented Property
-				* Name an Anonymous Type
-			 
-		 Examples follow in the source code below (and above). 
+			* Declare Auto-implemented Properties
+			* Name Anonymous Types
+			* Convert properties with backing fields into Auto-implemented properties
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Examples follow in the source code below (and above). 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Arrows (![](ArrowDown)) show caret position. 
+
+		Move to where the arrow points before pressing the shortcut.
 		
 		*/
 
@@ -52,13 +54,26 @@ namespace CapsModifier
 		}
 
 
+		string phoneNumber;
+		//`![](ArrowDown) Caps+A to make a property (with backing field) auto-implemented: 
+		public string PhoneNumber
+		{
+			get
+			{
+				return phoneNumber;
+			}
+			set
+			{
+				phoneNumber = value;
+			}
+		}
 
 		//`++Great Work!
 
-		/* 
+	/* 
      You used Caps+A to declare Auto-implemented properties and name Anonymous types!
 		
-		 ![](NextLesson;crcommand:OpenFile:CapsB.cs)  << Caps+B to convert booleans to enums...
+		![](NextLesson;crcommand:OpenFile:CapsB.cs)  << Caps+B to convert booleans to enums...
 
      */
 	}

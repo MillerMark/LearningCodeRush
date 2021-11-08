@@ -5,22 +5,25 @@ namespace CapsModifier
 {
 	public class CapsDot
 	{
+
 		//`![Enable Rich Comments to see embedded images](CapsDot)
 
 		/*
-		 Caps+. expands and collapses code formatting.
-
-		 Use Caps+. to:
 		
-				* Break apart (or line up) Arguments & Parameters (and Attributes in XAML)
-				* Collapse/expand property accessors, local functions, methods, and properties
+		Caps+. expands and collapses code formatting.
+
+		Use Caps+. to:
+		
+			* Break apart (or line up) Arguments & Parameters (and Attributes in XAML)
+			* Collapse/expand property accessors, local functions, methods, and properties
 
 			 
-		 Examples follow in the source code below.
+		Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
+
 		*/
 
 		string postalCode;
@@ -56,7 +59,7 @@ namespace CapsModifier
 		string name;
 
 		public string Name
-		{//` ![](ArrowDown) Press Caps+. to collapse this getter:
+		{   //`![](ArrowDown) Press Caps+. to collapse this getter:
 			get
 			{
 				return name;
@@ -73,7 +76,7 @@ namespace CapsModifier
 			get
 			{
 				return address;
-			}//`![](ArrowDown) Press Caps+. to collapse this setter:
+			}//` ![](ArrowSW) Press Caps+. to collapse this setter:
 			set
 			{
 				address = value;
@@ -82,7 +85,7 @@ namespace CapsModifier
 
 
 		public string City
-		{//` ![](ArrowDown) Press Caps+. to expand this getter:
+		{   //`![](ArrowSW) Press Caps+. to expand this getter:
 			get { return city; }
 			set { city = value; }
 		}
@@ -99,14 +102,13 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+. to:
+	You used Caps+. to:
 	
-	   * expand and collapse property getters and setters, and expression bodies
-	   * Break apart and line-up arguments and parameters
-	   
+		* expand and collapse property getters and setters, and expression bodies
+		* Break apart and line-up arguments and parameters
 
-	 ![](NextLesson;crcommand:OpenFile:CapsA.cs)  << Caps+A for Auto-implemented properties and more
 
-	 */
+	![](NextLesson;crcommand:OpenFile:CapsA.cs)  << Caps+A for Auto-implemented properties and more
 
+	*/
 }

@@ -7,17 +7,17 @@ namespace CapsModifier
 	//`![](ShiftCapsF)
 	/*
 
-	 Use Shift+Caps+F to: 
+	Use Shift+Caps+F to: 
 
-			* Rename Type to Match File
-			* ForEach to Linq
+		* Rename Type to Match File
+		* ForEach to Linq
 
 
-	 Examples follow in the source code below.
+	Examples follow in the source code below.
 
-	 Arrows (![](ArrowDown)) show caret position. 
+	Arrows (![](ArrowDown)) show caret position. 
 
-	 Move to where the arrow points before pressing the shortcut.
+	Move to where the arrow points before pressing the shortcut.
 
 	*/
 
@@ -51,10 +51,10 @@ namespace CapsModifier
 
 	//`++Great Work!
 	/* 
-	 You used Shift+Caps+F to rename a class to match its file name and to 
-	 convert foreach statements into Linq statements.
+	You used Shift+Caps+F to rename a class to match its file name and to 
+	convert foreach statements into Linq statements.
 
-			![](NextLesson;crcommand:OpenFile:ShiftCapsR.cs)  << Shift+Caps+R to Reverse boolean logic...
+	![](NextLesson;crcommand:OpenFile:ShiftCapsR.cs)  << Shift+Caps+R to Reverse boolean logic...
 
 	*/
 }

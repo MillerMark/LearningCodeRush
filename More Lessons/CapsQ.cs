@@ -8,18 +8,18 @@ namespace CapsModifier
 		//`![Enable Rich Comments to see embedded images](CapsQ)
 
 		/*
-		 Use Caps+Q to declare constants.
-			 
-		 Examples follow in the source code below.
+		Use Caps+Q to declare constants.
+		 
+		Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
 
-		 And when declaring a constant, use the target picker to tell 
-		 CodeRush where you want to put the new constant.
+		And when declaring a constant, use the target picker to tell 
+		CodeRush where you want to put the new constant.
 
-		 ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
 
 		*/
 
@@ -55,9 +55,9 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+Q to declare constants. Nice!
+	You used Caps+Q to declare constants. Nice!
 
-	 ![](NextLesson;crcommand:OpenFile:CapsR.cs)  << Caps+R to Reorder parameters...
+	![](NextLesson;crcommand:OpenFile:CapsR.cs)  << Caps+R to Reorder parameters...
 
-	 */
+	*/
 }

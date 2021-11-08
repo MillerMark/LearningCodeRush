@@ -11,8 +11,8 @@ namespace CapsModifier
 		//`![Enable Rich Comments to see embedded images](ShiftCapsSpace)
 
 		/* 
-		 Use Shift+Caps+Space to work with tuples, system types, built-in types, 
-		 conditionals and switch/case statements.
+		 Use Shift+Caps+Space to work with tuples, system types, and 
+		 built-in types.
 		
 		 Examples follow in the source code below.
 
@@ -55,83 +55,16 @@ namespace CapsModifier
 			//`                   ![](LookHere) Also look here when you try this one.
 			shelf.Add(new Book(Title, Author, DateTime.Now));
 		}
-
-		string phoneNumber;
-		//`![](ArrowDown) Shift+Caps+Space to make property (with backing field) auto-implemented: 
-		public string PhoneNumber
-		{
-			get
-			{
-				return phoneNumber;
-			}
-			set
-			{
-				phoneNumber = value;
-			}
-		}
 	}
 
-	public enum Flavors
-	{
-		Vanilla,
-		Chocolate,
-		Strawberry
-	}
-	
-	public static class Utils
-	{
-		static int numVanillaLikes;
-		static int numChocolateLikes;
-		static int numStrawberryLikes;
-		
-		public static double GetTotal(IEnumerable<object> values)
-		{
-			double sum = 0;
-
-			foreach (var item in values)
-			{
-				//`![](ArrowDown) Press Shift+Caps+Space to convert this Switch statement into an if/then conditional.
-				switch (item)
-				{
-					case int val:
-						sum += val;
-						break;
-					case IEnumerable<object> sublist:
-						sum += GetTotal(sublist);
-						break;
-					default:
-						sum += 0.5;
-						break;
-				}
-			}
-			return sum;
-		}
-
-		public static void Like(Flavors flavor)
-		{
-			//`![](ArrowDown) Press Shift+Caps+Space to convert this Conditional statement into a Switch/Case statement.
-			if (flavor == Flavors.Chocolate)
-			{
-				numChocolateLikes++;
-			}
-			else if (flavor == Flavors.Strawberry)
-			{
-				numStrawberryLikes++;
-			}
-			else if (flavor == Flavors.Vanilla)
-			{
-				numVanillaLikes++;
-			}
-		}
-	}
 
 
 	//`++Great Work!
 	/* 
-	 Use Shift+Caps+Space to go toggle between system and built-in types. 
+	Use Shift+Caps+Space to go toggle between system and built-in types. 
 
-	 ![](NextLesson;crcommand:OpenFile:ShiftCapsDelete.cs)  << Shift+Caps+Delete for larger removal operations...
+	![](NextLesson;crcommand:OpenFile:ShiftCapsDelete.cs)  << Shift+Caps+Delete for larger removal operations...
 
- */
+	*/
 }
 

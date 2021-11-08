@@ -9,29 +9,29 @@ namespace CapsModifier
 	public class CapsP
 	{
 		/* 
-		 ![Enable Rich Comments to see embedded images](CapsP)
+		![Enable Rich Comments to see embedded images](CapsP)
 
-		 Use Caps+P to:
+		Use Caps+P to:
 		
-				* Promote to Generic Parameter
-				* Promote to Parameter
-				* Pull Members Up
-				* Declare Parameter
-				* Declare Partial Class Part
-				* Declare Property (auto-implemented)
-				* Declare Property (with default body)
-				* Declare Property with Initializer
-			 
-		 Examples follow in the source code below.
+			* Promote to Generic Parameter
+			* Promote to Parameter
+			* Pull Members Up
+			* Declare Parameter
+			* Declare Partial Class Part
+			* Declare Property (auto-implemented)
+			* Declare Property (with default body)
+			* Declare Property with Initializer
+		 
+		Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
 
-		 And when declaring initialized properties, use the Target Picker
-		 to specify where to generate the property. 
+		And when declaring initialized properties, use the Target Picker
+		to specify where to generate the property. 
 		
-		 ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
 
 		*/
 
@@ -60,7 +60,6 @@ namespace CapsModifier
 			return null;
 		}
 	}
-
 
 
 	public class DeclaringInitializedProperties
@@ -101,7 +100,6 @@ namespace CapsModifier
 			
 		}
 	}
-
 
 
 	public class Tool : BaseTool
@@ -151,7 +149,7 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+P to:
+	You used Caps+P to:
 	
 		* Promote to Generic Parameter
 		* Promote to Parameter
@@ -160,11 +158,10 @@ namespace CapsModifier
 		* Declare Partial Class Part
 		* Declare Property
 		* Declare Initialized Property
-	   
 
-	 ![](NextLesson;crcommand:OpenFile:CapsQ.cs)  >> Caps+Q for Constants...
+	![](NextLesson;crcommand:OpenFile:CapsQ.cs)  >> Caps+Q for Constants...
 
-	 */
+	*/
 }
 
 

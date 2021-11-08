@@ -9,17 +9,17 @@ namespace CapsModifier
 	public class ShiftCapsR
 	{
 		/* 
-		 ![Enable Rich Comments to see embedded images](ShiftCapsR)
+		![Enable Rich Comments to see embedded images](ShiftCapsR)
 
-		 Use Shift+Caps+R to Reverse Boolean Logic.
+		Use Shift+Caps+R to Reverse Boolean Logic.
 
-		 Sometimes you have a boolean with wrong name.
+		Sometimes you have a boolean with wrong name.
 
-		 For example, _DataNotFound has the word "Not" in it, making it harder
-		 to read. But before we can rename it to "_DataFound", we have to
-		 reverse all its boolean logic.
+		For example, _DataNotFound has the word "Not" in it, making it harder
+		to read. But before we can rename it to "_DataFound", we have to
+		reverse all its boolean logic.
 
-		 */
+		*/
 
 
 
@@ -46,21 +46,21 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+Shift+R to reverse boolean logic in a field variable.
+	You used Caps+Shift+R to reverse boolean logic in a field variable.
 
-	 That completes our LearningCodeRush solution. We hope you enjoyed it.
+	That completes our LearningCodeRush solution. We hope you enjoyed it.
 
-	 To learn more about CodeRush, check out the Feature of the Week playlist 
-	 on YouTube:
+	To learn more about CodeRush, check out the Feature of the Week playlist 
+	on YouTube:
 
-		![](Tab to Next Reference;https://www.youtube.com/playlist?list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk ) << More on CodeRush Features
+	![](Tab to Next Reference;https://www.youtube.com/playlist?list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk ) << More on CodeRush Features
 
-	 As always, we welcome your thoughts. Let us know what you think about 
-	 this training solution. If you have specific questions or need assistance 
-	 with CodeRush, feel free to contact us through our Support Center 
-	 (support@devexpress.com) or click the link below:
+	As always, we welcome your thoughts. Let us know what you think about 
+	this training solution. If you have specific questions or need assistance 
+	with CodeRush, feel free to contact us through our Support Center 
+	(support@devexpress.com) or click the link below:
 
-	 ![](SubmitSupportTicket;https://supportcenter.devexpress.com/ )
+	![](SubmitSupportTicket;https://supportcenter.devexpress.com/ )
 
 	*/
 }

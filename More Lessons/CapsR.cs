@@ -9,15 +9,15 @@ namespace CapsModifier
 	public class CapsR
 	{
 		/* 
-		 ![Enable Rich Comments to see embedded images](CapsR)
+		![Enable Rich Comments to see embedded images](CapsR)
 
-		 Use Caps+R to Reorder Parameters.
-			 
-		 Examples follow in the source code below.
+		Use Caps+R to Reorder Parameters.
+		 
+		Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
 
 		*/
 
@@ -44,12 +44,12 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+R to Reorder Parameters.
-	   
+	You used Caps+R to Reorder Parameters.
+	  
 
-	 ![](NextLesson;crcommand:OpenFile:ShiftCapsSpace.cs)  << Shift+Caps+Space for tuples, types, and more...
+	![](NextLesson;crcommand:OpenFile:ShiftCapsSpace.cs)  << Shift+Caps+Space for tuples, types, and more...
 
-	 */
+	*/
 }
 
 

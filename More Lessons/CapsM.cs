@@ -10,20 +10,20 @@ namespace CapsModifier
 	public class CapsM
 	{
 		/* 
-		 ![Enable Rich Comments to see embedded images](CapsM)
+		![Enable Rich Comments to see embedded images](CapsM)
 
-		 Use Caps+M to:
+		Use Caps+M to:
 
-				* Declare Method
-				* Move Type to File
-				* Move Initialization to Declaration
-				* Move Declaration Near Reference
-			 
-		 Examples follow in the source code below.
+			* Declare Method
+			* Move Type to File
+			* Move Initialization to Declaration
+			* Move Declaration Near Reference
+		 
+		Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown)) show caret position. 
 
-		 Move to where the arrow points before pressing the shortcut.
+		Move to where the arrow points before pressing the shortcut.
 
 		*/
 
@@ -92,11 +92,11 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/* 
-	 You used Caps+M to declare a Method, Move a type to a new file, Move an 
-	 initialization to its declaration, and Move a declaration near its first 
-	 reference.
+	You used Caps+M to declare a Method, Move a type to a new file, Move an 
+	initialization to its declaration, and Move a declaration near its first 
+	reference.
 
-	 ![](NextLesson;crcommand:OpenFile:CapsP.cs)  << Caps+P for Parameters, Partial classes, and Properties...
+	![](NextLesson;crcommand:OpenFile:CapsP.cs)  << Caps+P for Parameters, Partial classes, and Properties...
 
 	 */
 }
