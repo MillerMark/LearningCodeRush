@@ -57,8 +57,8 @@
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineLambdaPart.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" Visible="False" />
     <Compile Include="CapsSpace\StringInterpolation.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" Visible="False" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" Visible="False" />
+	<Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" Visible="False" />
+	<Compile Include="Settings.cs" Visible="False" />
     <Compile Include="CapsSpace\DecomposeParameter.cs" />
     <Compile Include="CapsSpace\ExpressionBodies.cs" />
     <Compile Include="CapsSpace\FlattenConditionals.cs" />
