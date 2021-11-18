@@ -9,7 +9,7 @@ namespace CapsModifier
 	public class CapsP
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](CapsP)
+		![Enable Rich Comments to see embedded images](CapsP;;;0.03,0.03)
 
 		Use Caps+P to:
 		
@@ -46,7 +46,7 @@ namespace CapsModifier
 		public void SayHello()
 		{
 			// Press Caps+P to Promote userName to a parameter:
-			//`        ![](ArrowDown)
+			//`        ![](ArrowDown;;;0.008,0.008)
 			string userName = "Mark";
 			Console.WriteLine($"Greetings, {userName}!");
 		}
@@ -54,7 +54,7 @@ namespace CapsModifier
 
 
 		// Press Caps+P to Promote "Tool" to a generic parameter:
-		//`![](ArrowDown)
+		//`![](ArrowDown;;;0.008,0.008)
 		public Tool GetTool(string id)
 		{
 			return null;
@@ -69,7 +69,7 @@ namespace CapsModifier
 
 		// Use Caps+P to declare a property initialized to the parameter value.
 
-		//`                       ![](ArrowDown) Caps+P
+		//`                       ![](ArrowDown;;;0.008,0.008) Caps+P
 		public void Start(Guid sessionId)
 		{
 		}
@@ -94,7 +94,7 @@ namespace CapsModifier
 
 		// Try declaring initialized properties for each of these parameters!
 
-		//`                           ![](ArrowDown) Caps+P
+		//`                           ![](ArrowDown;;;0.008,0.008) Caps+P
 		void SetCoordinates(double x, double y, double z)
 		{
 			
@@ -107,7 +107,7 @@ namespace CapsModifier
 		bool engaging;
 
 		// Use Caps+P to Pull this Engage() member up to the parent class (BaseTool).
-		//` ![](ArrowDown)
+		//` ![](ArrowDown;;;0.008,0.008)
 		public void Engage()
 		{
 			engaging = true;
@@ -118,14 +118,14 @@ namespace CapsModifier
 		public static double ConvertToUSD(double amount)
 		{
 			// Press Caps+P to declare "source" as a parameter.
-			//`                                  ![](ArrowDown)
+			//`                                  ![](ArrowDown;;;0.008,0.008)
 			return amount / GetCurrencyRate(source);
 		}
 
 		protected static double GetCurrencyRate(Currency source)
 		{
 			// Press Caps+P to declare "LastSelected" as a property:
-			//`   ![](ArrowDown)
+			//`   ![](ArrowDown;;;0.008,0.008)
 			LastSelected = source;
 			throw new NotImplementedException();
 		}
@@ -139,7 +139,7 @@ namespace CapsModifier
 	}
 
 	// Press Caps+P to create a partial class part:
-	//`   ![](ArrowDown)
+	//`   ![](ArrowDown;;;0.008,0.008)
 	public class MyUtils
 	{
 		
@@ -159,7 +159,7 @@ namespace CapsModifier
 		* Declare Property
 		* Declare Initialized Property
 
-	![](NextLesson;crcommand:OpenFile:CapsQ.cs;;0.03,0.03)  >> Caps+Q for Constants...
+	![](NextLesson;crcommand:OpenFile:CapsQ.cs;;0.04,0.04)  >> Caps+Q for Constants...
 
 	*/
 }

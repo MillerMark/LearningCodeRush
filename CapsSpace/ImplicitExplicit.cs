@@ -9,13 +9,13 @@ namespace CapsModifier
 
 		public static void InitializeImplicitly(int? foo)
 		{
-			//`![](ArrowDown) Caps+Space to make these variable declarations implicit: 
+			//`![](ArrowDown;;;0.008,0.008) Caps+Space to make these variable declarations implicit: 
 			byte[] bar1 = dictionary[foo.Value].Id.ToByteArray();
 
-			//`![](ArrowDown) 
+			//`![](ArrowDown;;;0.008,0.008) 
 			string bar2 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
 
-			//`![](ArrowDown) 
+			//`![](ArrowDown;;;0.008,0.008) 
 			Dictionary<int, Customer>.KeyCollection bar3 = dictionary.Keys;
 		}
 
@@ -29,19 +29,19 @@ namespace CapsModifier
 
 		public static void InitializeExplicitly(int? foo)
 		{
-			//`![](ArrowDown) Caps+Space to make explicit (and then Caps+Down to move the caret): 
+			//`![](ArrowDown;;;0.008,0.008) Caps+Space to make explicit (and then Caps+Down to move the caret): 
 			var bar1 = dictionary[foo.Value].Id.ToByteArray();
 
 
-			//`![](ArrowDown) 
+			//`![](ArrowDown;;;0.008,0.008) 
 			var bar2 = foo.HasValue ? FoundRecord(foo.Value) : "baz";
 
 
-			//`![](ArrowDown) 
+			//`![](ArrowDown;;;0.008,0.008) 
 			var bar3 = dictionary.Keys;
 
 
-			//`![](ArrowDown) 
+			//`![](ArrowDown;;;0.008,0.008) 
 			var bar4 = new int[foo.Value * foo.Value, 5];
 		}
 	}

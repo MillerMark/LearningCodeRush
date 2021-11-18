@@ -1,7 +1,7 @@
 ﻿
-//`![](ArrowUp)  Press Caps+C at the top of the file to add a copyright header.
+//`![](ArrowUp;;;0.008,0.008)  Press Caps+C at the top of the file to add a copyright header.
 // You can change settings used in this copyright in the
-// CodeRush Options dialog, on the IDE | User Info page ![](Gear;crcommand:Options:User Info).
+// CodeRush Options dialog, on the IDE | User Info page ![](Gear;crcommand:Options:User Info;;0.01,0.01).
 
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace CapsModifier
 	public class CapsC
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsC)
+		//`![Enable Rich Comments to see embedded images](CapsC;;;0.03,0.03)
 
 		/* 
 		Caps+C lets you add Copyrights, Constructors, Classes, and Contracts, and 
@@ -31,7 +31,7 @@ namespace CapsModifier
 			 
 		Examples follow in the source code below (and above).
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 		
@@ -42,12 +42,12 @@ namespace CapsModifier
 	{
 
 		protected void Play(string playlist, string file, TimeSpan duration)
-		{//`![](ArrowDown) Press Caps+C to add a contract for this method.
+		{//`![](ArrowDown;;;0.008,0.008) Press Caps+C to add a contract for this method.
 			
 		}
 	}
 
-	//`              ![](ArrowDown) Press Caps+C to add missing constructors.
+	//`              ![](ArrowDown;;;0.008,0.008) Press Caps+C to add missing constructors.
 	public class Descendant: BaseClass
 	{
 		
@@ -72,7 +72,7 @@ namespace CapsModifier
 
 			foreach (var item in values)
 			{
-				//`![](ArrowDown) Press Caps+C to convert this Switch statement into an if/then conditional.
+				//`![](ArrowDown;;;0.008,0.008) Press Caps+C to convert this Switch statement into an if/then conditional.
 				switch (item)
 				{
 					case int val:
@@ -91,7 +91,7 @@ namespace CapsModifier
 
 		public static void Like(Flavors flavor)
 		{
-			//`![](ArrowDown) Press Caps+C to convert this Conditional statement into a Switch/Case statement.
+			//`![](ArrowDown;;;0.008,0.008) Press Caps+C to convert this Conditional statement into a Switch/Case statement.
 			if (flavor == Flavors.Chocolate)
 			{
 				numChocolateLikes++;
@@ -112,7 +112,7 @@ namespace CapsModifier
 	{
 		static void WorkWithCustomers()
 		{
-			//`               Caps+C ![](ArrowDown) to declare a new class "RedShirt".
+			//`               Caps+C ![](ArrowDown;;;0.008,0.008) to declare a new class "RedShirt".
 			RedShirt andrew = new RedShirt("Andrew", "Fuller");
 			andrew.Age = 47;
 			andrew.SaveToDB();
@@ -126,7 +126,7 @@ namespace CapsModifier
 
 		static bool SatisfiesMission(Space space, World world, TimeSpan missionDuration, bool willInterfereWithNaturalAlienDevelopment = false)
 		{
-			//`                                               ![](ArrowDown) Press Caps+C on the logical operators to split these conditionals:
+			//`                                               ![](ArrowDown;;;0.008,0.008) Press Caps+C on the logical operators to split these conditionals:
 			if (space.SomeoneHasBeenHere || world.Explored || missionDuration > fiveYears || willInterfereWithNaturalAlienDevelopment)
 				return false;
 
@@ -146,7 +146,7 @@ namespace CapsModifier
 		* Combine and split Conditionals
 		* add method Contracts
 
-	![](NextLesson;crcommand:OpenFile:CapsF.cs)  << Caps+F for Fields, Formatting, For loops, and more...
+	![](NextLesson;crcommand:OpenFile:CapsF.cs;;0.04,0.04)  << Caps+F for Fields, Formatting, For loops, and more...
 
 	*/
 }

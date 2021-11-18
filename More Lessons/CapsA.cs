@@ -6,7 +6,7 @@ namespace CapsModifier
 	public class CapsA
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsA)
+		//`![Enable Rich Comments to see embedded images](CapsA;;;0.03,0.03)
 
 		/* 
 
@@ -18,7 +18,7 @@ namespace CapsModifier
 
 		Examples follow in the source code below (and above). 
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 		
@@ -32,7 +32,7 @@ namespace CapsModifier
 		{
 			// Press Caps+A to declare an auto-implemented property.
 			// Position with the arrow keys. Enter accepts; Escape cancels.
-			//`![](ArrowDown)
+			//`![](ArrowDown;;;0.008,0.008)
 			MyProp = MyProp + value;
 		}
 
@@ -44,18 +44,18 @@ namespace CapsModifier
 			// CodeRush will take you to the new file and you 
 			// can press Escape (or Alt+End) to get back.
 
-			//`    ![](ArrowDown) (Caps+A on the variable name)
+			//`    ![](ArrowDown;;;0.008,0.008) (Caps+A on the variable name)
 			var employee = new { ID = 1, Name = "Scotty", Department = "Engineering" };
 			var employee1 = new { ID = 2, Name = "Spock", Department = "Science" };
 			var employee2 = new { ID = 3, Name = "Kirk",  Department = "Command" };
 
 			// You can change settings used in this refactoring in the CodeRush Options dialog,
-			// on the Editor | C# | Code Actions | Name Anonymous Type Settings page ![](Gear;crcommand:Options:Editor\C#\Code Actions\Name Anonymous Type Settings).
+			// on the Editor | C# | Code Actions | Name Anonymous Type Settings page ![](Gear;crcommand:Options:Editor\C#\Code Actions\Name Anonymous Type Settings;;0.01,0.01).
 		}
 
 
 		string phoneNumber;
-		//`![](ArrowDown) Caps+A to make a property (with backing field) auto-implemented: 
+		//`![](ArrowDown;;;0.008,0.008) Caps+A to make a property (with backing field) auto-implemented: 
 		public string PhoneNumber
 		{
 			get
@@ -70,12 +70,12 @@ namespace CapsModifier
 
 		//`++Great Work!
 
-	/* 
-     You used Caps+A to declare Auto-implemented properties and name Anonymous types!
-		
-		![](NextLesson;crcommand:OpenFile:CapsB.cs)  << Caps+B to convert booleans to enums...
+		/* 
+		 You used Caps+A to declare Auto-implemented properties and name Anonymous types!
 
-     */
+			![](NextLesson;crcommand:OpenFile:CapsB.cs;;0.04,0.04)  << Caps+B to convert booleans to enums...
+
+		 */
 	}
 }
 

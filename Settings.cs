@@ -8,18 +8,18 @@
 	The following settings have been overridden and may be different from 
 	your defaults:
 
-	![](Gear;crcommand:Options:Quick Setup) << Rich Comments, Markers, and Smart Cut/Copy are enabled.
+	![](Gear;crcommand:Options:Quick Setup;;0.03,0.03) << Rich Comments, Markers, and Smart Cut/Copy are enabled.
 
 	Don't forget to run the Setup Wizard if you haven't yet. It's a fast 
 	way to enable or disable major CodeRush features (like Caps as a 
 	Modifier) for the way you work.
 
-			![](CodeRushSetup;crcommand:RunSetupWizard)  << Click to run the Setup Wizard */
-
-//`![](GotIt;vscommand:File.Close)
+			![](CodeRushSetup;crcommand:RunSetupWizard;;0.04,0.04)  << Click to run the Setup Wizard */
 
 
-//`![](DevExpress; www.devexpress.com )
+//`![](GotIt;vscommand:File.Close;;0.04,0.04)
+
+//`![](DevExpress; www.devexpress.com ;;0.06,0.06)
 // Copyright © 2021 Developer Express Inc.
 //
 // All trademarks or registered trademarks are property of their 

@@ -6,7 +6,7 @@ namespace CapsModifier
 {
 	public abstract class CapsF
 	{
-		//`![Enable Rich Comments to see embedded images](CapsF)
+		//`![Enable Rich Comments to see embedded images](CapsF;;;0.03,0.03)
 
 		/* 
 		Caps+F lets you declare Fields, Flatten conditionals, work with For 
@@ -26,7 +26,7 @@ namespace CapsModifier
 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 		
@@ -46,21 +46,21 @@ namespace CapsModifier
 
 			public void Start(int authorizationCount, bool allSystemsReady)
 			{
-				//` ![](ArrowDown)  Press Caps+F to declare "readyToLaunch" as a field (arrows & Enter pick location)
+				//` ![](ArrowDown;;;0.008,0.008)  Press Caps+F to declare "readyToLaunch" as a field (arrows & Enter pick location)
 				readyToLaunch = authorizationCount >= minAuthorizationsNeeded && allSystemsReady;
 			}
 
 
 
 
-			//  Select the text "Mark" below ![](ArrowDown) and press Caps+F to introduce a format item.
+			//  Select the text "Mark" below ![](ArrowDown;;;0.008,0.008) and press Caps+F to introduce a format item.
 			public string Message => "Hello Mark!";
 		}
 
 
 		public bool MyBinaryOperator(bool a, bool b)
 		{
-			//`![](ArrowDown) Press Caps+F to flatten this conditional.
+			//`![](ArrowDown;;;0.008,0.008) Press Caps+F to flatten this conditional.
 			if (a && !b)
 			{
 				return true;
@@ -75,19 +75,19 @@ namespace CapsModifier
 		{
 			// Flatten Conditional can make a deeply nested method flatter.
 
-			//`![](ArrowDown) Press Caps+F to flatten this conditional.
+			//`![](ArrowDown;;;0.008,0.008) Press Caps+F to flatten this conditional.
 			if (okayToStart)
 			{
 				Start();
 
 
-				//`![](ArrowDown) Flatten this conditional too.
+				//`![](ArrowDown;;;0.008,0.008) Flatten this conditional too.
 				if (okayToReadData)
 				{
 					ReadData();
 
 
-					//`![](ArrowDown) And flatten this.
+					//`![](ArrowDown;;;0.008,0.008) And flatten this.
 					if (okayToDraw)
 					{
 						Draw();
@@ -104,7 +104,7 @@ namespace CapsModifier
 		{
 			string result = string.Empty;
 
-			//`![](ArrowDown) Press Caps+F to convert this foreach into a for loop:
+			//`![](ArrowDown;;;0.008,0.008) Press Caps+F to convert this foreach into a for loop:
 			foreach (string str in strings)
 				if (str.Length > minLength)
 					result += $"{str};";
@@ -117,7 +117,7 @@ namespace CapsModifier
 		{
 			List<int> results = new List<int>();
 
-			//`![](ArrowDown) Press Caps+F to convert this for-loop into a foreach:
+			//`![](ArrowDown;;;0.008,0.008) Press Caps+F to convert this for-loop into a foreach:
 			for (int i = 0; i < numberList.Count; i++)
 				if (numberList[i] % 2 == 0)
 					results.Add(numberList[i]);
@@ -131,7 +131,7 @@ namespace CapsModifier
 		public int positiveCount;
 
 
-		//`![](ArrowDown) Press Num Plus (or Ctrl W) to select this method, then Caps+F to format the selection:
+		//`![](ArrowDown;;;0.008,0.008) Press Num Plus (or Ctrl W) to select this method, then Caps+F to format the selection:
 		public int CalculateIt(int factor, int multiplier)
 		{
 var resultValue=multiplier*factor   ;
@@ -162,7 +162,7 @@ negativeCount     ++            ;
 					int result = column * row;
 
 
-					//`                   ![](ArrowDown) Press Caps+F to replace this string concatenation with a String.Format call:
+					//`                   ![](ArrowDown;;;0.008,0.008) Press Caps+F to replace this string concatenation with a String.Format call:
 					Console.WriteLine(column + " * " + row + " = " + result);
 				}
 		}
@@ -170,7 +170,7 @@ negativeCount     ++            ;
 
 
 
-	//`![](ArrowDown) Press Caps+F to move this type to its own file (and then use Escape or Alt+End to get back):
+	//`![](ArrowDown;;;0.008,0.008) Press Caps+F to move this type to its own file (and then use Escape or Alt+End to get back):
 	public class Automobile
 	{
 		public string Model { get; set; }
@@ -191,7 +191,7 @@ negativeCount     ++            ;
 		}
 
 
-		//`       Press Caps+F ![](ArrowDown) to declare a field variable initialized to this parameter:
+		//`       Press Caps+F ![](ArrowDown;;;0.008,0.008) to declare a field variable initialized to this parameter:
 		void SetName(string siteName)
 		{
 
@@ -201,7 +201,7 @@ negativeCount     ++            ;
 
 		public void SetUrl(string url)
 		{
-			//`        ![](ArrowDown) Press Caps+F to turn "completeUrl" into a field variable (arrows & Enter pick location):
+			//`        ![](ArrowDown;;;0.008,0.008) Press Caps+F to turn "completeUrl" into a field variable (arrows & Enter pick location):
 			string completeUrl = string.Format("http://{0}", url);
 
 
@@ -219,6 +219,6 @@ negativeCount     ++            ;
 	statements and For loops, Format selection, move types to Files, 
 	use string.Format, and promote local variables into Fields.
 
-	![](NextLesson;crcommand:OpenFile:CapsG.cs)  << Caps+G for Getters and Generic type parameters...
+	![](NextLesson;crcommand:OpenFile:CapsG.cs;;0.04,0.04)  << Caps+G for Getters and Generic type parameters...
 	*/
 }

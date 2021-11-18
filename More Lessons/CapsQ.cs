@@ -5,14 +5,14 @@ namespace CapsModifier
 {
 	public class CapsQ
 	{
-		//`![Enable Rich Comments to see embedded images](CapsQ)
+		//`![Enable Rich Comments to see embedded images](CapsQ;;;0.03,0.03)
 
 		/*
 		Use Caps+Q to declare constants.
 		 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 
@@ -26,7 +26,7 @@ namespace CapsModifier
 		public static string GetRelativePath(string str)
 		{
 			int parentFolderIndex = str.IndexOf(@"\wwwroot\GameDev\Assets\");
-			if (parentFolderIndex >= 0)//`             Caps+Q ![](ArrowDown) to declare a constant.
+			if (parentFolderIndex >= 0)//`             Caps+Q ![](ArrowDown;;;0.008,0.008) to declare a constant.
 				return str.Substring(parentFolderIndex + @"\wwwroot\GameDev\Assets\".Length);
 			return null;
 		}
@@ -45,7 +45,7 @@ namespace CapsModifier
 		}
 
 		public double VolumeSphere(double radius)
-		{//`             Caps+Q ![](ArrowDown) to declare a constant (name it Tau).
+		{//`             Caps+Q ![](ArrowDown;;;0.008,0.008) to declare a constant (name it Tau).
 			return 2/3 * 6.283185307179586476925286766559 * radius * radius * radius;
 		}
 	}
@@ -57,7 +57,7 @@ namespace CapsModifier
 	/* 
 	You used Caps+Q to declare constants. Nice!
 
-	![](NextLesson;crcommand:OpenFile:CapsR.cs)  << Caps+R to Reorder parameters...
+	![](NextLesson;crcommand:OpenFile:CapsR.cs;;0.04,0.04)  << Caps+R to Reorder parameters...
 
 	*/
 }

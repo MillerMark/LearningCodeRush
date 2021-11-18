@@ -9,7 +9,7 @@ namespace CapsModifier
 	public class ShiftCapsR
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](ShiftCapsR)
+		![Enable Rich Comments to see embedded images](ShiftCapsR;;;0.03,0.03)
 
 		Use Shift+Caps+R to Reverse Boolean Logic.
 
@@ -23,7 +23,7 @@ namespace CapsModifier
 
 
 
-		//    Caps+Shift+R ![](ArrowDown) to reverse this field's boolean logic.
+		//    Caps+Shift+R ![](ArrowDown;;;0.008,0.008) to reverse this field's boolean logic.
 		private bool _DataNotFound;
 
 		public void CheckData()

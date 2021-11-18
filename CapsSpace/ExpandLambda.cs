@@ -4,12 +4,12 @@
 namespace CapsModifier
 {
 
-	//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to expand lambda functions.
+	//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to expand lambda functions.
 
 
 	public class ExpandLambda
 	{
-		//`                Caps+Space ![](ArrowDown) on the "=>" to expand this lambda function: 
+		//`                Caps+Space ![](ArrowDown;;;0.008,0.008) on the "=>" to expand this lambda function: 
 		Func<string, int> func = s => s == null ? 0 : s.Length;
 	}
 
@@ -23,7 +23,7 @@ namespace CapsModifier
 
 	You also got an introduction to Smart Nav (Caps + arrow keys). Good job!
 
-	![](NextLesson;crcommand:OpenFile:CapsDelete.cs)
+	![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)
 
 	*/
 }

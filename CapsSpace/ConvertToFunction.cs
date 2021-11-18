@@ -4,18 +4,18 @@ using System.Collections.Generic;
 
 namespace CapsModifier
 {
-	//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space (on the return keyword) to convert a proc to a function.
+	//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space (on the return keyword) to convert a proc to a function.
 
-	
+
 	public class ConvertToFunction
 	{
-		//`         ![](LookHere;;;0.006,0.006) Look here when you try the next one.
+		//`           ![](LookHere;;;0.006,0.006) Look here (at the return type) when you try the next one.
 		internal void GetSquareRoot(double value)
 		{
 			if (value < 0)
 				throw new ArgumentException($"value must be positive");
 
-			//`  ![](ArrowDown) Caps+Space to convert this procedure to a function.
+			//`  ![](ArrowDown;;;0.008,0.008) Caps+Space to convert this procedure to a function.
 			return Math.Pow(value, 0.5);
 		}
 	}
@@ -25,7 +25,7 @@ namespace CapsModifier
 	//! ICustomerFactory is an interface...
 	public interface ICustomerFactory
 	{
-		//`![](LookHere;;;0.006,0.006) Look here when you try the next one.
+		//`  ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 		void CreateCustomerLists(string key);
 	}
 
@@ -38,7 +38,7 @@ namespace CapsModifier
 			List<Customer> customerList = new List<Customer>();
 			customerLists.Add(key, customerList);
 
-			//`  ![](ArrowDown)  Press Caps+Space to convert this proc to a function.
+			//`  ![](ArrowDown;;;0.008,0.008)  Press Caps+Space to convert this proc to a function.
 			return customerLists[key];
 		}
 

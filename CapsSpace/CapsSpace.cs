@@ -1,6 +1,6 @@
 ﻿namespace CapsModifier
 {
-	//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to toggle/convert/inline code
+	//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to toggle/convert/inline code
 
 	/* 
 	Caps+Space is a toggling/conversion tool for your code.
@@ -39,7 +39,7 @@
 
 	*/
 
-	//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.03,0.03)  << Caps+Delete to remove unnecessary or redundant code
+	//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)  << Caps+Delete to remove unnecessary or redundant code
 
 }
 
