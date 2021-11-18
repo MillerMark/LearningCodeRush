@@ -9,7 +9,7 @@ namespace CapsModifier
 	
 	public class ConvertToFunction
 	{
-		//`         ![](LookHere) Look here when you try the next one.
+		//`         ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 		internal void GetSquareRoot(double value)
 		{
 			if (value < 0)
@@ -25,7 +25,7 @@ namespace CapsModifier
 	//! ICustomerFactory is an interface...
 	public interface ICustomerFactory
 	{
-		//`![](LookHere) Look here when you try the next one.
+		//`![](LookHere;;;0.006,0.006) Look here when you try the next one.
 		void CreateCustomerLists(string key);
 	}
 

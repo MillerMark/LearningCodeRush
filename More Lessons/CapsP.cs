@@ -24,14 +24,14 @@ namespace CapsModifier
 		 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.03,0.03)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 
 		And when declaring initialized properties, use the Target Picker
 		to specify where to generate the property. 
 		
-		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn about the Target Picker.
 
 		*/
 
@@ -39,7 +39,7 @@ namespace CapsModifier
 
 		public CapsP()
 		{
-			//`       ![](LookHere) Look here when you try the next one.
+			//`       ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			SayHello();
 		}
 
@@ -80,7 +80,7 @@ namespace CapsModifier
 		// (or Escape). To get back to where you started, just collect the
 		// marker CodeRush dropped where you started.
 
-		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
+		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.03,0.03)  << Learn about Markers.
 
 		// So if you need to declare several initialized properties in
 		// a row, just press repeat this sequence:
@@ -90,7 +90,7 @@ namespace CapsModifier
 		//    Rename the property (or press Enter/Escape to accept the given name)
 		//    Collect the marker to get back.
 
-		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn about the Target Picker.
 
 		// Try declaring initialized properties for each of these parameters!
 
@@ -159,7 +159,7 @@ namespace CapsModifier
 		* Declare Property
 		* Declare Initialized Property
 
-	![](NextLesson;crcommand:OpenFile:CapsQ.cs)  >> Caps+Q for Constants...
+	![](NextLesson;crcommand:OpenFile:CapsQ.cs;;0.03,0.03)  >> Caps+Q for Constants...
 
 	*/
 }

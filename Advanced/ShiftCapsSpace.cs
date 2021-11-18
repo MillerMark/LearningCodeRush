@@ -40,7 +40,7 @@ namespace CapsModifier
 
 		public void AddBooks()
 		{
-			//`       ![](LookHere) Look here when you try the next one.
+			//`       ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			AddBook("The Hitchhiker's Guide to the Galaxy", "D. Adams");
 			AddBook("The Hobbit, or There and Back Again", "J.R.R. Tolkien");
 		}
@@ -52,7 +52,7 @@ namespace CapsModifier
 		{
 			shelf ??= new List<Book>();
 
-			//`                   ![](LookHere) Also look here when you try this one.
+			//`                   ![](LookHere;;;0.006,0.006) Also look here when you try this one.
 			shelf.Add(new Book(Title, Author, DateTime.Now));
 		}
 	}

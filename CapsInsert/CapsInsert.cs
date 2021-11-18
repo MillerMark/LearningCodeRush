@@ -38,7 +38,7 @@ namespace CapsModifier
 
 		internal void TestStart()
 		{
-			//`                            ![](LookHere) Look here when you try the next one.
+			//`                            ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			Start(TimeSpan.FromSeconds(5), Guid.Empty, 25);
 		}
 
@@ -102,7 +102,7 @@ namespace CapsModifier
 
 		internal void TestComplete()
 		{
-			//`                 ![](LookHere) Look here when you try the next one.
+			//`                 ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			Complete(Guid.Empty);
 		}
 

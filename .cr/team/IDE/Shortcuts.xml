@@ -35,6 +35,9 @@
         <Item Id="{318b8900-85af-4c66-b37f-8a86508e7a89}" />
         <Item Id="{d33fb6fa-56b3-40a1-b169-71e855b2e3a2}" />
         <Item Id="{4aa0656f-7150-440b-8585-509c548e9d7e}" />
+        <Item Id="{6b5ce4c5-20fc-4630-b194-06148b1620ab}" />
+        <Item Id="{75bbab5c-4601-4330-81a6-5a2235cd160b}" />
+        <Item Id="{5bdc0641-179d-4ad9-bda7-06530f97c526}" />
       </SubFolders>
     </RootFolder>
   </Options>

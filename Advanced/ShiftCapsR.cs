@@ -28,13 +28,13 @@ namespace CapsModifier
 
 		public void CheckData()
 		{
-			//            ![](LookHere) Reverse boolean changes will be here.
+			//            ![](LookHere;;;0.006,0.006) Reverse boolean changes will be here.
 			_DataNotFound = !DataProcessor.FindData();
 		}
 
 		public void ProcessData()
 		{
-			//   ![](LookHere) Reverse boolean changes will be here as well.
+			//   ![](LookHere;;;0.006,0.006) Reverse boolean changes will be here as well.
 			if (_DataNotFound)
 				return;
 			DataProcessor.OutputDataInfo(_Data);

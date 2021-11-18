@@ -57,13 +57,13 @@
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\InlineLambdaPart.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" Visible="False" />
     <Compile Include="CapsSpace\StringInterpolation.cs" />
-	<Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" Visible="False" />
-	<Compile Include="Settings.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" Visible="False" />
+    <Compile Include="Settings.cs" Visible="False" />
     <Compile Include="CapsSpace\DecomposeParameter.cs" />
     <Compile Include="CapsSpace\ExpressionBodies.cs" />
     <Compile Include="CapsSpace\FlattenConditionals.cs" />
-	<Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionalsPart.cs" Visible="False" />
-	<Compile Include="CapsSpace\NullCoalescing.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionalsPart.cs" Visible="False" />
+    <Compile Include="CapsSpace\NullCoalescing.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\NullCoalescingPart.cs" Visible="False" />
     <Compile Include="CapsSpace\SimplifyExpressions.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\SimplifyExpressionsPart.cs" Visible="False" />
@@ -81,10 +81,10 @@
     <Compile Include="Support Files Only - No Lessons Here\DataProcessor.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\BaseTool.cs" Visible="False" />
     <Compile Include="More Lessons\CapsQ.cs" />
-    <Compile Include="CapsInsert.cs" />
+    <Compile Include="CapsInsert\CapsInsert.cs" />
     <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Book.cs" Visible="False" />
-    <Compile Include="CapsDot.cs" />
+    <Compile Include="CapsDot\CapsDot.cs" />
     <Compile Include="More Lessons\CapsC.cs" />
     <Compile Include="Advanced\ShiftCapsSpace.cs" />
     <Compile Include="CapsSpace\CapsSpace.cs" />
@@ -92,7 +92,7 @@
     <Compile Include="More Lessons\CapsF.cs" />
     <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" Visible="False" />
     <Compile Include="More Lessons\CapsB.cs" />
-    <Compile Include="CapsDelete.cs" />
+    <Compile Include="CapsDelete\CapsDelete.cs" />
     <Compile Include="More Lessons\CapsG.cs" />
     <Compile Include="More Lessons\CapsA.cs" />
     <Compile Include="More Lessons\CapsH.cs" />

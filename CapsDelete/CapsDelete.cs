@@ -25,6 +25,21 @@ namespace CapsModifier
 
 		 Move to where the arrow points before pressing the shortcut.
 
+
+			* Remove Type Qualifier - 986
+			* Remove All Type Qualifiers - 955
+			* Unused Member - 452
+			* Redundant Block Delimiters - 403
+			* Redundant All Redundant Block Delimiters - 215
+			* Unused Parameters - 311
+			* Discard Variables - 0
+			* Redundant Constructors - 0
+			* Redundant Destructors - 0
+			* Unused Locals - 0
+			* Unused Types - 0
+
+
+
 	 */
 
 		int count;
@@ -46,10 +61,18 @@ namespace CapsModifier
 		}
 
 
+		// Caps+Delete to remove the unused member:
+		//`     ![](ArrowDown)
+		void Button1_Clicked(object sender, EventArgs ea)
+		{
+			if (sender == null || ea == null)
+				return;
+		}
 
 		public void CallMethod()
 		{
-			//`                     ![](LookHere) Look here when you try the next one.
+			//`                     ![](LookHere;;;0.006,0.006) Look here when you try the next one.
+			//`                     ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			GetSymbolName(null, "Yo yo yo");
 		}
 

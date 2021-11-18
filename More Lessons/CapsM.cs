@@ -53,7 +53,7 @@ namespace CapsModifier
 			if (name.StartsWith(">>"))
 				return name.Substring(2);
 
-			//  ![](LookHere) Look here when trying this one.
+			//  ![](LookHere;;;0.006,0.006) Look here when trying this one.
 			if (spaceIndex < 0)
 				return name;
 			return name.Substring(0, spaceIndex);

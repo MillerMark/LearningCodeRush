@@ -32,7 +32,7 @@ namespace CapsModifier
 
 		public void LogText(string text)
 		{
-			//`                           ![](LookHere) Look here when you try the next one.
+			//`                           ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			string verifiedText = Check(new Trimmer(), text);
 			Console.WriteLine(verifiedText);
 		}
@@ -40,7 +40,7 @@ namespace CapsModifier
 		//`                    ![](ArrowDown) Press Caps+G to promote this to a type parameter.		
 		public string Check(Trimmer verifier, string text)
     {
-		//`         ![](LookHere) Also look here when you try this one.
+		//`         ![](LookHere;;;0.006,0.006) Also look here when you try this one.
 		SetRules<Trimmer>(verifier);
 		return verifier.CheckText(text);
     }

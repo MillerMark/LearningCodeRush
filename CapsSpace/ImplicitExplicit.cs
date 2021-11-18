@@ -4,7 +4,7 @@ namespace CapsModifier
 {
 	public partial class ImplicitExplicit
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace)  Caps+Space converts between implicit & explicit declarations.
+		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03)  Caps+Space converts between implicit & explicit declarations.
 
 
 		public static void InitializeImplicitly(int? foo)
@@ -20,7 +20,7 @@ namespace CapsModifier
 		}
 
 
-		//`![](SmartNav;crcommand:OpenFile:SmartNav.cs)  << Learn about SmartNav...
+		//`![](SmartNav;crcommand:OpenFile:SmartNav.cs;;0.03,0.03)  << Learn about SmartNav...
 
 		//++ Pro Tip
 		// You can alternate Caps+Space with Caps+Down (SmartNav) to convert 
@@ -46,5 +46,5 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:ExpressionBodies.cs) << Expression Bodies and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:ExpressionBodies.cs;;0.03,0.03) << Expression Bodies and more...
 }

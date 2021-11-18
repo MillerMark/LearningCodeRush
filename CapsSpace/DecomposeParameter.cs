@@ -14,7 +14,7 @@ namespace CapsModifier
 		{
 			Assembly ea = Assembly.GetExecutingAssembly();
 
-			//`                     ![](LookHere) Look here when you try the next one.
+			//`                     ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			return GetEncodedPath(ea);
 		}
 
