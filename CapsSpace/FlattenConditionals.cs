@@ -72,6 +72,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:SimplifyExpressions.cs) << Simplify Expressions and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:SimplifyExpressions.cs;;0.04,0.04) << Simplify Expressions and more...
 }
 

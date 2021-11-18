@@ -30,6 +30,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs) << Flatten Conditionals and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs;;0.04,0.04) << Flatten Conditionals and more...
 }
 

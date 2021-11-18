@@ -43,7 +43,7 @@ namespace CapsModifier
 		}
 
 
-		//`![](BtnMoreLikeThis;crcommand:OpenFile:DecomposeParameter.cs) << Decompose Parameter and more...
+		//`![](BtnMoreLikeThis;crcommand:OpenFile:DecomposeParameter.cs;;0.04,0.04) << Decompose Parameter and more...
 	}
 }
 

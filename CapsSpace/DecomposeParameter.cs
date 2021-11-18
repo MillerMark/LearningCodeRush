@@ -27,9 +27,9 @@ namespace CapsModifier
 				return "Static:" + Path.GetDirectoryName(assembly.Location);
 		}
 
-		//` ![](Decompose Parameter2;https://www.youtube.com/watch?v=_sTWyDjd4oY&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=12 )  << More on Decompose Parameter.
+		//` ![](Decompose Parameter2;https://www.youtube.com/watch?v=_sTWyDjd4oY&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=12 ;;0.06,0.06)  << More on Decompose Parameter.
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:ExpandLambda.cs) << Expand Lambda and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:ExpandLambda.cs;;0.04,0.04) << Expand Lambda and more...
 }
 

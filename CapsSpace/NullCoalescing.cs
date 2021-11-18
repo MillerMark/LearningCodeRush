@@ -26,6 +26,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:InlineLambda.cs) << Inline Lambda and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:InlineLambda.cs;;0.04,0.04) << Inline Lambda and more...
 }
 

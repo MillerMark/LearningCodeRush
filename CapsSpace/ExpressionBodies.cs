@@ -51,6 +51,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:Initializers.cs) << Initializers and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:Initializers.cs;;0.04,0.04) << Initializers and more...
 }
 

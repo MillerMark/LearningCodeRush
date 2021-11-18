@@ -25,5 +25,5 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToFunction.cs) << Convert to Function and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToFunction.cs;;0.04,0.04) << Convert to Function and more...
 }

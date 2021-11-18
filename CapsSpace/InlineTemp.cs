@@ -17,6 +17,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:TernaryExpressions.cs) << Ternary Expressions and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:TernaryExpressions.cs;;0.04,0.04) << Ternary Expressions and more...
 }
 

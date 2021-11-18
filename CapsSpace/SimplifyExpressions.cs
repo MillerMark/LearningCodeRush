@@ -17,7 +17,7 @@ namespace CapsModifier
 				StartFanfare();
 		}
 
-		//`![](BtnMoreLikeThis;crcommand:OpenFile:BlockDelimiters.cs) << Block Delimiters and more...
+		//`![](BtnMoreLikeThis;crcommand:OpenFile:BlockDelimiters.cs;;0.04,0.04) << Block Delimiters and more...
 	}
 }
 

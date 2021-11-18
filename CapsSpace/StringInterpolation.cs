@@ -15,7 +15,7 @@ namespace CapsModifier
 			//`               ![](ArrowDown;;;0.008,0.008) Caps+Space to convert to string interpolation: 
 			return "Found record #" + allRecords[index] + "!";
 		}
-		//`![](BtnMoreLikeThis;crcommand:OpenFile:StringInterpolation.cs) << StringInterpolation and more...
+		//`![](BtnMoreLikeThis;crcommand:OpenFile:StringInterpolation.cs;;0.04,0.04) << StringInterpolation and more...
 	}
 }
 

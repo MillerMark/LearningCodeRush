@@ -149,7 +149,7 @@ negativeCount     ++            ;
 		}
 	}
 
-	//` ![](Selection IncreaseDecrease;https://www.youtube.com/watch?v=cdJ4D3xmnFw )  << More on Selection Increase/Decrease
+	//` ![](Selection IncreaseDecrease;https://www.youtube.com/watch?v=cdJ4D3xmnFw ;;0.06,0.06)  << More on Selection Increase/Decrease
 
 
 	public static class MathEx
