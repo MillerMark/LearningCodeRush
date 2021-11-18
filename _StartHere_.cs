@@ -6,12 +6,11 @@
 	all the refactorings can be accessed through Visual Studio's Code 
 	Action menu (use Ctrl+. or Num 0).
 
-	And be sure to run the Setup Wizard if you haven't yet. It's a fast 
-	way to enable or disable major CodeRush features for the way you work:
+	Be sure to run the Setup Wizard if you haven't yet. It's the fastest 
+	way to enable/disable major CodeRush features for the way you work:
 
 		![](CodeRushSetup;crcommand:RunSetupWizard)  << Start the Setup Wizard
 */
-
 
 //`++Have Fun Learning CodeRush!
 /* 
@@ -19,7 +18,8 @@
 
 	![](NextLesson;crcommand:OpenFile:CapsSpace.cs) << Caps+Space to toggle/convert/inline code
 
-	![](BtnSettings;crcommand:OpenFile:Settings.cs) << More on CodeRush settings...
+
+	![](BtnSettings;crcommand:OpenFile:Settings.cs) << CodeRush settings overrides in this solution...
 
 */
 

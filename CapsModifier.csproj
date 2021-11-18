@@ -62,11 +62,11 @@
     <Compile Include="CapsSpace\DecomposeParameter.cs" />
     <Compile Include="CapsSpace\ExpressionBodies.cs" />
     <Compile Include="CapsSpace\FlattenConditionals.cs" />
-    <Compile Include="CapsSpace\NullCoalescing.cs" />
+	<Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionalsPart.cs" Visible="False" />
+	<Compile Include="CapsSpace\NullCoalescing.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\NullCoalescingPart.cs" Visible="False" />
     <Compile Include="CapsSpace\SimplifyExpressions.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\SimplifyExpressionsPart.cs" Visible="False" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\FlattenConditionals.cs" Visible="False" />
     <Compile Include="CapsSpace\InlineTemp.cs" />
     <Compile Include="CapsSpace\TernaryExpressions.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\TernaryExpressionsPart.cs" Visible="False" />
