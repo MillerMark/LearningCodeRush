@@ -27,11 +27,11 @@ namespace CapsModifier
 
 		*/
 
-		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs)  << Learn about Text Fields.
+		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs;;0.04,0.04)  << Learn about Text Fields.
 
-		//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+		//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
 
-		//`![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
+		//`![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
 
 
 		void Start(Dictionary<int, string> lookup, Action<Customer> callback)
@@ -84,7 +84,7 @@ namespace CapsModifier
 		{
 			// After moving this class to its own file, use Escape (or Alt+End) to get back.
 
-			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
 		}
 	}
 

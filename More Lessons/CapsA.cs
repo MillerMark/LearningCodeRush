@@ -26,7 +26,7 @@ namespace CapsModifier
 
 		public bool Initialized { get; set; }
 
-		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn more about the Target Picker.
+		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn more about the Target Picker.
 
 		void Increment(int value)
 		{
@@ -38,7 +38,7 @@ namespace CapsModifier
 
 		public void TestMethod()
 		{
-			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
 
 			// Press Caps+A to Name an Anonymous Type.
 			// CodeRush will take you to the new file and you 

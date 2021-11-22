@@ -31,7 +31,7 @@ namespace CapsModifier
 		And when declaring initialized properties, use the Target Picker
 		to specify where to generate the property. 
 		
-		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn about the Target Picker.
+		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
 
 		*/
 
@@ -80,7 +80,7 @@ namespace CapsModifier
 		// (or Escape). To get back to where you started, just collect the
 		// marker CodeRush dropped where you started.
 
-		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.03,0.03)  << Learn about Markers.
+		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
 
 		// So if you need to declare several initialized properties in
 		// a row, just press repeat this sequence:
@@ -90,7 +90,7 @@ namespace CapsModifier
 		//    Rename the property (or press Enter/Escape to accept the given name)
 		//    Collect the marker to get back.
 
-		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn about the Target Picker.
+		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
 
 		// Try declaring initialized properties for each of these parameters!
 

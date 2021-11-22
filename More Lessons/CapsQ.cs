@@ -19,7 +19,7 @@ namespace CapsModifier
 		And when declaring a constant, use the target picker to tell 
 		CodeRush where you want to put the new constant.
 
-		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
 
 		*/
 

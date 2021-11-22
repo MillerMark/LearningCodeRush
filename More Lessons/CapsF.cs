@@ -178,7 +178,7 @@ negativeCount     ++            ;
 		public Guid ID { get; set; }
 		public Automobile()
 		{
-			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs)  << Learn about Markers.
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
 		}
 	}
 

@@ -42,7 +42,7 @@ namespace CapsModifier
 			Start(TimeSpan.FromSeconds(5), Guid.Empty, 25);
 		}
 
-		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs)  << Learn about Text Fields.
+		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs;;0.04,0.04)  << Learn about Text Fields.
 
 
 		//`            Caps+Insert ![](ArrowDown;;;0.008,0.008) to add a new parameter (e.g., "bool fast").
