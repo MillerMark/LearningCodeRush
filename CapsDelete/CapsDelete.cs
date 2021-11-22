@@ -6,7 +6,7 @@ namespace CapsModifier
 	public class CapsDelete
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsPlusDelete)
+		//`![Enable Rich Comments to see embedded images](CapsPlusDelete;;;0.03,0.03)
 
 		/* 
 		 Use Caps+Delete to remove redundant and unnecessary code, including:
@@ -21,9 +21,24 @@ namespace CapsModifier
 
 		 Examples are below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		 Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		 Move to where the arrow points before pressing the shortcut.
+
+
+			* Remove Type Qualifier - 986
+			* Remove All Type Qualifiers - 955
+			* Unused Member - 452
+			* Redundant Block Delimiters - 403
+			* Redundant All Redundant Block Delimiters - 215
+			* Unused Parameters - 311
+			* Discard Variables - 0
+			* Redundant Constructors - 0
+			* Redundant Destructors - 0
+			* Unused Locals - 0
+			* Unused Types - 0
+
+
 
 	 */
 
@@ -33,7 +48,7 @@ namespace CapsModifier
 			this.count = count;
 		}
 
-		//`![](ArrowSW) Caps+Delete to remove the redundant constructor:
+		//`![](ArrowSW;;;0.008,0.008) Caps+Delete to remove the redundant constructor:
 		public CapsDelete()
 		{
 		}
@@ -41,34 +56,41 @@ namespace CapsModifier
 
 
 		// Caps+Delete to remove the redundant destructor:
-		//`   ![](ArrowDown)
+		//`   ![](ArrowDown;;;0.008,0.008)
 		~CapsDelete() { 
 		}
 
 
+		// Caps+Delete to remove the unused member:
+		//`     ![](ArrowDown;;;0.008,0.008)
+		void Button1_Clicked(object sender, EventArgs ea)
+		{
+			if (sender == null || ea == null)
+				return;
+		}
 
 		public void CallMethod()
 		{
-			//`                     ![](LookHere) Look here when you try the next one.
+			//`                     ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			GetSymbolName(null, "Yo yo yo");
 		}
 
 		// Caps+Delete to remove the unused parameter:
-		//`                                              ![](ArrowDown)
+		//`                                              ![](ArrowDown;;;0.008,0.008)
 		string GetSymbolName(ISymbol symbol, string unusedMessage)
 		{
 			// Caps+Delete to remove:
 			//   * Redundant type qualifiers
 			//   * Redundant block delimiters
-			//`                  ![](ArrowDown)
+			//`                  ![](ArrowDown;;;0.008,0.008)
 			if (symbol is CapsModifier.IMethodSymbol _)
-			{//`![](ArrowLeft)
+			{//`![](ArrowLeft;;;0.008,0.008)
 				return symbol.Name;
 			}
 
 
 			// Caps+Delete to remove the unused local:
-			//`        ![](ArrowDown)
+			//`        ![](ArrowDown;;;0.008,0.008)
 			string varName = null;
 			varName = "Yo";
 
@@ -79,14 +101,14 @@ namespace CapsModifier
 		{
 			SyntaxNode assignment;
 			
-			// Caps+Delete to discard the unused variable: ![](ArrowDown) 
+			// Caps+Delete to discard the unused variable: ![](ArrowDown;;;0.008,0.008) 
 			return identifier.HasAssignment(out assignment);
 		}
 
 		event EventHandler TextChanged;
 		void HookEvents()
 		{
-			// Caps+Delete ![](ArrowDown) to remove the redundant delegate creation:
+			// Caps+Delete ![](ArrowDown;;;0.008,0.008) to remove the redundant delegate creation:
 			TextChanged += new EventHandler(ProcessText);
 		}
 
@@ -97,7 +119,7 @@ namespace CapsModifier
 	}
 
 	// Caps+Delete to remove the unused type:
-	//`                ![](ArrowDown)
+	//`                ![](ArrowDown;;;0.008,0.008)
 	internal class UnusedType
 	{
 		public UnusedType()
@@ -119,7 +141,7 @@ namespace CapsModifier
 		* Parameters
 		* Types
 
-	![](NextLesson;crcommand:OpenFile:CapsInsert.cs)  << Caps+Insert to add new code...
+	![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...
 
 	*/
 }

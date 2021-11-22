@@ -10,7 +10,7 @@ namespace CapsModifier
 	public class CapsL
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](CapsL)
+		![Enable Rich Comments to see embedded images](CapsL;;;0.03,0.03)
 
 		Use Caps+L to declare a Local variable.
 
@@ -19,7 +19,7 @@ namespace CapsModifier
 		 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 
@@ -29,7 +29,7 @@ namespace CapsModifier
 
 		void Start(Dictionary<int, string> lookup, Action<Customer> callback)
 		{
-			//`![](ArrowDown) Caps+L to declare a new local. 
+			//`![](ArrowDown;;;0.008,0.008) Caps+L to declare a new local. 
 			Consume(lookup, Guid.NewGuid(), callback).FirstOrDefault();
 		}
 
@@ -47,7 +47,7 @@ namespace CapsModifier
 	/* 
 	You used Caps+L to declare a new local based on an expression on the line.
 
-	![](NextLesson;crcommand:OpenFile:CapsM.cs)  << Caps+M to declare Methods and for Moving...
+	![](NextLesson;crcommand:OpenFile:CapsM.cs;;0.04,0.04)  << Caps+M to declare Methods and for Moving...
 
 	*/
 }

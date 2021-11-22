@@ -5,18 +5,18 @@ namespace CapsModifier
 {
 	public partial class InlineTemp
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to inline temporary variables.
+		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to inline temporary variables.
 
 		public float CalculateDiscountedPrice(float price)
 		{
 			float percentage = GetCurrentDiscount();
 			float fraction = percentage * 0.01f;
 
-			//`                 ![](ArrowDown) Caps+Space to inline this temp (twice if you like): 
+			//`                 ![](ArrowDown;;;0.008,0.008) Caps+Space to inline this temp (twice if you like): 
 			return price - fraction * price;
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:TernaryExpressions.cs) << Ternary Expressions and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:TernaryExpressions.cs;;0.04,0.04) << Ternary Expressions and more...
 }
 

@@ -5,11 +5,11 @@ namespace CapsModifier
 {
 	public class Initializers
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to create and decompose initializers.
+		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to create and decompose initializers.
 
 		public void CreateTestCustomer1()
 		{
-			//`                  ![](ArrowDown) Caps+Space to Convert to an Initializer: 
+			//`                  ![](ArrowDown;;;0.008,0.008) Caps+Space to Convert to an Initializer: 
 			Customer andrew = new Customer();
 			andrew.FirstName = "Andrew";
 			andrew.LastName = "Fuller";
@@ -19,7 +19,7 @@ namespace CapsModifier
 
 		public void CreateTestCustomer2()
 		{
-			//`                  ![](ArrowDown) Caps+Space to Decompose this Initializer: 
+			//`                  ![](ArrowDown;;;0.008,0.008) Caps+Space to Decompose this Initializer: 
 			Customer jackson = new Customer() { 
 													FirstName = "Jackson", 
 													LastName = "Grand", 
@@ -28,6 +28,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:InlineTemp.cs) << Inline Temp and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:InlineTemp.cs;;0.04,0.04) << Inline Temp and more...
 }
 

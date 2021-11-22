@@ -5,14 +5,14 @@ namespace CapsModifier
 {
 	public partial class TernaryExpressions
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to compress conditionals into ternary expressions.
+		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to compress conditionals into ternary expressions.
 
 
 		public string CheckName(string name)
 		{
 			string result;
 
-			//`![](ArrowSW) Caps+Space to compress this conditional into a ternary expression: 
+			//`![](ArrowSW;;;0.008,0.008) Caps+Space to compress this conditional into a ternary expression: 
 			if (name != null)
 				result = name;
 			else
@@ -22,6 +22,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:CombineSplitConditionals.cs) << Combine & Split Conditionals and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:CombineSplitConditionals.cs;;0.04,0.04) << Combine & Split Conditionals and more...
 }
 

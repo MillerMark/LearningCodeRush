@@ -7,10 +7,10 @@ namespace CapsModifier
 	public abstract partial class CombineSplitConditionals
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to combine or split conditionals.
+		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to combine or split conditionals.
 
 		public void SafeEngageWarpDrive()
-		{	//`![](ArrowDown) Press Caps+Space to combine (or later split) these conditionals:
+		{	//`![](ArrowDown;;;0.008,0.008) Press Caps+Space to combine (or later split) these conditionals:
 			if (warpDriveDamaged)
 				return;
 			if (dilithiumCrystalCount == 0)
@@ -30,6 +30,6 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs) << Flatten Conditionals and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs;;0.04,0.04) << Flatten Conditionals and more...
 }
 

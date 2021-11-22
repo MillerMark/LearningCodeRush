@@ -6,13 +6,13 @@ namespace CapsModifier
 {
 	public partial class InlineLambda
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace) Caps+Space to inline to a lambda.
+		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to inline to a lambda.
 
 		public InlineLambda()
 		{
 			InitializeComponent();
 
-			//`  Caps+Space ![](ArrowDown) to inline the event handler (below) as a lambda: 
+			//`  Caps+Space ![](ArrowDown;;;0.008,0.008) to inline the event handler (below) as a lambda: 
 			Loaded += Control_Loaded;
 		}
 
@@ -25,5 +25,5 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToFunction.cs) << Convert to Function and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToFunction.cs;;0.04,0.04) << Convert to Function and more...
 }

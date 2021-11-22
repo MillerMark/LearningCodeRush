@@ -3,7 +3,7 @@
 	public class ShiftCapsDelete
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](ShiftCapsDelete)
+		![Enable Rich Comments to see embedded images](ShiftCapsDelete;;;0.03,0.03)
 
 		Use Shift+Caps+Delete to:
 		
@@ -12,7 +12,7 @@
 		 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 		
@@ -21,13 +21,13 @@
 
 
 		// Use Shift+Caps+Delete to remove all **type qualifiers** matching the type qualifier at the caret.
-		//`![](ArrowDown)
+		//`![](ArrowDown;;;0.008,0.008)
 		System.AssemblyLoadEventArgs assemblyLoadEventArgs;
 
 
 
 		public ShiftCapsDelete()
-		{                                                          //`![](ArrowDown)
+		{                                                          //`![](ArrowDown;;;0.008,0.008)
 			assemblyLoadEventArgs = new System.AssemblyLoadEventArgs(System.Reflection.Assembly.GetExecutingAssembly());
 		}
 
@@ -53,7 +53,7 @@
 
 		// Use Shift+Caps+Delete to remove all redundant **block delimiters** inside this method,
 		// available on the first token of the method declaration.
-		//`![](ArrowDown)
+		//`![](ArrowDown;;;0.008,0.008)
 		static void Main(string[] args)
 		{
 			System.Console.Write("Even numbers:");
@@ -77,7 +77,7 @@
 	You used Shift+Caps+Delete to remove all type qualifiers and to remove 
 	all redundant brace blocks inside a method. 
 
-	![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs)  << Shift+Caps+F to rename types to match a File and more...
+	![](NextLesson;crcommand:OpenFile:ShiftCapsF.cs;;0.04,0.04)  << Shift+Caps+F to rename types to match a File and more...
 	
 	*/
 

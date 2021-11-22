@@ -6,7 +6,7 @@ namespace CapsModifier
 	public class CapsDot
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsDot)
+		//`![Enable Rich Comments to see embedded images](CapsDot;;;0.03,0.03)
 
 		/*
 		
@@ -20,7 +20,7 @@ namespace CapsModifier
 			 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 
@@ -33,12 +33,12 @@ namespace CapsModifier
 
 		internal void CreateTestCustomers()
 		{
-			//` ![](ArrowDown) Press Caps+. to break these parameters onto multiple lines.
+			//` ![](ArrowDown;;;0.008,0.008) Press Caps+. to break these parameters onto multiple lines.
 			AddCustomer("Mark", "Miller", Guid.NewGuid());
 
 
 
-			//` ![](ArrowDown) Press Caps+. to line up these parameters onto a single line.
+			//` ![](ArrowDown;;;0.008,0.008) Press Caps+. to line up these parameters onto a single line.
 			AddCustomer("Rory",
 				null,
 				Guid.NewGuid());
@@ -46,7 +46,7 @@ namespace CapsModifier
 
 
 
-		//`                  ![](ArrowDown) Press Caps+. to break apart or line up these parameters:
+		//`                  ![](ArrowDown;;;0.008,0.008) Press Caps+. to break apart or line up these parameters:
 		void AddCustomer(string firstName, string lastName, Guid id)
 		{
 			Customer customer = new Customer();
@@ -59,7 +59,7 @@ namespace CapsModifier
 		string name;
 
 		public string Name
-		{   //`![](ArrowDown) Press Caps+. to collapse this getter:
+		{   //`![](ArrowDown;;;0.008,0.008) Press Caps+. to collapse this getter:
 			get
 			{
 				return name;
@@ -76,7 +76,7 @@ namespace CapsModifier
 			get
 			{
 				return address;
-			}//` ![](ArrowSW) Press Caps+. to collapse this setter:
+			}//` ![](ArrowSW;;;0.008,0.008) Press Caps+. to collapse this setter:
 			set
 			{
 				address = value;
@@ -85,7 +85,7 @@ namespace CapsModifier
 
 
 		public string City
-		{   //`![](ArrowSW) Press Caps+. to expand this getter:
+		{   //`![](ArrowSW;;;0.008,0.008) Press Caps+. to expand this getter:
 			get { return city; }
 			set { city = value; }
 		}
@@ -94,7 +94,7 @@ namespace CapsModifier
 		public string PostalCode
 		{
 			get => postalCode;
-			//`![](ArrowDown) Press Caps+. to expand this setter:
+			//`![](ArrowDown;;;0.008,0.008) Press Caps+. to expand this setter:
 			set => postalCode = value;
 		}
 	}
@@ -108,7 +108,7 @@ namespace CapsModifier
 		* Break apart and line-up arguments and parameters
 
 
-	![](NextLesson;crcommand:OpenFile:CapsA.cs)  << Caps+A for Auto-implemented properties and more
+	![](NextLesson;crcommand:OpenFile:CapsA.cs;;0.04,0.04)  << Caps+A for Auto-implemented properties and more
 
 	*/
 }

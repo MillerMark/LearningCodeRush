@@ -6,14 +6,14 @@ namespace CapsModifier
 	public class CapsB
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsB)
+		//`![Enable Rich Comments to see embedded images](CapsB;;;0.03,0.03)
 
 		/*
 		 Use Caps+B to convert a Boolean to an enum
 			 
 		 Examples follow in the source code below.
 
-		 Arrows (![](ArrowDown)) show caret position. 
+		 Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		 Move to where the arrow points before pressing the shortcut.
 		*/
@@ -22,12 +22,12 @@ namespace CapsModifier
 
 		public void Startup()
 		{
-			//`           ![](LookHere) Look here when you try the next one.
+			//`           ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			if (GetState())
 				Console.WriteLine("All good!");
 		}
 
-		//`         ![](ArrowDown) Press Caps+B to convert this boolean into an enum.
+		//`         ![](ArrowDown;;;0.008,0.008) Press Caps+B to convert this boolean into an enum.
 		internal bool GetState()
 		{
 			if (started)

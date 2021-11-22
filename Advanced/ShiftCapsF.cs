@@ -15,13 +15,13 @@ namespace CapsModifier
 
 	Examples follow in the source code below.
 
-	Arrows (![](ArrowDown)) show caret position. 
+	Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 	Move to where the arrow points before pressing the shortcut.
 
 	*/
 
-	//`                        ![](ArrowDown) Press Shift+Caps+F to rename this class to match the file name.
+	//`                        ![](ArrowDown;;;0.008,0.008) Press Shift+Caps+F to rename this class to match the file name.
 	public abstract class ThisClassNeedsRenaming
 	{
 
@@ -34,7 +34,7 @@ namespace CapsModifier
 			var result = 10;
 
 
-			//`![](ArrowDown) Press Shift+Caps+F to convert this foreach into a Linq statement.
+			//`![](ArrowDown;;;0.008,0.008) Press Shift+Caps+F to convert this foreach into a Linq statement.
 			foreach (int item in items)
 			{
 				result *= item;
@@ -54,7 +54,7 @@ namespace CapsModifier
 	You used Shift+Caps+F to rename a class to match its file name and to 
 	convert foreach statements into Linq statements.
 
-	![](NextLesson;crcommand:OpenFile:ShiftCapsR.cs)  << Shift+Caps+R to Reverse boolean logic...
+	![](NextLesson;crcommand:OpenFile:ShiftCapsR.cs;;0.04,0.04)  << Shift+Caps+R to Reverse boolean logic...
 
 	*/
 }

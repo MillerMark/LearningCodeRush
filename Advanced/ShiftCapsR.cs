@@ -9,7 +9,7 @@ namespace CapsModifier
 	public class ShiftCapsR
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](ShiftCapsR)
+		![Enable Rich Comments to see embedded images](ShiftCapsR;;;0.03,0.03)
 
 		Use Shift+Caps+R to Reverse Boolean Logic.
 
@@ -23,18 +23,18 @@ namespace CapsModifier
 
 
 
-		//    Caps+Shift+R ![](ArrowDown) to reverse this field's boolean logic.
+		//    Caps+Shift+R ![](ArrowDown;;;0.008,0.008) to reverse this field's boolean logic.
 		private bool _DataNotFound;
 
 		public void CheckData()
 		{
-			//            ![](LookHere) Reverse boolean changes will be here.
+			//            ![](LookHere;;;0.006,0.006) Reverse boolean changes will be here.
 			_DataNotFound = !DataProcessor.FindData();
 		}
 
 		public void ProcessData()
 		{
-			//   ![](LookHere) Reverse boolean changes will be here as well.
+			//   ![](LookHere;;;0.006,0.006) Reverse boolean changes will be here as well.
 			if (_DataNotFound)
 				return;
 			DataProcessor.OutputDataInfo(_Data);
@@ -53,7 +53,7 @@ namespace CapsModifier
 	To learn more about CodeRush, check out the Feature of the Week playlist 
 	on YouTube:
 
-	![](Tab to Next Reference;https://www.youtube.com/playlist?list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk ) << More on CodeRush Features
+	![](Tab to Next Reference;https://www.youtube.com/playlist?list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk ;;0.06,0.06) << More on CodeRush Features
 
 	As always, we welcome your thoughts. Let us know what you think about 
 	this training solution. If you have specific questions or need assistance 

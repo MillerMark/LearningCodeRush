@@ -6,7 +6,7 @@ namespace CapsModifier
 {
 	public class CapsG
 	{
-		//`![Enable Rich Comments to see embedded images](CapsG)
+		//`![Enable Rich Comments to see embedded images](CapsG;;;0.03,0.03)
 
 		/* 
 		Caps+G lets you add Getters to properties and work with Generic 
@@ -19,33 +19,33 @@ namespace CapsModifier
 		 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 
 		*/
 
-	void SetRules<V>(V verifier) where V : Trimmer
+		void SetRules<V>(V verifier) where V : Trimmer
     {
       verifier.TrimSpaces = true;
     }
 
 		public void LogText(string text)
 		{
-			//`                           ![](LookHere) Look here when you try the next one.
+			//`                           ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			string verifiedText = Check(new Trimmer(), text);
 			Console.WriteLine(verifiedText);
 		}
 
-		//`                    ![](ArrowDown) Press Caps+G to promote this to a type parameter.		
+		//`                    ![](ArrowDown;;;0.008,0.008) Press Caps+G to promote this to a type parameter.		
 		public string Check(Trimmer verifier, string text)
     {
-		//`         ![](LookHere) Also look here when you try this one.
+		//`         ![](LookHere;;;0.006,0.006) Also look here when you try this one.
 		SetRules<Trimmer>(verifier);
 		return verifier.CheckText(text);
     }
 
-		//`       ![](ArrowDown) Press Caps+G to promote this to a type parameter.		
+		//`       ![](ArrowDown;;;0.008,0.008) Press Caps+G to promote this to a type parameter.		
 		public Trimmer GetVerifier(string verifierName)
 		{
 			IChecker checker = checkers.FirstOrDefault(x => x.Name == verifierName);
@@ -74,13 +74,13 @@ namespace CapsModifier
 		}
 
 
-	//`++Great Work!
-	/* 
-	You used Caps+G to promote both parameter types and return types to 
-	Generic type parameters.
+		//`++Great Work!
+		/* 
+		You used Caps+G to promote both parameter types and return types to 
+		Generic type parameters.
 
-	![](NextLesson;crcommand:OpenFile:CapsH.cs)  << Caps+H for Copyright headers...
+		![](NextLesson;crcommand:OpenFile:CapsH.cs;;0.04,0.04)  << Caps+H for Copyright headers...
 
-	*/
+		*/
 	}
 }

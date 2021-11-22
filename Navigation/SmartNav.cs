@@ -13,7 +13,7 @@ namespace Navigation
 
 	public class MathUtils
 	{
-		//`![](ArrowSW) Caps+Down to move down through the methods.
+		//`![](ArrowSW;;;0.008,0.008) Caps+Down to move down through the methods.
 		public static bool IsChecked(string entry)
 		{
 			if (entry == null)
@@ -23,7 +23,7 @@ namespace Navigation
 
 		// Let's make the rest of these methods public.
 
-		//`![](ArrowSW) Tip: use Alt+Up/Down to cycle through available member visibilities.
+		//`![](ArrowSW;;;0.008,0.008) Tip: use Alt+Up/Down to cycle through available member visibilities.
 		static int GetInt(string str, int defaultValue = 0)
 		{
 			if (!string.IsNullOrEmpty(str) && int.TryParse(str, out int result))
@@ -31,7 +31,7 @@ namespace Navigation
 			return defaultValue;
 		}
 
-		//`![](ArrowSW) Alt+Down to make public, then Caps+Down to move to the next member.
+		//`![](ArrowSW;;;0.008,0.008) Alt+Down to make public, then Caps+Down to move to the next member.
 		static double GetDouble(string str, double defaultValue = 0)
 		{
 			if (!string.IsNullOrEmpty(str) && double.TryParse(str, out double result))
@@ -39,7 +39,7 @@ namespace Navigation
 			return defaultValue;
 		}
 
-		//`![](ArrowSW) Remember, you can also use Caps+Up to move up through the methods.
+		//`![](ArrowSW;;;0.008,0.008) Remember, you can also use Caps+Up to move up through the methods.
 		static string BoolToStr(bool value)
 		{
 			if (value)

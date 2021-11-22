@@ -10,7 +10,7 @@ namespace CapsModifier
 	public class CapsM
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](CapsM)
+		![Enable Rich Comments to see embedded images](CapsM;;;0.03,0.03)
 
 		Use Caps+M to:
 
@@ -21,7 +21,7 @@ namespace CapsModifier
 		 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 
@@ -36,7 +36,7 @@ namespace CapsModifier
 
 		void Start(Dictionary<int, string> lookup, Action<Customer> callback)
 		{
-			//                  Caps+M ![](ArrowDown) to declare this method. 
+			//                  Caps+M ![](ArrowDown;;;0.008,0.008) to declare this method. 
 			List<Analysis> results = Consume(lookup, Guid.NewGuid(), callback);
 			if (results == null)
 				return;
@@ -44,7 +44,7 @@ namespace CapsModifier
 
 		public static string GetFirstName(string name)
 		{
-			// Caps+M ![](ArrowDown) to move spaceIndex down near it's first reference.
+			// Caps+M ![](ArrowDown;;;0.008,0.008) to move spaceIndex down near it's first reference.
 			int spaceIndex = name.IndexOf(' ');
 
 			if (name == null)
@@ -53,7 +53,7 @@ namespace CapsModifier
 			if (name.StartsWith(">>"))
 				return name.Substring(2);
 
-			//  ![](LookHere) Look here when trying this one.
+			//  ![](LookHere;;;0.006,0.006) Look here when trying this one.
 			if (spaceIndex < 0)
 				return name;
 			return name.Substring(0, spaceIndex);
@@ -65,7 +65,7 @@ namespace CapsModifier
 		{
 			string fullName;
 
-			// ![](ArrowDown) Caps+M to move this initialization its declaration (above)
+			// ![](ArrowDown;;;0.008,0.008) Caps+M to move this initialization its declaration (above)
 			fullName = getFirst() + " " + getLast();
 
 			return fullName;
@@ -74,7 +74,7 @@ namespace CapsModifier
 
 
 
-	//       Caps+M ![](ArrowDown) to move this type to its own file. 
+	//       Caps+M ![](ArrowDown;;;0.008,0.008) to move this type to its own file. 
 	public class Analysis
 	{
 		public string Message { get; set; }
@@ -96,7 +96,7 @@ namespace CapsModifier
 	initialization to its declaration, and Move a declaration near its first 
 	reference.
 
-	![](NextLesson;crcommand:OpenFile:CapsP.cs)  << Caps+P for Parameters, Partial classes, and Properties...
+	![](NextLesson;crcommand:OpenFile:CapsP.cs;;0.04,0.04)  << Caps+P for Parameters, Partial classes, and Properties...
 
 	 */
 }
