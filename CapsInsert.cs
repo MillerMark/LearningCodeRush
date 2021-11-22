@@ -13,6 +13,7 @@ namespace CapsModifier
 			* Add Missing Constructors
 			* Add to Interface
 			* Add Parameters
+			* Create Event Triggers
 
 		 You can also use Caps+Insert to add Getters, Setters, and Else statements
 
@@ -30,7 +31,7 @@ namespace CapsModifier
 		int needsGetter;
 		bool started;
 		public int NeedsGetter
-		{	//`![](ArrowDown) Caps+Insert to add a getter.
+		{   //`![](ArrowDown) Caps+Insert to add a getter.
 			set => needsGetter = value;
 		}
 
@@ -61,7 +62,7 @@ namespace CapsModifier
 
 		void CompleteTasks()
 		{
-			
+
 			//`        ![](ArrowDown) Ctrl+C copies this identifier (no need to select).
 			string greeting = "CodeRush Rocks!";
 
@@ -79,7 +80,7 @@ namespace CapsModifier
 
 		void LateStart(int count, TimeSpan timeSpan)
 		{
-			
+
 		}
 
 
@@ -140,11 +141,23 @@ namespace CapsModifier
 
 	}
 
+	public class Car
+	{
+		//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs)  << Learn about the Target Picker.
+
+		//`                           ![](ArrowDown) Caps+Insert to create an event trigger.
+		public event EventHandler Started;
+		public Car()
+		{
+
+		}
+	}
+
 	//`++Great Work!
 
 	/* 
 	You used Caps+Insert to add new parameters, constructors, and more.
-	
+
 
 	![](NextLesson;crcommand:OpenFile:CapsDot.cs)  << Caps+. to expand and collapse code formatting
 
