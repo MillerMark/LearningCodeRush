@@ -20,7 +20,7 @@ namespace CapsModifier
 		}
 
 
-		//`![](SmartNav;crcommand:OpenFile:SmartNav.cs;;0.03,0.03)  << Learn about SmartNav...
+		//`![](SmartNav;crcommand:OpenFile:SmartNav.cs;;0.04,0.04)  << Learn about SmartNav...
 
 		//++ Pro Tip
 		// You can alternate Caps+Space with Caps+Down (SmartNav) to convert 

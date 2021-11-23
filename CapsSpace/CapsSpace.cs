@@ -19,7 +19,6 @@
 
 		![](BtnShowMe;crcommand:OpenFile:ImplicitExplicit.cs;;0.04,0.04) << Guided path
 
-
 	All Examples (click one to try):
 
 		![](BtnImplicitExplicit;crcommand:OpenFile:ImplicitExplicit.cs;;0.04,0.04)

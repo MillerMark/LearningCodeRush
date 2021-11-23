@@ -47,6 +47,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Advanced\ShiftCapsR.cs" />
+    <Compile Include="CapsDelete\MoreCapsDelete.cs" />
+    <Compile Include="CapsDelete\RemoveAllRedundantBlockDelimiters.cs" Visible="False" />
+    <Compile Include="CapsDelete\RemoveUnusedType.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveAllRedundantBlockDelimitersPart.cs" />
+    <Compile Include="CapsDelete\RemoveDiscardVariable.cs" />
+    <Compile Include="CapsDelete\RemoveRedundantConstructor.cs" />
+    <Compile Include="CapsDelete\RemoveRedundantDelegateCreation.cs" />
+    <Compile Include="CapsDelete\RemoveRedundantDestructor.cs" />
+    <Compile Include="CapsDelete\RemoveTypeQualifier.cs" />
+    <Compile Include="CapsDelete\RemoveUnusedLocal.cs" />
+    <Compile Include="CapsDelete\RemoveUnusedMember.cs" />
+    <Compile Include="CapsDelete\RemoveUnusedParameter.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveUnusedParameterPart.cs" Visible="False" />
+    <Compile Include="CapsInsert\AddElseBlock.cs" />
+    <Compile Include="CapsInsert\CreateEventTrigger.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\FinishedData.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\AddElseBlockPart.cs" Visible="False" />
+    <Compile Include="CapsInsert\AddGetterSetter.cs" />
+    <Compile Include="CapsInsert\AddMissingConstructors.cs" />
+    <Compile Include="CapsInsert\AddParameter.cs" />
+    <Compile Include="CapsInsert\AddToInterface.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\AddParameterPart.cs" Visible="False" />
     <Compile Include="CapsSpace\BlockDelimiters.cs" />
     <Compile Include="CapsSpace\ChangeNotifications.cs" />
     <Compile Include="CapsSpace\CombineSplitConditionals.cs" />
@@ -97,7 +119,7 @@
     <Compile Include="More Lessons\CapsA.cs" />
     <Compile Include="More Lessons\CapsH.cs" />
     <Compile Include="More Lessons\CapsP.cs" />
-    <Compile Include="Advanced\ShiftCapsDelete.cs" />
+    <Compile Include="CapsDelete\RemoveAllTypeQualifiers.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Customer.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\ISymbol.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Space.cs" Visible="False" />

@@ -1,24 +1,19 @@
 ﻿using System;
 using System.Linq;
 
-namespace CapsModifier
+public class BaseClass
 {
-  public class BaseClass
+	public BaseClass(int value)
 	{
-		public BaseClass(int value)
-		{
-			a = value;
-		}
-
-		public BaseClass(int value, string name)
-		{
-			Name = name;
-			a = value;
-		}
-
-		private int a;
-		public string Name { get; set; }
+		a = value;
 	}
+
+	public BaseClass(int value, string name)
+	{
+		Name = name;
+		a = value;
+	}
+
+	private int a;
+	public string Name { get; set; }
 }
-
-
