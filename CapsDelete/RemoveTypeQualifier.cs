@@ -4,6 +4,8 @@ using System.Linq;
 
 namespace CapsModifier
 {
+	//`![](CapsPlusDelete;;;0.03,0.03) removes redundant type qualifiers.
+
 	public class RemoveTypeQualifier
 	{
 		internal string GetSymbolName(ISymbol symbol)

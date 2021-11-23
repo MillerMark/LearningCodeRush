@@ -5,6 +5,8 @@ namespace CapsModifier
 {
 	public class RemoveUnusedMember
 	{
+		//`![](CapsPlusDelete;;;0.03,0.03) removes unused members.
+
 		// Caps+Delete to remove the unused member:
 		//`     ![](ArrowDown;;;0.008,0.008)
 		void Button1_Clicked(object sender, EventArgs ea)

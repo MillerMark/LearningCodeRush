@@ -3,6 +3,8 @@ using System.Linq;
 
 namespace CapsModifier
 {
+	//`![](CapsPlusDelete;;;0.03,0.03) removes redundant constructors.
+
 	public class RemoveRedundantConstructor
 	{
 		//`![](ArrowSW;;;0.008,0.008) Caps+Delete to remove the redundant constructor:

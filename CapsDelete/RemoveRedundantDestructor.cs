@@ -3,6 +3,8 @@ using System.Linq;
 
 namespace CapsModifier
 {
+	//`![](CapsPlusDelete;;;0.03,0.03) removes redundant destructors.
+
 	public class RemoveRedundantDestructor
 	{
 		// Caps+Delete to remove the redundant destructor:

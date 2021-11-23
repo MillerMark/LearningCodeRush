@@ -2,6 +2,8 @@
 
 public class RemoveRedundantDelegateCreation
 {
+	//`![](CapsPlusDelete;;;0.03,0.03) removes redundant delegate creation.
+
 	public void HookEvents()
 	{
 		// Caps+Delete ![](ArrowDown;;;0.008,0.008) to remove the redundant delegate creation:

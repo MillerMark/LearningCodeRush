@@ -1,5 +1,7 @@
 ﻿public class RemoveUnusedType
 {
+	//`![](CapsPlusDelete;;;0.03,0.03) removes unused types.
+
 	// Caps+Delete to remove the unused type:
 	//`                ![](ArrowDown;;;0.008,0.008)
 	internal class UnusedType

@@ -2,6 +2,8 @@
 
 public class RemoveDiscardVariable
 {
+	//`![](CapsPlusDelete;;;0.03,0.03) discards unused variables.
+
 	public static bool HasAssignment(SimpleNameSyntax identifier)
 	{
 		//` ![](LookHere;;;0.008,0.008) Look here when you try the next one.
