@@ -2,7 +2,7 @@
 using CapsModifier;
 public class CapsDelete
 {
-	//`![](CapsPlusDelete;;;0.03,0.03) removes unneeded code.
+	//`![](CapsPlusDelete;;;0.04,0.04) removes unneeded code.
 
 	/* 
 	 Use Caps+Delete to remove redundant and unnecessary code, including:

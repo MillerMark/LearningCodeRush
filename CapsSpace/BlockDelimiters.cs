@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public class BlockDelimiters
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to add or remove block delimiters ("{" and "}")
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to add or remove block delimiters ("{" and "}")
 		//`                   around single-statement child nodes. 
 
 		public void BlockDelimeters()
@@ -27,3 +27,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:NullCoalescing.cs;;0.04,0.04) << Null coalescing operations and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

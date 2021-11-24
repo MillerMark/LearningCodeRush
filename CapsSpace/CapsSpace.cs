@@ -34,11 +34,12 @@
 		![](BtnInlineLambda;crcommand:OpenFile:InlineLambda.cs;;0.04,0.04)
 		![](BtnConvertToFunction;crcommand:OpenFile:ConvertToFunction.cs;;0.04,0.04)
 		![](BtnDecomposeParameter;crcommand:OpenFile:DecomposeParameter.cs;;0.04,0.04)
+		![](BtnConvertToStringInterpolation;crcommand:OpenFile:ConvertToStringInterpolation.cs;;0.04,0.04)
 		![](BtnExpandLambda;crcommand:OpenFile:ExpandLambda.cs;;0.04,0.04)
 
 	*/
-
-	//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)  << Caps+Delete to remove unnecessary or redundant code
-
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

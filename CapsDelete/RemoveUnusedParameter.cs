@@ -4,7 +4,7 @@ namespace CapsModifier
 {
 	public partial class RemoveUnusedParameter
 	{
-		//`![](CapsPlusDelete;;;0.03,0.03) removes unused parameters.
+		//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes unused parameters.
 
 		public void CallMethod()
 		{	//`                         ![](LookHere;;;0.006,0.006) Look here when you try the next one.
@@ -43,5 +43,3 @@ You used Caps+Delete to remove unnecessary or unused code, including:
 ![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...
 
 */
-
-

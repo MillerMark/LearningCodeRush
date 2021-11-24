@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.Security.Policy;
 
 namespace CapsModifier
 {
-	//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space (on the return keyword) to convert a proc to a function.
+	//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) (on the return keyword) to convert a proc to a function.
 
 
 	public class ConvertToFunction
 	{
-		//`           ![](LookHere;;;0.006,0.006) Look here (at the return type) when you try the next one.
+		//`           ![](LookHere;;;0.006,0.006) Watch the return type change when you try the next one.
 		internal void GetSquareRoot(double value)
 		{
 			if (value < 0)
@@ -47,3 +48,6 @@ namespace CapsModifier
 	}
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

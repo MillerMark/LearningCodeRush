@@ -2,7 +2,7 @@
 
 public class RemoveUnusedLocal
 {
-	//`![](CapsPlusDelete;;;0.03,0.03) removes unused locals.
+	//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes unused locals.
 
 	public int BruteForceAddition(int num1, int num2)
 	{

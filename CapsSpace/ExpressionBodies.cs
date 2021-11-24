@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public partial class ExpressionBodies
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03)  Caps+Space converts between normal and expression bodies.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) converts between normal and expression bodies.
 
 
 		public string Name
@@ -54,3 +54,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:Initializers.cs;;0.04,0.04) << Initializers and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

@@ -3,6 +3,8 @@ using System.Linq;
 
 namespace CapsModifier
 {
+	//`![](CapsInsert;crcommand:OpenFile:CapsInsert.cs;;0.03,0.03) to add a new parameter.
+
 	public partial class AddParameter
 	{
 		//` ![](Add Parameter;https://www.youtube.com/watch?v=KAtOxMQyg3g&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=4 ;;0.06,0.06)  << Learn about Add Parameter.
@@ -78,3 +80,7 @@ namespace CapsModifier
 
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:AddToInterface.cs;;0.04,0.04) << Add to Interface and more...
 }
+
+
+
+//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.02,0.02)  << Skip ahead to the next lesson...

@@ -7,7 +7,7 @@ namespace CapsModifier
 	public abstract partial class CombineSplitConditionals
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to combine or split conditionals.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to combine or split conditionals.
 
 		public void SafeEngageWarpDrive()
 		{	//`![](ArrowDown;;;0.008,0.008) Press Caps+Space to combine (or later split) these conditionals:
@@ -33,3 +33,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:FlattenConditionals.cs;;0.04,0.04) << Flatten Conditionals and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

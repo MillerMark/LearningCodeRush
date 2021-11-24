@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CapsModifier
 {
-	//`![](CapsPlusDelete;;;0.03,0.03) removes redundant constructors.
+	//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes redundant constructors.
 
 	public class RemoveRedundantConstructor
 	{

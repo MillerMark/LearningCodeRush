@@ -48,9 +48,20 @@
   <ItemGroup>
     <Compile Include="Advanced\ShiftCapsR.cs" />
     <Compile Include="CapsDelete\MoreCapsDelete.cs" />
-    <Compile Include="CapsDelete\RemoveAllRedundantBlockDelimiters.cs" Visible="False" />
+    <Compile Include="CapsDelete\RemoveAllRedundantBlockDelimiters.cs" />
     <Compile Include="CapsDelete\RemoveUnusedType.cs" />
-    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveAllRedundantBlockDelimitersPart.cs" />
+    <Compile Include="CapsSpace\ConvertToStringInterpolation.cs" />
+    <Compile Include="Declarations\AutoImplementedProperties.cs" />
+    <Compile Include="Declarations\Classes.cs" />
+    <Compile Include="Declarations\Declarations.cs" />
+    <Compile Include="Declarations\Fields.cs" />
+    <Compile Include="Declarations\Locals.cs" />
+    <Compile Include="Declarations\Methods.cs" />
+    <Compile Include="Declarations\Properties.cs" />
+    <Compile Include="Declarations\Constants.cs" />
+    <Compile Include="Support Files Only - No Lessons Here\Currency.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" Visible="False" />
+    <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveAllRedundantBlockDelimitersPart.cs" Visible="False" />
     <Compile Include="CapsDelete\RemoveDiscardVariable.cs" />
     <Compile Include="CapsDelete\RemoveRedundantConstructor.cs" />
     <Compile Include="CapsDelete\RemoveRedundantDelegateCreation.cs" />

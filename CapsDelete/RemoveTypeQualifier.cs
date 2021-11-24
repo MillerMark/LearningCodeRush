@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace CapsModifier
 {
-	//`![](CapsPlusDelete;;;0.03,0.03) removes redundant type qualifiers.
+	//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes redundant type qualifiers.
 
 	public class RemoveTypeQualifier
 	{
@@ -38,6 +38,4 @@ namespace CapsModifier
 
 
 
-
 //`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson...
-

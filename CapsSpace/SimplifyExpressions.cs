@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public partial class SimplifyExpressions
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to simplify overly complex expressions.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to simplify overly complex expressions.
 
 		public void ComplexExpression(bool six, bool bravo, bool halfDozen)
 		{
@@ -21,3 +21,6 @@ namespace CapsModifier
 	}
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

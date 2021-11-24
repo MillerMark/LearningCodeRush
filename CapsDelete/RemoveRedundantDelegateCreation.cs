@@ -2,7 +2,7 @@
 
 public class RemoveRedundantDelegateCreation
 {
-	//`![](CapsPlusDelete;;;0.03,0.03) removes redundant delegate creation.
+	//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes redundant delegate creation.
 
 	public void HookEvents()
 	{

@@ -4,7 +4,7 @@ namespace CapsModifier
 {
 	public partial class ImplicitExplicit
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03)  Caps+Space converts between implicit & explicit declarations.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) converts between implicit & explicit declarations.
 
 
 		public static void InitializeImplicitly(int? foo)
@@ -48,3 +48,7 @@ namespace CapsModifier
 
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:ExpressionBodies.cs;;0.04,0.04) << Expression Bodies and more...
 }
+
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public partial class InlineTemp
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to inline temporary variables.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to inline temporary variables.
 
 		public float CalculateDiscountedPrice(float price)
 		{
@@ -20,3 +20,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:TernaryExpressions.cs;;0.04,0.04) << Ternary Expressions and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

@@ -2,17 +2,17 @@
 
 public class CapsInsert
 {
-	//`![Enable Rich Comments to see embedded images](CapsInsert;;;0.04,0.04)
+	//`![](CapsInsert;;;0.04,0.04) adds new code.
 
 	/* 
 	 Use Caps+Insert to add new code, including:
 
-		* Add Missing Constructors
-		* Add Parameters
-		* Add to Interface
-		* Add Else Blocks
+		* Missing Constructors
+		* New Parameters
+		* Members to Interface
+		* Else Blocks
 
-	 You can also use Caps+Insert to add Getters, Setters, and to create event triggers.
+	 You can also use Caps+Insert to add Getters, Setters, and to create Event Triggers.
 
 		![](BtnShowMe;crcommand:OpenFile:AddMissingConstructors.cs;;0.04,0.04) << Guided path
 
@@ -29,16 +29,4 @@ public class CapsInsert
 
 
 
-
-//`++Great Work!
-
-/* 
-You used Caps+Insert to add new parameters, constructors, and more.
-
-
-![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.04,0.04)  << Caps+. to expand and collapse code formatting
-
-*/
-
-
-
+//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.02,0.02)  << Skip ahead to the next lesson...

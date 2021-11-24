@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public class RemoveUnusedMember
 	{
-		//`![](CapsPlusDelete;;;0.03,0.03) removes unused members.
+		//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes unused members.
 
 		// Caps+Delete to remove the unused member:
 		//`     ![](ArrowDown;;;0.008,0.008)

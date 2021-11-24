@@ -24,7 +24,7 @@ namespace CapsModifier
 		 
 		Examples follow in the source code below.
 
-		Arrows (![](ArrowDown;;;0.03,0.03)) show caret position. 
+		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
 
 		Move to where the arrow points before pressing the shortcut.
 
@@ -128,13 +128,6 @@ namespace CapsModifier
 			//`   ![](ArrowDown;;;0.008,0.008)
 			LastSelected = source;
 			throw new NotImplementedException();
-		}
-
-		public enum Currency
-		{
-			USD,
-			EUR,
-			GBR
 		}
 	}
 

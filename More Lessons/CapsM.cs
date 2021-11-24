@@ -10,7 +10,7 @@ namespace CapsModifier
 	public class CapsM
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](CapsM;;;0.03,0.03)
+		![Enable Rich Comments to see embedded images](CapsM;;;0.04,0.04)
 
 		Use Caps+M to:
 

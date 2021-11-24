@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public class AddGetterSetter
 	{
-		//`![Enable Rich Comments to see embedded images](CapsInsert;;;0.03,0.03)
+		//`![](CapsInsert;crcommand:OpenFile:CapsInsert.cs;;0.03,0.03) to add a setter or a getter.
 
 		//`                         ![](ArrowDown;;;0.008,0.008) Caps+Insert to add a setter.
 		public int NeedsSetter { get; }
@@ -22,11 +22,12 @@ namespace CapsModifier
 //`++Great Work!
 
 /* 
-You used Caps+Insert to add new parameters, missing constructors, event triggers, and more.
+	You used Caps+Insert to add missing constructors, new parameters, 
+	members to interfaces, event triggers, and more.
 
-
-![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.04,0.04)  << Caps+. to expand and collapse code formatting
+	![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.04,0.04)  << Shortcuts for instant declarations...
 
 */
+
 
 

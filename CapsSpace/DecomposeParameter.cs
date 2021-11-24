@@ -7,7 +7,7 @@ namespace CapsModifier
 {
 	public class DecomposeParameter
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to decompose parameters into more useful parts.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to decompose parameters into more useful parts.
 
 
 		public string GetThisEncodedPath()
@@ -30,6 +30,9 @@ namespace CapsModifier
 		//` ![](Decompose Parameter2;https://www.youtube.com/watch?v=_sTWyDjd4oY&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=12 ;;0.06,0.06)  << More on Decompose Parameter.
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:ExpandLambda.cs;;0.04,0.04) << Expand Lambda and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToStringInterpolation.cs;;0.04,0.04) << Convert to String Interpolation and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

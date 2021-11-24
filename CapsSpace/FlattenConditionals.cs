@@ -6,7 +6,7 @@ namespace CapsModifier
 	public abstract partial class FlattenConditionals
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to flatten conditionals.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to flatten conditionals.
 
 		internal void NestedMethod1(bool okayToStart, bool okayToReadData, bool okayToDraw)
 		{
@@ -75,3 +75,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:SimplifyExpressions.cs;;0.04,0.04) << Simplify Expressions and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

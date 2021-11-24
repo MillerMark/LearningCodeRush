@@ -2,6 +2,8 @@
 
 public partial class AddElseBlock
 {
+	//`![](CapsInsert;crcommand:OpenFile:CapsInsert.cs;;0.03,0.03) to add an else block.
+
 	public AddElseBlock()
 	{
 		if (!started)
@@ -16,4 +18,4 @@ public partial class AddElseBlock
 
 
 
-
+//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.02,0.02)  << Skip ahead to the next lesson...

@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public partial class TernaryExpressions
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to compress conditionals into ternary expressions.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to compress conditionals into ternary expressions.
 
 
 		public string CheckName(string name)
@@ -25,3 +25,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:CombineSplitConditionals.cs;;0.04,0.04) << Combine & Split Conditionals and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

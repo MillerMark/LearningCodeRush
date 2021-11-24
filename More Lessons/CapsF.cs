@@ -6,7 +6,7 @@ namespace CapsModifier
 {
 	public abstract class CapsF
 	{
-		//`![Enable Rich Comments to see embedded images](CapsF;;;0.03,0.03)
+		//`![](CapsF;;;0.04,0.04)
 
 		/* 
 		Caps+F lets you declare Fields, Flatten conditionals, work with For 
@@ -98,6 +98,13 @@ namespace CapsModifier
 			}
 		}
 
+
+		//`![](ArrowDown;;;0.008,0.008) Caps+F to convert this unimplemented property into one with a backing field variable:
+		public decimal LifetimeCustomerValue
+		{
+			get => throw new NotImplementedException();
+			set => throw new NotImplementedException();
+		}
 
 
 		void ConcatLongerThan(List<string> strings, int minLength)

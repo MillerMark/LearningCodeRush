@@ -6,7 +6,7 @@ namespace CapsModifier
 {
 	public partial class InlineLambda
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to inline to a lambda.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to inline a delegate to a lambda.
 
 		public InlineLambda()
 		{
@@ -27,3 +27,7 @@ namespace CapsModifier
 
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToFunction.cs;;0.04,0.04) << Convert to Function and more...
 }
+
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

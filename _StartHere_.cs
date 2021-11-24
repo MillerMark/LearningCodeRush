@@ -31,6 +31,6 @@
 	contact us through our Support Center (support@devexpress.com)
 	or click the link below:
 
-	![](SubmitSupportTicket;https://supportcenter.devexpress.com/ ;;0.03,0.03)
+	![](SubmitSupportTicket;https://supportcenter.devexpress.com/ ;;0.035,0.035)
 */
 

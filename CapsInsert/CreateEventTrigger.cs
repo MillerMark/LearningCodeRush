@@ -2,6 +2,7 @@
 
 public class CreateEventTrigger
 {
+	//`![](CapsInsert;crcommand:OpenFile:CapsInsert.cs;;0.03,0.03) to create an event trigger.
 
 	//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04) << Learn more about the Target Picker...
 
@@ -21,3 +22,4 @@ public class CreateEventTrigger
 
 
 
+//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.02,0.02)  << Skip ahead to the next lesson...

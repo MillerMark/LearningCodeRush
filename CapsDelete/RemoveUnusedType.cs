@@ -1,6 +1,6 @@
 ﻿public class RemoveUnusedType
 {
-	//`![](CapsPlusDelete;;;0.03,0.03) removes unused types.
+	//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes unused types.
 
 	// Caps+Delete to remove the unused type:
 	//`                ![](ArrowDown;;;0.008,0.008)

@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public partial class NullCoalescing
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to compress to (or expand) null coalescing operations.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to compress to (or expand) null coalescing operations.
 
 		public string CheckPostalCode(string postalCode)
 		{
@@ -29,3 +29,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:InlineLambda.cs;;0.04,0.04) << Inline Lambda and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

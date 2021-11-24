@@ -2,7 +2,7 @@
 
 public class RemoveDiscardVariable
 {
-	//`![](CapsPlusDelete;;;0.03,0.03) discards unused variables.
+	//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) discards unused variables.
 
 	public static bool HasAssignment(SimpleNameSyntax identifier)
 	{

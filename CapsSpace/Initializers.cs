@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public class Initializers
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to create and decompose initializers.
+		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) to create and decompose initializers.
 
 		public void CreateTestCustomer1()
 		{
@@ -31,3 +31,6 @@ namespace CapsModifier
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:InlineTemp.cs;;0.04,0.04) << Inline Temp and more...
 }
 
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...

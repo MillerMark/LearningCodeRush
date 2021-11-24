@@ -1,5 +1,4 @@
 ﻿using System;
-
 public partial class AddElseBlock
 {
 	bool started;

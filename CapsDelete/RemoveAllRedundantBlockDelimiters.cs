@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public partial class RemoveAllRedundantBlockDelimiters
 	{
-		//`![](CapsPlusDelete;;;0.03,0.03) removes all redundant **block delimiters** 
+		//`![](CapsPlusDelete;crcommand:OpenFile:CapsDelete.cs;;0.03000,0.03000) removes all redundant **block delimiters** 
 
 		// Use Caps+Delete to remove all redundant **block delimiters** inside
 		// this method, available on the first token of the method declaration.
