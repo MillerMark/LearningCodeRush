@@ -113,8 +113,6 @@ namespace CapsModifier
 			engaging = true;
 		}
 
-
-
 		public static double ConvertToUSD(double amount)
 		{
 			// Press Caps+P to declare "source" as a parameter.
@@ -152,7 +150,7 @@ namespace CapsModifier
 		* Declare Property
 		* Declare Initialized Property
 
-	![](NextLesson;crcommand:OpenFile:CapsQ.cs;;0.04,0.04)  >> Caps+Q for Constants...
+	![](NextLesson;crcommand:OpenFile:CapsR.cs;;0.04,0.04)  << Caps+R to Reorder parameters...
 
 	*/
 }

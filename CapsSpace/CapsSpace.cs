@@ -19,7 +19,7 @@
 
 		![](BtnShowMe;crcommand:OpenFile:ImplicitExplicit.cs;;0.04,0.04) << Guided path
 
-	All Examples (click one to try):
+	All Examples (click to try):
 
 		![](BtnImplicitExplicit;crcommand:OpenFile:ImplicitExplicit.cs;;0.04,0.04)
 		![](BtnExpressionBodies;crcommand:OpenFile:ExpressionBodies.cs;;0.04,0.04)
@@ -42,4 +42,4 @@
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson...
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Delete)...

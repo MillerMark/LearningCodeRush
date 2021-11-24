@@ -53,7 +53,7 @@ namespace CapsModifier
 
 
 
-			//  Select the text "Mark" below ![](ArrowDown;;;0.008,0.008) and press Caps+F to introduce a format item.
+			//  **Select** the text "Mark" below ![](ArrowDown;;;0.008,0.008) and press Caps+F to introduce a format item.
 			public string Message => "Hello Mark!";
 		}
 

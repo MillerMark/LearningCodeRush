@@ -1,8 +1,5 @@
 ﻿using System;
-using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Diagnostics;
 using System.Collections.Generic;
 
 namespace CapsModifier
@@ -29,16 +26,13 @@ namespace CapsModifier
 		}
 	}
 
-
-
 	//`++Great Work!
 
-	/* 
-	You used Caps+L to declare a new local based on an expression on the line.
+	// You used Caps+L to declare a new local based on an expression on the line.
 
-	![](NextLesson;crcommand:OpenFile:CapsM.cs;;0.04,0.04)  << Caps+M to declare Methods and for Moving...
-
-	*/
+	//`![](BtnCapsC-Classes;crcommand:OpenFile:Classes.cs;;0.04,0.04) << Next topic in the guided tour...
 }
 
 
+
+//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...

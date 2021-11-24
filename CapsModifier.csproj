@@ -108,12 +108,10 @@
     <Compile Include="CapsSpace\ImplicitExplicit.cs" />
     <Compile Include="CapsSpace\Initializers.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\ImplicitExplicitPart.cs" Visible="False" />
-    <Compile Include="More Lessons\CapsL.cs" />
     <Compile Include="More Lessons\CapsM.cs" />
     <Compile Include="More Lessons\CapsR.cs" />
     <Compile Include="Support Files Only - No Lessons Here\DataProcessor.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\BaseTool.cs" Visible="False" />
-    <Compile Include="More Lessons\CapsQ.cs" />
     <Compile Include="CapsInsert\CapsInsert.cs" />
     <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Book.cs" Visible="False" />

@@ -12,7 +12,7 @@
 
 		![](BtnShowMe;crcommand:OpenFile:RemoveRedundantDelegateCreation.cs;;0.04000,0.04000) << Continue the guided path
 
-		All Examples (click one to try):
+		All Examples (click to try):
 
 		![](BtnRemoveRedundantDelegateCreation;crcommand:OpenFile:RemoveRedundantDelegateCreation.cs;;0.04000,0.04000)
 		![](BtnRemoveUnusedLocal;crcommand:OpenFile:RemoveUnusedLocal.cs;;0.04,0.04)
@@ -26,4 +26,4 @@
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson...
+//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Insert)...

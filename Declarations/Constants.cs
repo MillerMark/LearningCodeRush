@@ -1,36 +1,16 @@
-﻿using System;
-using System.Linq;
-
-namespace CapsModifier
+﻿namespace CapsModifier
 {
 	public class Constants
 	{
 		//`![](CapsQ;crcommand:OpenFile:CapsQ.cs;;0.03000,0.03000) declares Constants
 
-		/*
-		Use Caps+Q to declare constants.
-		 
-		Examples follow in the source code below.
-
-		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
-
-		Move to where the arrow points before pressing the shortcut.
-
-		And when declaring a constant, use the target picker to tell 
-		CodeRush where you want to put the new constant.
-
-		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
-
-		*/
-
 		public static string GetRelativePath(string str)
-		{
+		{//                                        ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			int parentFolderIndex = str.IndexOf(@"\wwwroot\GameDev\Assets\");
 			if (parentFolderIndex >= 0)//`             Caps+Q ![](ArrowDown;;;0.008,0.008) to declare a constant.
 				return str.Substring(parentFolderIndex + @"\wwwroot\GameDev\Assets\".Length);
 			return null;
 		}
-
 
 
 		public double Circumference(double radius)
@@ -51,13 +31,21 @@ namespace CapsModifier
 	}
 
 
-
 	//`++Great Work!
+/* 
+	You used:
+	
+		* Caps+M to declare Methods.
+		* Caps+P to declare Properties.
+		* Caps+A to declare Auto-implemented Properties.
+		* Caps+F to declare Fields
+		* Caps+L to declare Locals
+		* Caps+C to declare Classes.
+		* Caps+Q to declare Constants.
 
-	/* 
-	You used Caps+Q to declare constants. Nice!
+	Nice!
 
-	![](NextLesson;crcommand:OpenFile:CapsR.cs;;0.04,0.04)  << Caps+R to Reorder parameters...
 
-	*/
+	![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.04,0.04)  << Caps+. to expand and collapse code formatting
+*/
 }

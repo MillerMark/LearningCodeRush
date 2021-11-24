@@ -1,50 +1,35 @@
-﻿using System;
-using System.Linq;
-
-namespace CapsModifier
+﻿namespace CapsModifier
 {
 	public class Declarations
 	{
-		/* To instantly declare methods, properties, classes, fields, and locals, use these shortcuts:
-		 
-		![](CapsM;crcommand:OpenFile:CapsM.cs;;0.025,0.025) declares Methods
+		/* To instantly declare methods, properties, classes, fields, locals and constants, use these shortcuts:
 
-		![](CapsP;crcommand:OpenFile:CapsP.cs;;0.025,0.025) declares Properties
+			* Caps+M declares Methods
+			* Caps+P declares Properties
+			* Caps+A declares Auto-implemented properties
+			* Caps+F declares Fields
+			* Caps+L declares Locals
+			* Caps+C declares Classes
+			* Caps+Q declares Constants
 
-		![](CapsA;crcommand:OpenFile:CapsA.cs;;0.025,0.025) declares Auto-implemented properties
+			![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04) << Many of these features use the Target Picker.
 
-		![](CapsF;crcommand:OpenFile:CapsF.cs;;0.025,0.025) declares Fields
+			![](BtnShowMe;crcommand:OpenFile:Methods.cs;;0.04000,0.04000) << Guided path
 
-		![](CapsL;crcommand:OpenFile:CapsL.cs;;0.025,0.025) declares Locals
 
-		![](CapsC;crcommand:OpenFile:CapsC.cs;;0.025,0.025) declares Classes
+			All Examples (click to try):
 
-		![](CapsQ;crcommand:OpenFile:CapsQ.cs;;0.025,0.025) declares Constants
-
-		 
-		![](BtnShowMe;crcommand:OpenFile:Fields.cs;;0.04,0.04) << Guided path
-
-	All Examples (click one to try):
-
-		![](BtnCapsM-Methods;crcommand:OpenFile:Methods.cs)
-		![](BtnCapsP-Properties;crcommand:OpenFile:Properties.cs)
-		![](BtnCapsA-AutoImplemented;crcommand:OpenFile:AutoImplementedProperties.cs)
-		![](BtnCapsF-Fields;crcommand:OpenFile:Fields.cs)
-		![](BtnCapsL-Locals;crcommand:OpenFile:Locals.cs)
-		![](BtnCapsC-Classes;crcommand:OpenFile:Classes.cs)
-		![](BtnCapsQ-Constants;crcommand:OpenFile:Constants.cs)
-
+				![](BtnCapsM-Methods;crcommand:OpenFile:Methods.cs)
+				![](BtnCapsP-Properties;crcommand:OpenFile:Properties.cs)
+				![](BtnCapsA-AutoImplemented;crcommand:OpenFile:AutoImplementedProperties.cs)
+				![](BtnCapsF-Fields;crcommand:OpenFile:Fields.cs)
+				![](BtnCapsL-Locals;crcommand:OpenFile:Locals.cs)
+				![](BtnCapsC-Classes;crcommand:OpenFile:Classes.cs)
+				![](BtnCapsQ-Constants;crcommand:OpenFile:Constants.cs)
 		*/
 	}
 }
 
 
-//`++Great Work!
 
-/* 
-You used Caps+Insert to add new parameters, missing constructors, event triggers, and more.
-
-
-![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.04,0.04)  << Caps+. to expand and collapse code formatting
-
-*/
+//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...

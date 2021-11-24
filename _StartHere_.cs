@@ -6,8 +6,8 @@
 	all the refactorings can be accessed through Visual Studio's Code 
 	Action menu (use Ctrl+. or Num 0).
 
-	Be sure to run the Setup Wizard if you haven't yet. It's the fastest 
-	way to enable/disable major CodeRush features for the way you work:
+	Run the Setup Wizard if you haven't yet. It's the fastest way to 
+	enable/disable features for the way you work:
 
 		![](CodeRushSetup;crcommand:RunSetupWizard;;0.04,0.04)  << Start the Setup Wizard
 */

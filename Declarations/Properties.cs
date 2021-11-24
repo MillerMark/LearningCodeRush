@@ -1,8 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Diagnostics;
 
 namespace CapsModifier
 {
@@ -10,8 +6,6 @@ namespace CapsModifier
 	{
 		/* 
 		![](CapsP;crcommand:OpenFile:CapsP.cs;;0.03000,0.03000) declares Properties
-
-		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
 
 		*/
 
@@ -24,24 +18,23 @@ namespace CapsModifier
 			throw new NotImplementedException();
 		}
 
+		// Sometimes you need to assign a **parameter** to a **Property** that
+		// doesn't exist yet.
+
+
+		//`                  Caps+P ![](ArrowDown;;;0.008,0.008) to declare an **initialized property**:
+		public void Start(string city)
+		{
+		}
+
+		//`![](BtnMoreWithCapsP;crcommand:OpenFile:CapsP.cs;;0.03,0.03) << Caps+P can do even more!
 	}
 
-	//`++Great Work!
-
-	/* 
-	You used Caps+P to:
-	
-		* Promote to Generic Parameter
-		* Promote to Parameter
-		* Pull Members Up
-		* Declare Parameter
-		* Declare Partial Class Part
-		* Declare Property
-		* Declare Initialized Property
-
-	![](NextLesson;crcommand:OpenFile:CapsQ.cs;;0.04,0.04)  >> Caps+Q for Constants...
-
-	*/
+	//`![](BtnCapsA-AutoImplemented;crcommand:OpenFile:AutoImplementedProperties.cs;;0.04,0.04) << Next topic in the guided tour...
 }
+
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...
 
 

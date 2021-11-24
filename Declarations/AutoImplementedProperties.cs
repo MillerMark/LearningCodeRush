@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace CapsModifier
 {
@@ -17,9 +16,13 @@ namespace CapsModifier
 			//` ![](ArrowDown;;;0.008,0.008) Caps+A to declare an auto-implemented property.
 			LastChange = DateTime.Now;
 		}
+
+		//`![](BtnMoreWithCapsA;crcommand:OpenFile:CapsA.cs;;0.03,0.03) << Caps+A can do even more!
 	}
 
-	// ![](BtnMoreLikeThis;;;0.04,0.04)
+	//`![](BtnCapsF-Fields;crcommand:OpenFile:Fields.cs;;0.04,0.04) << Next topic in the guided tour...
 }
 
 
+
+//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...

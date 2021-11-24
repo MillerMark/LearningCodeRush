@@ -16,10 +16,11 @@ public class RemoveRedundantDelegateCreation
 	}
 
 	public event EventHandler TextChanged;
+
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:RemoveUnusedLocal.cs;;0.04000,0.04000) << Remove Unused Local and more...
 }
 
-//`![](BtnMoreLikeThis;crcommand:OpenFile:RemoveUnusedLocal.cs;;0.04000,0.04000) << Remove Unused Local and more...
 
 
+//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Insert)...
 
-//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson...

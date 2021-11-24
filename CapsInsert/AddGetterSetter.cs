@@ -11,7 +11,6 @@ namespace CapsModifier
 		public int NeedsSetter { get; }
 
 		int needsGetter;
-		bool started;
 		public int NeedsGetter
 		{   //`![](ArrowDown;;;0.008,0.008) Caps+Insert to add a getter.
 			set => needsGetter = value;
@@ -25,9 +24,6 @@ namespace CapsModifier
 	You used Caps+Insert to add missing constructors, new parameters, 
 	members to interfaces, event triggers, and more.
 
-	![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.04,0.04)  << Shortcuts for instant declarations...
+	![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.04,0.04)  << Shortcuts for **instant declarations**...
 
 */
-
-
-

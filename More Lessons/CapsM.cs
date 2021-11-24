@@ -10,7 +10,7 @@ namespace CapsModifier
 	public class CapsM
 	{
 		/* 
-		![Enable Rich Comments to see embedded images](CapsM;;;0.04,0.04)
+		![](CapsM;;;0.04,0.04)
 
 		Use Caps+M to:
 
@@ -44,7 +44,7 @@ namespace CapsModifier
 
 		public static string GetFirstName(string name)
 		{
-			// Caps+M ![](ArrowDown;;;0.008,0.008) to move spaceIndex down near it's first reference.
+			// Caps+M ![](ArrowDown;;;0.008,0.008) to move spaceIndex down near its first reference.
 			int spaceIndex = name.IndexOf(' ');
 
 			if (name == null)
@@ -65,13 +65,12 @@ namespace CapsModifier
 		{
 			string fullName;
 
-			// ![](ArrowDown;;;0.008,0.008) Caps+M to move this initialization its declaration (above)
+			// ![](ArrowDown;;;0.008,0.008) Caps+M to move this initialization to its declaration (above)
 			fullName = getFirst() + " " + getLast();
 
 			return fullName;
 		}
 	}
-
 
 
 	//       Caps+M ![](ArrowDown;;;0.008,0.008) to move this type to its own file. 

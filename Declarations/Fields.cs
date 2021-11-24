@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Collections.Generic;
 
 namespace CapsModifier
 {
@@ -17,6 +15,9 @@ namespace CapsModifier
 			readyToLaunch = authorizationCount >= minAuthorizationsNeeded && allSystemsReady;
 		}
 
+		// Sometimes you need to assign a **parameter** to a **Field** that
+		// doesn't exist yet.
+
 		//`       Press Caps+F ![](ArrowDown;;;0.008,0.008) to declare a new Field initialized to this parameter:
 		void SetName(string siteName)
 		{
@@ -31,7 +32,7 @@ namespace CapsModifier
 		public void SetLogin(string url, string userName)
 		{
 			//`        ![](ArrowDown;;;0.008,0.008) Caps+F to turn local "completeUrl" into a Field variable:
-			string completeUrl = string.Format("http://{0}?{1}", url, userName);
+			string completeUrl = $"http://{url}?{userName}";
 
 			if (!IsValid(completeUrl))
 				throw new Exception($"\"{completeUrl}\" has errors!");
@@ -44,5 +45,14 @@ namespace CapsModifier
 			get => throw new NotImplementedException();
 			set => throw new NotImplementedException();
 		}
+
+
+		//`![](BtnMoreWithCapsF;crcommand:OpenFile:CapsF.cs;;0.03,0.03) << Caps+F can do even more!
 	}
+
+	//`![](BtnCapsL-Locals;crcommand:OpenFile:Locals.cs;;0.04,0.04) << Next topic in the guided tour...
 }
+
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...

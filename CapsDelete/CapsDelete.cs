@@ -16,7 +16,7 @@ public class CapsDelete
 		![](BtnShowMe;crcommand:OpenFile:RemoveTypeQualifier.cs;;0.04000,0.04000) << Guided path
 
 
-	All Examples (click one to try):
+	All Examples (click to try):
 
 	![](BtnRemoveTypeQualifier;crcommand:OpenFile:RemoveTypeQualifier.cs;;0.04,0.04)
 		![](BtnRemoveAllTypeQualifiers;crcommand:OpenFile:RemoveAllTypeQualifiers.cs;;0.04,0.04) << Bonus shortcut - Use Shift+Caps+Delete!
@@ -29,3 +29,6 @@ public class CapsDelete
 
  */
 }
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Insert)...

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace CapsModifier
 {
@@ -13,5 +12,13 @@ namespace CapsModifier
 			jane.JoinDate = DateTime.Now;
 			jane.SendWelcomeMessage();
 		}
+
+		//`![](BtnMoreWithCapsC;crcommand:OpenFile:CapsC.cs;;0.03,0.03) << Caps+C can do even more!
 	}
+
+	//`![](BtnCapsQ-Constants;crcommand:OpenFile:Constants.cs;;0.04,0.04) << Next topic in the guided tour...
 }
+
+
+
+//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...
