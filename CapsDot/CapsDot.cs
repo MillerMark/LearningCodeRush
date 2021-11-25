@@ -6,7 +6,7 @@ namespace CapsModifier
 	public class CapsDot
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsDot;;;0.03,0.03)
+		//`![](CapsDot;;;0.04,0.04)
 
 		/*
 		
@@ -104,7 +104,7 @@ namespace CapsModifier
 	/* 
 	You used Caps+. to:
 	
-		* expand and collapse property getters and setters, and expression bodies
+		* Expand and collapse property getters, property setters, and expression bodies
 		* Break apart and line-up arguments and parameters
 
 

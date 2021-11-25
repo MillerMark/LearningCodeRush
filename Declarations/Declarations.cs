@@ -4,18 +4,17 @@
 	{
 		/* To instantly declare methods, properties, classes, fields, locals and constants, use these shortcuts:
 
-			* Caps+M declares Methods
-			* Caps+P declares Properties
-			* Caps+A declares Auto-implemented properties
-			* Caps+F declares Fields
-			* Caps+L declares Locals
-			* Caps+C declares Classes
-			* Caps+Q declares Constants
-
-			![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04) << Many of these features use the Target Picker.
+			* Caps+M for Methods
+			* Caps+P for Properties
+			* Caps+A for Auto-implemented properties
+			* Caps+F for Fields
+			* Caps+L for Locals
+			* Caps+C for Classes
+			* Caps+Q for Constants
 
 			![](BtnShowMe;crcommand:OpenFile:Methods.cs;;0.04000,0.04000) << Guided path
 
+			![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03) << Many of these features use the Target Picker.
 
 			All Examples (click to try):
 

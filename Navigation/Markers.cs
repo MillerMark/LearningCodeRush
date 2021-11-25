@@ -15,7 +15,7 @@
 		  ![](Gear;crcommand:Options:Editor\All Languages\Markers;;0.01,0.01) << Marker settings.
 
 
-		   ![](Markers;https://www.youtube.com/watch?v=_awmO-WZ_vw&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=23 ;;0.06,0.06) << Learn more about Markers.
+		   ![](Markers;https://www.youtube.com/watch?v=_awmO-WZ_vw&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=23 ;;0.04,0.04) << Learn more about Markers.
 		*/
 
 		//` ![](GotIt;vscommand:File.Close)

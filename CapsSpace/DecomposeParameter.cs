@@ -27,7 +27,7 @@ namespace CapsModifier
 				return "Static:" + Path.GetDirectoryName(assembly.Location);
 		}
 
-		//` ![](Decompose Parameter2;https://www.youtube.com/watch?v=_sTWyDjd4oY&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=12 ;;0.06,0.06)  << More on Decompose Parameter.
+		//` ![](Decompose Parameter2;https://www.youtube.com/watch?v=_sTWyDjd4oY&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=12 ;;0.04,0.04)  << More on Decompose Parameter.
 	}
 
 	//`![](BtnMoreLikeThis;crcommand:OpenFile:ConvertToStringInterpolation.cs;;0.04,0.04) << Convert to String Interpolation and more...

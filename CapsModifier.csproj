@@ -59,6 +59,7 @@
     <Compile Include="Declarations\Methods.cs" />
     <Compile Include="Declarations\Properties.cs" />
     <Compile Include="Declarations\Constants.cs" />
+    <Compile Include="More Lessons\AllLessonsCapsModifier.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Currency.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveAllRedundantBlockDelimitersPart.cs" Visible="False" />
@@ -91,7 +92,8 @@
     <Compile Include="Support Files Only - No Lessons Here\RoutedEventArgs.cs" Visible="False" />
     <Compile Include="CapsSpace\StringInterpolation.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\StringInterpolationPart.cs" Visible="False" />
-    <Compile Include="Settings.cs" Visible="False" />
+    <Compile Include="Overrides.cs" Visible="False" />
+    <Compile Include="Setup.cs" Visible="False" />
     <Compile Include="CapsSpace\DecomposeParameter.cs" />
     <Compile Include="CapsSpace\ExpressionBodies.cs" />
     <Compile Include="CapsSpace\FlattenConditionals.cs" />
@@ -134,7 +136,7 @@
     <Compile Include="Support Files Only - No Lessons Here\Space.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\World.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\SyntaxNode.cs" Visible="False" />
-    <Compile Include="_StartHere_.cs" />
+    <Compile Include="StartHere.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" Visible="False" />
   </ItemGroup>
   <ItemGroup>

@@ -7,7 +7,7 @@ namespace CapsModifier
 
 	public partial class AddParameter
 	{
-		//` ![](Add Parameter;https://www.youtube.com/watch?v=KAtOxMQyg3g&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=4 ;;0.06,0.06)  << Learn about Add Parameter.
+		//` ![](Add Parameter;https://www.youtube.com/watch?v=KAtOxMQyg3g&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=4 ;;0.04,0.04)  << Learn about Add Parameter.
 
 		internal void TestStart()
 		{
@@ -30,7 +30,7 @@ namespace CapsModifier
 		// Just place the caret inside the identifier and press the copy or 
 		// cut keys (e.g., Ctrl+C, Ctrl+Insert, etc.).
 
-		//` ![](SmartCutCopyPasteReplace;https://www.youtube.com/watch?v=KxJO1V-W2lI&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=25 ;;0.06,0.06)  << More on Smart Cut/Copy.
+		//` ![](SmartCutCopyPasteReplace;https://www.youtube.com/watch?v=KxJO1V-W2lI&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=25 ;;0.04,0.04)  << More on Smart Cut/Copy.
 
 		public void CompleteTasks()
 		{
@@ -60,7 +60,7 @@ namespace CapsModifier
 
 		// You can enable Templates on the Quick Setup options page. ![](Gear;crcommand:Options:Quick Setup;;0.01,0.01)
 
-		//` ![](T for Types;https://www.youtube.com/watch?v=WiGSSxFLNhI&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=22 ;;0.06,0.06)  << More on Type templates.
+		//` ![](T for Types;https://www.youtube.com/watch?v=WiGSSxFLNhI&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=22 ;;0.04,0.04)  << More on Type templates.
 
 
 		// Try using "ts" (or "tl.s") on the next example! 

@@ -53,7 +53,7 @@ namespace CapsModifier
 	To learn more about CodeRush, check out the Feature of the Week playlist 
 	on YouTube:
 
-	![](Tab to Next Reference;https://www.youtube.com/playlist?list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk ;;0.06,0.06) << More on CodeRush Features
+	![](Tab to Next Reference;https://www.youtube.com/playlist?list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk ;;0.04,0.04) << More on CodeRush Features
 
 	As always, we welcome your thoughts. Let us know what you think about 
 	this training solution. If you have specific questions or need assistance 

@@ -5,7 +5,7 @@ public class CapsDelete
 	//`![](CapsPlusDelete;;;0.04,0.04) removes unneeded code.
 
 	/* 
-	 Use Caps+Delete to remove redundant and unnecessary code, including:
+	Use Caps+Delete to remove redundant and unnecessary code, including:
 
 		* Type Qualifiers
 		* Unused Members
@@ -18,15 +18,14 @@ public class CapsDelete
 
 	All Examples (click to try):
 
-	![](BtnRemoveTypeQualifier;crcommand:OpenFile:RemoveTypeQualifier.cs;;0.04,0.04)
-		![](BtnRemoveAllTypeQualifiers;crcommand:OpenFile:RemoveAllTypeQualifiers.cs;;0.04,0.04) << Bonus shortcut - Use Shift+Caps+Delete!
+		![](BtnRemoveTypeQualifier;crcommand:OpenFile:RemoveTypeQualifier.cs;;0.03,0.03)
+			![](BtnRemoveAllTypeQualifiers;crcommand:OpenFile:RemoveAllTypeQualifiers.cs;;0.03,0.03) << Bonus shortcut - Use Shift+Caps+Delete!
 
-	![](BtnRemoveUnusedMember;crcommand:OpenFile:RemoveUnusedMember.cs;;0.04,0.04)
-	![](BtnRedundantAllRedundantBlockDelimiters;crcommand:OpenFile:RemoveAllRedundantBlockDelimiters.cs;;0.04000,0.04000)
-	![](BtnRemoveUnusedParameter;crcommand:OpenFile:RemoveUnusedParameter.cs;;0.04,0.04)
+		![](BtnRemoveUnusedMember;crcommand:OpenFile:RemoveUnusedMember.cs;;0.03,0.03)
+		![](BtnRemoveAllRedundantBlockDelimiters;crcommand:OpenFile:RemoveAllRedundantBlockDelimiters.cs;;0.03,0.03)
+		![](BtnRemoveUnusedParameter;crcommand:OpenFile:RemoveUnusedParameter.cs;;0.03,0.03)
 
-	![](BtnMoreCapsDeleteShortcuts;crcommand:OpenFile:MoreCapsDelete.cs;;0.04,0.04)
-
+		![](BtnMoreCapsDeleteShortcuts;crcommand:OpenFile:MoreCapsDelete.cs;;0.03,0.03)
  */
 }
 
