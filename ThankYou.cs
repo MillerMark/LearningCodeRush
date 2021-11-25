@@ -1,8 +1,8 @@
 ﻿
 //`++Thank You from DevExpress!
 /*
-	On behalf of the CodeRush team we would like to thank you for your support
-	and for working your way through the Learning CodeRush solution.
+	On behalf of the CodeRush team we thank you for your support and 
+	for working your way through the Learning CodeRush solution!
 
 	Rate your CodeRush experience so far:
 

@@ -46,6 +46,6 @@
 	Nice!
 
 
-	![](NextLesson;crcommand:OpenFile:CapsSlash.cs;;0.04,0.04)  << Caps+/ to expand and collapse code formatting
+	![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04000,0.04000)  << More Caps shortcuts...
 */
 }

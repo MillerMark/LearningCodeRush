@@ -15,6 +15,7 @@ namespace CapsModifier
 		
 			* Break apart (or line up) Arguments & Parameters (and Attributes in XAML)
 			* Collapse/expand property accessors
+
 		*/
 
 		string postalCode;

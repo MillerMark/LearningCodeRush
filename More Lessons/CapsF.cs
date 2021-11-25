@@ -9,8 +9,8 @@ namespace CapsModifier
 		//`![](CapsF;;;0.04,0.04)
 
 		/*
-		Caps+F lets you declare Fields, Flatten conditionals, work with For 
-		and Foreach loops, and convert void procs to Functions.
+		Caps+F lets you declare Fields, work with For and Foreach loops, and 
+		convert void procs to Functions.
 		
 		Use Caps+F to:
 		
@@ -54,47 +54,6 @@ namespace CapsModifier
 
 			//  **Select** the text "Mark" below ![](ArrowDown;;;0.008,0.008) and press Caps+F to introduce a format item.
 			public string Message => "Hello Mark!";
-		}
-
-
-		public bool MyBinaryOperator(bool a, bool b)
-		{
-			//`![](ArrowDown;;;0.008,0.008) Press Caps+F to flatten this conditional.
-			if (a && !b)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-		}
-
-		void NestedMethod(bool okayToStart, bool okayToReadData, bool okayToDraw)
-		{
-			// Flatten Conditional can make a deeply nested method flatter.
-
-			//`![](ArrowDown;;;0.008,0.008) Press Caps+F to flatten this conditional.
-			if (okayToStart)
-			{
-				Start();
-
-
-				//`![](ArrowDown;;;0.008,0.008) Flatten this conditional too.
-				if (okayToReadData)
-				{
-					ReadData();
-
-
-					//`![](ArrowDown;;;0.008,0.008) And flatten this.
-					if (okayToDraw)
-					{
-						Draw();
-						DoMoreWork();
-						FinishDrawing();
-					}
-				}
-			}
 		}
 
 
@@ -221,9 +180,9 @@ negativeCount     ++            ;
 	//`++Great Work!
 	/*
 		You used Caps+F to declare Fields & Fields with initializers, 
-		introduce Format items, Flatten conditionals, convert between ForEach 
-		statements and For loops, Format selection, move types to Files, 
-		use string.Format, and promote local variables into Fields.
+		introduce Format items, convert between ForEach statements and 
+		For loops, Format selection, move types to Files, use string.Format, 
+		and promote local variables into Fields.
 	*/
 
 	//`![](GotIt;vscommand:File.Close)

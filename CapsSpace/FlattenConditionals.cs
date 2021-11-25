@@ -35,9 +35,7 @@ namespace CapsModifier
 			}
 		}
 
-
 		//`![](SmartNav;crcommand:OpenFile:SmartNav.cs)  << Learn about SmartNav...
-
 
 		//`++ Pro Tip: SmartNav
 		// You can use SmartNav to make flattening methods like these even faster.

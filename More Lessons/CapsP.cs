@@ -9,7 +9,7 @@ namespace CapsModifier
 	public class CapsP
 	{
 		/*
-		![Enable Rich Comments to see embedded images](CapsP;;;0.03,0.03)
+		![Enable Rich Comments to see embedded images](CapsP;;;0.04,0.04)
 
 		Use Caps+P to:
 		
@@ -22,16 +22,11 @@ namespace CapsModifier
 			* Declare Property (with default body)
 			* Declare Property with Initializer
 
-		And when declaring initialized properties, use the Target Picker
-		to specify where to generate the property. 
-		
-		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn about the Target Picker.
-
 		*/
 
 		public CapsP()
 		{
-			//`       ![](LookHere;;;0.006,0.006) Look here when you try the next one.
+			//`         ![](LookHere;;;0.006,0.006) Look here when you try the next one.
 			SayHello();
 		}
 
@@ -44,8 +39,7 @@ namespace CapsModifier
 		}
 
 
-
-		// Press Caps+P to Promote "Tool" to a generic parameter:
+		// Press Caps+P to promote "Tool" to a generic Parameter:
 		//`       ![](ArrowDown;;;0.008,0.008)
 		public Tool GetTool(string id)
 		{
@@ -82,11 +76,9 @@ namespace CapsModifier
 		//    Rename the property (or press Enter/Escape to accept the given name)
 		//    Collect the marker to get back.
 
-		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
-
 		// Try declaring initialized properties for each of these parameters!
 
-		//`                           ![](ArrowDown;;;0.008,0.008) Caps+P
+		//`                          ![](ArrowDown;;;0.008,0.008) Caps+P
 		void SetCoordinates(double x, double y, double z)
 		{
 			

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CapsModifier
@@ -44,9 +45,14 @@ namespace CapsModifier
 
 			if (!started)
 			{
-				//`         ![](ArrowDown;;;0.008,0.008) Caps+Insert to add greeting as a new parameter.
+				//`         ![](ArrowDown;;;0.008,0.008) Caps+Insert to add "greeting" as a new parameter.
 				LateStart(50, TimeSpan.FromSeconds(5));
 			}
+		}
+		//`                      ![](LookHere;;;0.006,0.006) Look here when you try the previous one (undo/redo to see changes).
+		public void LateStart(int count, TimeSpan timeSpan)
+		{
+
 		}
 
 		//`++ Pro Tip

@@ -1,10 +1,9 @@
 ﻿
 //`![](ArrowUp;;;0.008,0.008)  Press Caps+C at the top of the file to add a copyright header.
-// You can change settings used in this copyright in the
-// CodeRush Options dialog, on the IDE | User Info page ![](Gear;crcommand:Options:User Info;;0.01,0.01).
 
 using System;
 using System.Collections.Generic;
+// Copyright settings are taken from the User Info options page: ![](Gear;crcommand:Options:User Info;;0.01,0.01)
 
 namespace CapsModifier
 {
@@ -23,9 +22,7 @@ namespace CapsModifier
 				* add missing Constructors
 				* convert a Conditional to a switch/Case statement (and back)
 				* declare a Class
-				* Combine/split Conditionals
 				* add method Contracts
-				
 			 
 		Examples follow in the source code below (and above).
 
@@ -115,21 +112,6 @@ namespace CapsModifier
 			andrew.Age = 47;
 			andrew.SaveToDB();
 		}
-
-
-		static TimeSpan fiveYears = TimeSpan.FromDays(365.25 * 5);
-
-
-
-
-		static bool SatisfiesMission(Space space, World world, TimeSpan missionDuration, bool willInterfereWithNaturalAlienDevelopment = false)
-		{
-			//`                                               ![](ArrowDown;;;0.008,0.008) Press Caps+C on the logical operators to split these conditionals:
-			if (space.SomeoneHasBeenHere || world.Explored || missionDuration > fiveYears || willInterfereWithNaturalAlienDevelopment)
-				return false;
-
-			return true;
-		}
 	}
 
 	//`++Great Work!
@@ -141,7 +123,6 @@ namespace CapsModifier
 		* add missing Constructors
 		* convert a Conditional to a switch/Case statement (and back)
 		* declare a Class
-		* Combine and split Conditionals
 		* add method Contracts
 	 */
 

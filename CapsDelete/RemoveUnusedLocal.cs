@@ -10,12 +10,12 @@ public class RemoveUnusedLocal
 			return num2;
 
 		// Caps+Delete to remove the unused local:
-		//`        ![](ArrowDown;;;0.008,0.008)
+		//`![](ArrowDown;;;0.008,0.008)
 		string unusedLocalVariable = null;
 
 		int step = 1;
 
-		// ![](LookHere;;;0.008,0.008) Look here when you try the one above.
+		// ![](LookHere;;;0.008,0.008) Look here when you try the one above (undo/redo to see changes).
 		unusedLocalVariable = "Yo";
 
 		if (num2 < 0)

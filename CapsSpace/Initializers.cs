@@ -21,9 +21,9 @@ namespace CapsModifier
 		{
 			//`                  ![](ArrowDown;;;0.008,0.008) Caps+Space to Decompose this Initializer: 
 			Customer jackson = new Customer() { 
-													FirstName = "Jackson", 
-													LastName = "Grand", 
-													Age = 35 };
+								FirstName = "Jackson", 
+								LastName = "Grand", 
+								Age = 35 };
 			jackson.Ready();
 		}
 	}

@@ -14,6 +14,9 @@
 		//`![](ArrowDown;;;0.008,0.008)
 		System.AssemblyLoadEventArgs assemblyLoadEventArgs;
 
+		// Tip: you can press Undo/Redo to review the changes.
+
+
 		public RemoveAllTypeQualifiers()
 		{
 			//`                            ![](LookHere;;;0.008,0.008) Watch this change when you try the one above.

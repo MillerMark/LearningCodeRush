@@ -11,7 +11,7 @@ namespace CapsModifier
 			GetSymbolName(null, "Yo yo yo", DateTime.Now);
 		}
 
-		//`                                Caps+Delete ![](ArrowDown;;;0.008,0.008) to remove the unused parameter:
+		//`                        Caps+Delete ![](ArrowDown;;;0.008,0.008) to remove the unused parameter (undo/redo to see changes):
 		string GetSymbolName(ISymbol symbol, string unusedMessage, DateTime requestTime)
 		{
 			prioritizeNextTask = (DateTime.Now - requestTime).TotalSeconds > 5;

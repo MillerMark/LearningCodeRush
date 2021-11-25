@@ -1,42 +1,36 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Diagnostics;
-
-namespace CapsModifier
+﻿namespace CapsModifier
 {
 	public class CapsR
 	{
 		/*
-		![Enable Rich Comments to see embedded images](CapsR;;;0.03,0.03)
+		![Enable Rich Comments to see embedded images](CapsR;;;0.04,0.04)
 
 		Use Caps+R to Reorder Parameters.
+
+			![](Reorder Parameters;https://www.youtube.com/watch?v=tdwW4dsRSUQ&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=4 ;;0.04000,0.04000) << Learn more about Reorder Parameters.
 		 
-		Examples follow in the source code below.
-
-		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
-
-		Move to where the arrow points before pressing the shortcut.
-
 		*/
 
 		// Use Caps+R to Reorder Parameters.
 		// Use the **Tab** and **Arrow** keys to select and move parameters.
 		// Enter accepts. Escape cancels.
 
-		//`                      ![](ArrowDown;;;0.008,0.008) Caps+R to reorder these parameters
-		internal void LotsOfParameters(string msg2, double Y, string msg1, double Z, double X)
+		//`                       Caps+R ![](ArrowDown;;;0.008,0.008) to get these parameters in the right order:
+		internal void LotsOfParameters(string msg2, double y, string msg1, double z, double x)
 		{
 
 		}
 
 		internal void CallingMethod()
 		{
-			// You can also Reorder Parameters from a *calling method*.
+			double x = 1;
+			double y = 2;
+			double z = 3;
 
-			//`                                  ![](ArrowDown;;;0.008,0.008) Caps+R to reorder these parameters
-			LotsOfParameters("Message 2", 2, "Message 1", 3, 1);
+			// You can also Reorder Parameters from a *calling method*:
+
+			//`            Caps+R ![](ArrowDown;;;0.008,0.008) to reorder these parameters:
+			LotsOfParameters("Message 2", y, "Message 1", z, x);
 		}
 	}
 

@@ -2,7 +2,7 @@
 {
 	public class Declarations
 	{
-		/* To instantly declare methods, properties, classes, fields, locals and constants, use these shortcuts:
+		/* To instantly declare methods, properties, classes, fields, locals, and constants, use these shortcuts:
 
 			* Caps+M for Methods
 			* Caps+P for Properties
