@@ -1,6 +1,6 @@
 ﻿public class MoreCapsDelete
 {
-	/* 
+	/*
 		You can also use Caps+Delete to remove these constructs:
 
 			* Redundant Delegate Creation

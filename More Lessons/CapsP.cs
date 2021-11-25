@@ -8,7 +8,7 @@ namespace CapsModifier
 {
 	public class CapsP
 	{
-		/* 
+		/*
 		![Enable Rich Comments to see embedded images](CapsP;;;0.03,0.03)
 
 		Use Caps+P to:
@@ -21,21 +21,13 @@ namespace CapsModifier
 			* Declare Property (auto-implemented)
 			* Declare Property (with default body)
 			* Declare Property with Initializer
-		 
-		Examples follow in the source code below.
-
-		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
-
-		Move to where the arrow points before pressing the shortcut.
 
 		And when declaring initialized properties, use the Target Picker
 		to specify where to generate the property. 
 		
-		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
+		![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn about the Target Picker.
 
 		*/
-
-
 
 		public CapsP()
 		{
@@ -54,7 +46,7 @@ namespace CapsModifier
 
 
 		// Press Caps+P to Promote "Tool" to a generic parameter:
-		//`![](ArrowDown;;;0.008,0.008)
+		//`       ![](ArrowDown;;;0.008,0.008)
 		public Tool GetTool(string id)
 		{
 			return null;
@@ -138,21 +130,19 @@ namespace CapsModifier
 	}
 
 	//`++Great Work!
+	/*
+		You used Caps+P to:
 
-	/* 
-	You used Caps+P to:
-	
-		* Promote to Generic Parameter
-		* Promote to Parameter
-		* Pull Members Up
-		* Declare Parameter
-		* Declare Partial Class Part
-		* Declare Property
-		* Declare Initialized Property
-
-	![](NextLesson;crcommand:OpenFile:CapsR.cs;;0.04,0.04)  << Caps+R to Reorder parameters...
-
+			* Promote to Generic Parameter
+			* Promote to Parameter
+			* Pull Members Up
+			* Declare Parameter
+			* Declare Partial Class Part
+			* Declare Property
+			* Declare Initialized Property
 	*/
+
+	//`![](GotIt;vscommand:File.Close)
 }
 
 

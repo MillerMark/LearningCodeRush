@@ -5,11 +5,9 @@ namespace CapsModifier
 {
 	public class Methods
 	{
-		/* 
+		/*
 			![](CapsM;crcommand:OpenFile:CapsM.cs;;0.03000,0.03000) declares Methods
 		*/
-
-		//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
 
 		public void Start(Dictionary<int, string> lookup, Action<Customer> callback)
 		{
@@ -27,4 +25,4 @@ namespace CapsModifier
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...
+//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...

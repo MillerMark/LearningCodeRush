@@ -8,7 +8,7 @@ namespace CapsModifier
 {
 	public class CapsR
 	{
-		/* 
+		/*
 		![Enable Rich Comments to see embedded images](CapsR;;;0.03,0.03)
 
 		Use Caps+R to Reorder Parameters.
@@ -43,11 +43,9 @@ namespace CapsModifier
 
 	//`++Great Work!
 
-	/* 
-	You used Caps+R to Reorder Parameters.
-	  
-
-	![](NextLesson;crcommand:OpenFile:ShiftCapsSpace.cs;;0.04,0.04)  << Shift+Caps+Space for tuples, types, and more...
-
+	/*
+		You used Caps+R to Reorder Parameters.
 	*/
+
+	//`![](GotIt;vscommand:File.Close)
 }

@@ -20,7 +20,7 @@ namespace CapsModifier
 
 //`++Great Work!
 
-/* 
+/*
 	You used Caps+Insert to add missing constructors, new parameters, 
 	members to interfaces, event triggers, and more.
 

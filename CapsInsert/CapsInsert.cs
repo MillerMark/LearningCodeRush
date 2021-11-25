@@ -2,7 +2,7 @@
 {
 	//`![](CapsInsert;;;0.04,0.04) adds new code.
 
-	/* 
+	/*
 	Use Caps+Insert to add new code, including:
 
 		* Missing Constructors

@@ -32,7 +32,7 @@
 
 
 	//`++Great Work!
-/* 
+/*
 	You used:
 	
 		* Caps+M to declare Methods.
@@ -46,6 +46,6 @@
 	Nice!
 
 
-	![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.04,0.04)  << Caps+. to expand and collapse code formatting
+	![](NextLesson;crcommand:OpenFile:CapsSlash.cs;;0.04,0.04)  << Caps+/ to expand and collapse code formatting
 */
 }

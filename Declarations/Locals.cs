@@ -7,7 +7,7 @@ namespace CapsModifier
 	public class Locals
 	{
 
-		/* 
+		/*
 			![](CapsL;crcommand:OpenFile:CapsL.cs;;0.03000,0.03000) declares Locals
 
 			You can enter **any expression** onto an empty line, and then use 
@@ -35,4 +35,4 @@ namespace CapsModifier
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...
+//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...

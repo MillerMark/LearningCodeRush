@@ -9,7 +9,7 @@ namespace CapsModifier
 {
 	public class CapsM
 	{
-		/* 
+		/*
 		![](CapsM;;;0.04,0.04)
 
 		Use Caps+M to:
@@ -19,20 +19,11 @@ namespace CapsModifier
 			* Move Initialization to Declaration
 			* Move Declaration Near Reference
 		 
-		Examples follow in the source code below.
-
-		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
-
-		Move to where the arrow points before pressing the shortcut.
-
 		*/
 
-		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs;;0.04,0.04)  << Learn about Text Fields.
+		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs;;0.03,0.03)  << Learn about Text Fields.
 
-		//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn about the Target Picker.
-
-		//`![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
-
+		//`![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn about the Target Picker.
 
 		void Start(Dictionary<int, string> lookup, Action<Customer> callback)
 		{
@@ -90,14 +81,13 @@ namespace CapsModifier
 
 	//`++Great Work!
 
-	/* 
-	You used Caps+M to declare a Method, Move a type to a new file, Move an 
-	initialization to its declaration, and Move a declaration near its first 
-	reference.
+	/*
+		You used Caps+M to declare a Method, Move a type to a new file, Move an 
+		initialization to its declaration, and Move a declaration near its first 
+		reference.
+	*/
 
-	![](NextLesson;crcommand:OpenFile:CapsP.cs;;0.04,0.04)  << Caps+P for Parameters, Partial classes, and Properties...
-
-	 */
+	//`![](GotIt;vscommand:File.Close)
 }
 
 

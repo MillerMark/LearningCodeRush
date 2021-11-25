@@ -8,10 +8,9 @@ namespace CapsModifier
 	{
 		//`![](CapsF;;;0.04,0.04)
 
-		/* 
+		/*
 		Caps+F lets you declare Fields, Flatten conditionals, work with For 
 		and Foreach loops, and convert void procs to Functions.
-		
 		
 		Use Caps+F to:
 		
@@ -220,12 +219,12 @@ negativeCount     ++            ;
 
 
 	//`++Great Work!
-	/* 
-	You used Caps+F to declare Fields & Fields with initializers, 
-	introduce Format items, Flatten conditionals, convert between ForEach 
-	statements and For loops, Format selection, move types to Files, 
-	use string.Format, and promote local variables into Fields.
-
-	![](NextLesson;crcommand:OpenFile:CapsG.cs;;0.04,0.04)  << Caps+G for Getters and Generic type parameters...
+	/*
+		You used Caps+F to declare Fields & Fields with initializers, 
+		introduce Format items, Flatten conditionals, convert between ForEach 
+		statements and For loops, Format selection, move types to Files, 
+		use string.Format, and promote local variables into Fields.
 	*/
+
+	//`![](GotIt;vscommand:File.Close)
 }

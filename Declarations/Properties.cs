@@ -4,7 +4,7 @@ namespace CapsModifier
 {
 	public class Properties
 	{
-		/* 
+		/*
 		![](CapsP;crcommand:OpenFile:CapsP.cs;;0.03000,0.03000) declares Properties
 
 		*/
@@ -35,6 +35,6 @@ namespace CapsModifier
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...
+//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...
 
 

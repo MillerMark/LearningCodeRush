@@ -5,8 +5,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Diagnostics;
 
 namespace CapsModifier
 {
@@ -15,7 +13,7 @@ namespace CapsModifier
 
 		//`![Enable Rich Comments to see embedded images](CapsC;;;0.03,0.03)
 
-		/* 
+		/*
 		Caps+C lets you add Copyrights, Constructors, Classes, and Contracts, and 
 		lets you work with Conditionals and switch/Case statements.
 
@@ -136,7 +134,7 @@ namespace CapsModifier
 
 	//`++Great Work!
 
-	/* 
+	/*
 	You used Caps+C to:
 	
 		* add a Copyright header
@@ -145,10 +143,9 @@ namespace CapsModifier
 		* declare a Class
 		* Combine and split Conditionals
 		* add method Contracts
+	 */
 
-	![](NextLesson;crcommand:OpenFile:CapsF.cs;;0.04,0.04)  << Caps+F for Fields, Formatting, For loops, and more...
-
-	*/
+	//`![](GotIt;vscommand:File.Close)
 }
 
 

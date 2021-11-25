@@ -31,7 +31,7 @@ namespace CapsModifier
 
 //`++Great Work!
 
-/* 
+/*
 You used Caps+Delete to remove unnecessary or unused code, including:
 
 	* Type Qualifiers

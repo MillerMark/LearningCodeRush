@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Advanced\ShiftCapsR.cs" />
     <Compile Include="CapsDelete\MoreCapsDelete.cs" />
     <Compile Include="CapsDelete\RemoveAllRedundantBlockDelimiters.cs" />
     <Compile Include="CapsDelete\RemoveUnusedType.cs" />
@@ -59,7 +58,8 @@
     <Compile Include="Declarations\Methods.cs" />
     <Compile Include="Declarations\Properties.cs" />
     <Compile Include="Declarations\Constants.cs" />
-    <Compile Include="More Lessons\AllLessonsCapsModifier.cs" />
+    <Compile Include="AllLessonsCapsModifier.cs" Visible="False" />
+    <Compile Include="MoreCapsShortcuts.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Currency.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\CustomerFactoryPart.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveAllRedundantBlockDelimitersPart.cs" Visible="False" />
@@ -117,18 +117,13 @@
     <Compile Include="CapsInsert\CapsInsert.cs" />
     <Compile Include="Support Files Only - No Lessons Here\SimpleNameSyntax.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Book.cs" Visible="False" />
-    <Compile Include="CapsDot\CapsDot.cs" />
+    <Compile Include="More Lessons\CapsSlash.cs" />
     <Compile Include="More Lessons\CapsC.cs" />
-    <Compile Include="Advanced\ShiftCapsSpace.cs" />
     <Compile Include="CapsSpace\CapsSpace.cs" />
-    <Compile Include="Advanced\ShiftCapsF.cs" />
     <Compile Include="More Lessons\CapsF.cs" />
     <Compile Include="Support Files Only - No Lessons Here\BaseClass.cs" Visible="False" />
-    <Compile Include="More Lessons\CapsB.cs" />
     <Compile Include="CapsDelete\CapsDelete.cs" />
-    <Compile Include="More Lessons\CapsG.cs" />
     <Compile Include="More Lessons\CapsA.cs" />
-    <Compile Include="More Lessons\CapsH.cs" />
     <Compile Include="More Lessons\CapsP.cs" />
     <Compile Include="CapsDelete\RemoveAllTypeQualifiers.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Customer.cs" Visible="False" />
@@ -138,6 +133,12 @@
     <Compile Include="Support Files Only - No Lessons Here\SyntaxNode.cs" Visible="False" />
     <Compile Include="StartHere.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" Visible="False" />
+    <Compile Include="ThankYou.cs" Visible="False" />
+    <Compile Include="ThankYou1.cs" Visible="False" />
+    <Compile Include="ThankYou2.cs" Visible="False" />
+    <Compile Include="ThankYou3.cs" Visible="False" />
+    <Compile Include="ThankYou4.cs" Visible="False" />
+    <Compile Include="ThankYou5.cs" Visible="False" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Support Files Only - No Lessons Here\App.config" Visible="False" />

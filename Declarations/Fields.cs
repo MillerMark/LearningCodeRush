@@ -31,7 +31,7 @@ namespace CapsModifier
 
 		public void SetLogin(string url, string userName)
 		{
-			//`        ![](ArrowDown;;;0.008,0.008) Caps+F to turn local "completeUrl" into a Field variable:
+			//`        ![](ArrowDown;;;0.008,0.008) Caps+F to promote this local variable into a Field:
 			string completeUrl = $"http://{url}?{userName}";
 
 			if (!IsValid(completeUrl))
@@ -55,4 +55,4 @@ namespace CapsModifier
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDot.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+.)...
+//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...

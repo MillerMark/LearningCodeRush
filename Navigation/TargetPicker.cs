@@ -22,6 +22,6 @@
 			![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
 		*/
 
-		//` ![](GotIt;vscommand:File.Close)
+		//`![](GotIt;vscommand:File.Close)
 	}
 }

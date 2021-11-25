@@ -8,7 +8,7 @@ namespace CapsModifier
 
 		//`![Enable Rich Comments to see embedded images](CapsA;;;0.03,0.03)
 
-		/* 
+		/*
 
 		Use Caps+A to:
 		
@@ -70,12 +70,10 @@ namespace CapsModifier
 
 		//`++Great Work!
 
-		/* 
-		 You used Caps+A to declare Auto-implemented properties and name Anonymous types!
+		// You used Caps+A to declare Auto-implemented properties and
+		// name Anonymous types!
 
-			![](NextLesson;crcommand:OpenFile:CapsB.cs;;0.04,0.04)  << Caps+B to convert booleans to enums...
-
-		 */
+		//`![](GotIt;vscommand:File.Close)
 	}
 }
 
