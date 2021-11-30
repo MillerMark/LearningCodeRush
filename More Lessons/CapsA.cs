@@ -13,15 +13,8 @@ namespace CapsModifier
 		Use Caps+A to:
 		
 			* Declare Auto-implemented Properties
-			* Name Anonymous Types
 			* Convert properties with backing fields into Auto-implemented properties
 
-		Examples follow in the source code below (and above). 
-
-		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
-
-		Move to where the arrow points before pressing the shortcut.
-		
 		*/
 
 		public bool Initialized { get; set; }
@@ -34,23 +27,6 @@ namespace CapsModifier
 			// Position with the arrow keys. Enter accepts; Escape cancels.
 			//`![](ArrowDown;;;0.008,0.008)
 			MyProp = MyProp + value;
-		}
-
-		public void TestMethod()
-		{
-			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
-
-			// Press Caps+A to Name an Anonymous Type.
-			// CodeRush will take you to the new file and you 
-			// can press Escape (or Alt+End) to get back.
-
-			//`    ![](ArrowDown;;;0.008,0.008) (Caps+A on the variable name)
-			var employee = new { ID = 1, Name = "Scotty", Department = "Engineering" };
-			var employee1 = new { ID = 2, Name = "Spock", Department = "Science" };
-			var employee2 = new { ID = 3, Name = "Kirk",  Department = "Command" };
-
-			// You can change settings used in this refactoring in the CodeRush Options dialog,
-			// on the Editor | C# | Code Actions | Name Anonymous Type Settings page ![](Gear;crcommand:Options:Editor\C#\Code Actions\Name Anonymous Type Settings;;0.01,0.01).
 		}
 
 

@@ -50,6 +50,7 @@
     <Compile Include="CapsDelete\RemoveAllRedundantBlockDelimiters.cs" />
     <Compile Include="CapsDelete\RemoveUnusedType.cs" />
     <Compile Include="CapsSpace\ConvertToStringInterpolation.cs" />
+    <Compile Include="CapsSpace\MoreCapsSpace.cs" />
     <Compile Include="Declarations\AutoImplementedProperties.cs" />
     <Compile Include="Declarations\Classes.cs" />
     <Compile Include="Declarations\Declarations.cs" />
@@ -72,11 +73,9 @@
     <Compile Include="CapsDelete\RemoveUnusedMember.cs" />
     <Compile Include="CapsDelete\RemoveUnusedParameter.cs" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\RemoveUnusedParameterPart.cs" Visible="False" />
-    <Compile Include="CapsInsert\AddElseBlock.cs" />
     <Compile Include="CapsInsert\CreateEventTrigger.cs" />
     <Compile Include="Support Files Only - No Lessons Here\FinishedData.cs" Visible="False" />
     <Compile Include="Support Files Only - No Lessons Here\Partial Classes\AddElseBlockPart.cs" Visible="False" />
-    <Compile Include="CapsInsert\AddGetterSetter.cs" />
     <Compile Include="CapsInsert\AddMissingConstructors.cs" />
     <Compile Include="CapsInsert\AddParameter.cs" />
     <Compile Include="CapsInsert\AddToInterface.cs" />

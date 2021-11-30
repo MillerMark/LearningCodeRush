@@ -16,11 +16,9 @@ namespace CapsModifier
 		
 			* Convert to Function
 			* Declare Fields
-			* Introduce Format Item
 			* ForEach to For (and back)
 			* Format Selection
 			* Move Type to File
-			* Use String.Format
 			* Widen Scope (Promote to Field)
 
 		Examples follow in the source code below.
@@ -48,12 +46,6 @@ namespace CapsModifier
 				//` ![](ArrowDown;;;0.008,0.008)  Press Caps+F to declare "readyToLaunch" as a field (arrows & Enter pick location)
 				readyToLaunch = authorizationCount >= minAuthorizationsNeeded && allSystemsReady;
 			}
-
-
-
-
-			//  **Select** the text "Mark" below ![](ArrowDown;;;0.008,0.008) and press Caps+F to introduce a format item.
-			public string Message => "Hello Mark!";
 		}
 
 
@@ -117,23 +109,6 @@ negativeCount     ++            ;
 	//` ![](Selection IncreaseDecrease;https://www.youtube.com/watch?v=cdJ4D3xmnFw ;;0.04,0.04)  << More on Selection Increase/Decrease
 
 
-	public static class MathEx
-	{
-		public static void ShowMultiplicationTable(int numColumns = 10, int numRows = 10)
-		{
-			for (int column = 1; column < numColumns; column++)
-				for (int row = 1; row < numRows; row++)
-				{
-					int result = column * row;
-
-
-					//`                   ![](ArrowDown;;;0.008,0.008) Press Caps+F to replace this string concatenation with a String.Format call:
-					Console.WriteLine(column + " * " + row + " = " + result);
-				}
-		}
-	}
-
-
 
 	//`![](ArrowDown;;;0.008,0.008) Press Caps+F to move this type to its own file (and then use Escape or Alt+End to get back):
 	public class Automobile
@@ -166,8 +141,8 @@ negativeCount     ++            ;
 
 		public void SetUrl(string url)
 		{
-			//`        ![](ArrowDown;;;0.008,0.008) Press Caps+F to turn "completeUrl" into a field variable (arrows & Enter pick location):
-			string completeUrl = string.Format("http://{0}", url);
+			//`        ![](ArrowDown;;;0.008,0.008) Press Caps+F to turn "completeUrl" into a field variable:
+			string completeUrl = $"http://{url}";
 
 
 
@@ -176,14 +151,12 @@ negativeCount     ++            ;
 		}
 	}
 
-
 	//`++Great Work!
+
 	/*
-		You used Caps+F to declare Fields & Fields with initializers, 
-		introduce Format items, convert between ForEach statements and 
-		For loops, Format selection, move types to Files, use string.Format, 
-		and promote local variables into Fields.
-	*/
+	You used Caps+F to declare Fields & Fields with initializers, convert 
+	between ForEach statements and  For loops, Format selections, move 
+	types to Files, and promote local variables into Fields. */
 
 	//`![](GotIt;vscommand:File.Close)
 }

@@ -17,9 +17,21 @@ namespace CapsModifier
 		}
 	}
 
-	//`![](BtnMoreLikeThis;crcommand:OpenFile:TernaryExpressions.cs;;0.04,0.04) << Ternary Expressions and more...
+	//`![](BtnMoreCapsSpaceExamples;crcommand:OpenFile:MoreCapsSpace.cs;;0.03,0.03) << More Caps+Space examples...
+
+	// (or scroll down to end this lesson now)
 }
 
+	//`++Great Work!
 
+	/* 
+	You used Caps+Space to compress/expand:
 
-//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Delete)...
+		* Implicit/Explicit Declarations
+		* Expression Bodies
+		* Initializers
+
+	And you used Caps+Space to inline temporary variables.
+
+	![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)  << Caps+Delete to remove code...   */
+

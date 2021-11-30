@@ -15,10 +15,15 @@ namespace CapsModifier
 
 		//`![](BtnMoreWithCapsC;crcommand:OpenFile:CapsC.cs;;0.03,0.03) << Caps+C can do even more!
 	}
-
-	//`![](BtnCapsQ-Constants;crcommand:OpenFile:Constants.cs;;0.04,0.04) << Next topic in the guided tour...
 }
 
 
+	//`++Great Work!
+	/*
+		You used these shortcuts to declare these code elements:
 
-//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...
+			![](BtnInstantDeclareTable;;;0.02,0.02)
+
+		![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04000,0.04000)  << More Caps shortcuts...
+	*/
+}

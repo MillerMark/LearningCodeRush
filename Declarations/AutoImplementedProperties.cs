@@ -18,7 +18,7 @@ namespace CapsModifier
 		//`![](BtnMoreWithCapsA;crcommand:OpenFile:CapsA.cs;;0.03,0.03) << Caps+A can do even more!
 	}
 
-	//`![](BtnCapsF-Fields;crcommand:OpenFile:Fields.cs;;0.04,0.04) << Next topic in the guided tour...
+	//`![](BtnCapsC-Classes;crcommand:OpenFile:Classes.cs;;0.04,0.04) << Next topic in the guided tour...
 }
 
 

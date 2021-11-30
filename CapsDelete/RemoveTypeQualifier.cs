@@ -29,11 +29,12 @@ namespace CapsModifier
 		{
 
 		}
+
+		//`![](BtnRemoveAllTypeQualifiers;crcommand:OpenFile:RemoveAllTypeQualifiers.cs;;0.04,0.04) << Bonus shortcut - Use Shift+Caps+Delete!
 	}
 
-//`![](BtnRemoveAllTypeQualifiers;crcommand:OpenFile:RemoveAllTypeQualifiers.cs;;0.04,0.04) << Bonus shortcut - Use Shift+Caps+Delete!
 
-//`![](BtnMoreLikeThis;crcommand:OpenFile:RemoveUnusedMember.cs;;0.04000,0.04000) << Remove Unused Member and more...
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:RemoveUnusedMember.cs;;0.04000,0.04000) << Remove Unused Member and more...
 }
 
 

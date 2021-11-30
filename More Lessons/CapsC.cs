@@ -1,5 +1,5 @@
 ﻿
-//`![](ArrowUp;;;0.008,0.008)  Press Caps+C at the top of the file to add a copyright header.
+ //`![](ArrowNW;;;0.008,0.008)  Press Caps+C at the top of the file to add a copyright header.
 
 using System;
 using System.Collections.Generic;
@@ -23,12 +23,6 @@ namespace CapsModifier
 				* convert a Conditional to a switch/Case statement (and back)
 				* declare a Class
 				* add method Contracts
-			 
-		Examples follow in the source code below (and above).
-
-		Arrows (![](ArrowDown;;;0.008,0.008)) show caret position. 
-
-		Move to where the arrow points before pressing the shortcut.
 		
 		*/
 	}

@@ -26,26 +26,13 @@
 
 		public double VolumeSphere(double radius)
 		{//`             Caps+Q ![](ArrowDown;;;0.008,0.008) to declare a constant (name it Tau).
-			return 2/3 * 6.283185307179586476925286766559 * radius * radius * radius;
+			return 2 / 3 * 6.283185307179586476925286766559 * radius * radius * radius;
 		}
 	}
 
-
-	//`++Great Work!
-/*
-	You used:
-	
-		* Caps+M to declare Methods.
-		* Caps+P to declare Properties.
-		* Caps+A to declare Auto-implemented Properties.
-		* Caps+F to declare Fields
-		* Caps+L to declare Locals
-		* Caps+C to declare Classes.
-		* Caps+Q to declare Constants.
-
-	Nice!
-
-
-	![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04000,0.04000)  << More Caps shortcuts...
-*/
+	//`![](BtnCapsA-AutoImplemented;crcommand:OpenFile:AutoImplementedProperties.cs;;0.04,0.04) << Next topic in the guided tour...
 }
+
+
+
+//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...

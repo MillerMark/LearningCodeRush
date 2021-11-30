@@ -11,7 +11,6 @@ public class CapsDelete
 		* Unused Members
 		* All Redundant Block Delimiters
 		* Unused Parameters
-		* And more...
 	
 		![](BtnShowMe;crcommand:OpenFile:RemoveTypeQualifier.cs;;0.04000,0.04000) << Guided path
 
@@ -19,11 +18,12 @@ public class CapsDelete
 	All Examples (click to try):
 
 		![](BtnRemoveTypeQualifier;crcommand:OpenFile:RemoveTypeQualifier.cs;;0.03,0.03)
-			![](BtnRemoveAllTypeQualifiers;crcommand:OpenFile:RemoveAllTypeQualifiers.cs;;0.03,0.03) << Bonus shortcut - Use Shift+Caps+Delete!
-
 		![](BtnRemoveUnusedMember;crcommand:OpenFile:RemoveUnusedMember.cs;;0.03,0.03)
 		![](BtnRemoveAllRedundantBlockDelimiters;crcommand:OpenFile:RemoveAllRedundantBlockDelimiters.cs;;0.03,0.03)
 		![](BtnRemoveUnusedParameter;crcommand:OpenFile:RemoveUnusedParameter.cs;;0.03,0.03)
+
+
+	More Examples:
 
 		![](BtnMoreCapsDeleteShortcuts;crcommand:OpenFile:MoreCapsDelete.cs;;0.03,0.03)
  */

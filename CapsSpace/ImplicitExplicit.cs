@@ -6,6 +6,7 @@ namespace CapsModifier
 	{
 		//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) converts between implicit & explicit declarations.
 
+		// Move to where the arrows (![](ArrowDown;;;0.006,0.006)) point before pressing the shortcut.
 
 		public static void InitializeImplicitly(int? foo)
 		{

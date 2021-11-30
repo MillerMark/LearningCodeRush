@@ -22,17 +22,22 @@ namespace CapsModifier
 
 		List<Analysis> Consume(Dictionary<int, string> lookup, Guid newGuid, Action<Customer> callback)
 		{
-			throw new NotImplementedException();
+			throw new NotImplementedException();	
 		}
+
+
+		//`![](BtnCapsQ-Constants;crcommand:OpenFile:Constants.cs;;0.04,0.04) << Next topic in the guided tour...
+
+		// (or scroll down to end this lesson now)
 	}
+
 
 	//`++Great Work!
 
-	// You used Caps+L to declare a new local based on an expression on the line.
+	/* 
+	You used these Caps shortcuts to instantly declare code elements:
 
-	//`![](BtnCapsC-Classes;crcommand:OpenFile:Classes.cs;;0.04,0.04) << Next topic in the guided tour...
+		![](BtnInstantDeclareTableShort;;;0.02,0.02) 	
+
+	![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04,0.04)  << More Caps Shortcuts...   */
 }
-
-
-
-//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...

@@ -23,23 +23,21 @@ namespace CapsModifier
 		}
 	}
 
-	// ![](BtnMoreCapsDeleteShortcuts;crcommand:OpenFile:MoreCapsDelete.cs;;0.04,0.04) << More ways to use Caps+Delete...
+	// ![](BtnMoreCapsDeleteShortcuts;crcommand:OpenFile:MoreCapsDelete.cs;;0.04,0.04) << More Caps+Delete examples...
 
 	// (or scroll down to end this lesson now)
 }
 
 
-//`++Great Work!
+	//`++Great Work!
 
-/*
-You used Caps+Delete to remove unnecessary or unused code, including:
+	/* 
+	You used Caps+Delete to remove unnecessary or unused code, including:
 
-	* Type Qualifiers
-	* All Type Qualifiers (with Shift+Caps+Delete)
-	* Unused Members
-	* All Redundant Block Delimiters
-	* Unused Parameters
+		* Type Qualifiers
+		* All Type Qualifiers (with Shift+Caps+Delete)
+		* Unused Members
+		* All Redundant Block Delimiters
+		* Unused Parameters
 
-![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...
-
-*/
+	![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...  */

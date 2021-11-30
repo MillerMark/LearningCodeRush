@@ -25,7 +25,7 @@ namespace CapsModifier
 		//`![](BtnMoreWithCapsP;crcommand:OpenFile:CapsP.cs;;0.03,0.03) << Caps+P can do even more!
 	}
 
-	//`![](BtnCapsA-AutoImplemented;crcommand:OpenFile:AutoImplementedProperties.cs;;0.04,0.04) << Next topic in the guided tour...
+	//`![](BtnCapsF-Fields;crcommand:OpenFile:Fields.cs;;0.04,0.04) << Next topic in the guided tour...
 }
 
 

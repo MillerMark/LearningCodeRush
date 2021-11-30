@@ -18,8 +18,13 @@ public class CreateEventTrigger
 	}
 }
 
-//`![](BtnMoreLikeThis;crcommand:OpenFile:AddGetterSetter.cs;;0.04,0.04) << Add Getter/Setter...
 
+//`++Great Work!
 
+/*
+	You used Caps+Insert to add missing constructors, new parameters, 
+	members to interfaces, and event triggers.
 
-//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.02,0.02)  << Skip ahead to the next lesson (Declarations)...
+	![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.04,0.04)  << Shortcuts for **instant declarations**...
+
+*/

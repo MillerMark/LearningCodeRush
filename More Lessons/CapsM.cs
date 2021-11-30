@@ -16,7 +16,6 @@ namespace CapsModifier
 
 			* Declare Method
 			* Move Type to File
-			* Move Initialization to Declaration
 			* Move Declaration Near Reference
 		 
 		*/
@@ -49,18 +48,6 @@ namespace CapsModifier
 				return name;
 			return name.Substring(0, spaceIndex);
 		}
-
-
-
-		string GetFull(Func<string> getFirst, Func<string> getLast)
-		{
-			string fullName;
-
-			// ![](ArrowDown;;;0.008,0.008) Caps+M to move this initialization to its declaration (above)
-			fullName = getFirst() + " " + getLast();
-
-			return fullName;
-		}
 	}
 
 	//       Caps+M ![](ArrowDown;;;0.008,0.008) to move this type to its own file. 
@@ -81,9 +68,8 @@ namespace CapsModifier
 	//`++Great Work!
 
 	/*
-		You used Caps+M to declare a Method, Move a type to a new file, Move an 
-		initialization to its declaration, and Move a declaration near its first 
-		reference.
+		You used Caps+M to declare a Method, Move a type to a new file, and 
+		Move a declaration near its first reference.
 	*/
 
 	//`![](GotIt;vscommand:File.Close)
