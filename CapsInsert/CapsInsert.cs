@@ -1,6 +1,6 @@
 ﻿public class CapsInsert
 {
-	//`![](CapsInsert;;;0.04,0.04) adds new code.
+	//`![](CapsInsert;;;0.03,0.03) adds new code.
 
 	/*
 	Use Caps+Insert to add new code, including:
@@ -17,12 +17,9 @@
 		![](BtnAddMissingConstructors;crcommand:OpenFile:AddMissingConstructors.cs;;0.03,0.03)
 		![](BtnAddParameter;crcommand:OpenFile:AddParameter.cs;;0.03,0.03)
 		![](BtnAddToInterface;crcommand:OpenFile:AddToInterface.cs;;0.03,0.03)
-		![](BtnCreateEventTrigger;crcommand:OpenFile:CreateEventTrigger.cs;;0.03,0.03)
-
- */
-
+		![](BtnCreateEventTrigger;crcommand:OpenFile:CreateEventTrigger.cs;;0.03,0.03)                                         */
 }
 
 
 
-//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.02,0.02)  << Skip ahead to the next lesson (Declarations)...
+//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.04,0.04)  << Skip ahead to the next lesson (Declarations)...

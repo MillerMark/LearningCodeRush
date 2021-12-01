@@ -25,11 +25,11 @@ namespace CapsModifier
 		//`![](BtnMoreWithCapsP;crcommand:OpenFile:CapsP.cs;;0.03,0.03) << Caps+P can do even more!
 	}
 
-	//`![](BtnCapsF-Fields;crcommand:OpenFile:Fields.cs;;0.04,0.04) << Next topic in the guided tour...
+	//`![](BtnCapsF-FieldsTrim;crcommand:OpenFile:Fields.cs;;0.04,0.04) << Next topic in the guided tour...
 }
 
 
 
-//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...
+//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04,0.04)  << Skip ahead to the next lesson (More Caps Shortcuts)...
 
 

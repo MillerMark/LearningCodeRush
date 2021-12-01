@@ -6,7 +6,7 @@ namespace CapsModifier
 {
 	public abstract class CapsF
 	{
-		//`![](CapsF;;;0.04,0.04)
+		//`![](CapsF;;;0.03,0.03)
 
 		/*
 		Caps+F lets you declare Fields, work with For and Foreach loops, and 
@@ -118,7 +118,7 @@ negativeCount     ++            ;
 		public Guid ID { get; set; }
 		public Automobile()
 		{
-			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.03,0.03)  << Learn about Markers.
 		}
 	}
 
@@ -152,11 +152,10 @@ negativeCount     ++            ;
 	}
 
 	//`++Great Work!
-
 	/*
 	You used Caps+F to declare Fields & Fields with initializers, convert 
 	between ForEach statements and  For loops, Format selections, move 
-	types to Files, and promote local variables into Fields. */
+	types to Files, and promote local variables into Fields.                 */
 
-	//`![](GotIt;vscommand:File.Close)
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }

@@ -46,7 +46,7 @@ namespace Navigation
 				return "x";
 			return string.Empty;
 		}
+	
 	}
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }
-
-//` ![](GotIt;vscommand:File.Close)

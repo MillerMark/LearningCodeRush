@@ -42,12 +42,11 @@ namespace CapsModifier
 			//`  ![](ArrowDown;;;0.008,0.008)  Press Caps+Space to convert this proc to a function.
 			return customerLists[key];
 		}
-
-
-		//`![](BtnMoreLikeThis;crcommand:OpenFile:DecomposeParameter.cs;;0.04,0.04) << Decompose Parameter and more...
 	}
+
+	//`![](BtnMoreLikeThis;crcommand:OpenFile:DecomposeParameter.cs;;0.04,0.04) << Decompose Parameter and more...
 }
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Delete)...
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)  << Skip ahead to the next lesson (Caps+Delete)...

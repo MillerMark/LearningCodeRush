@@ -3,7 +3,6 @@
 
 namespace CapsModifier
 {
-
 	//`![](CapsSpace;crcommand:OpenFile:CapsSpace.cs;;0.03000,0.03000) expands lambda functions.
 
 
@@ -23,8 +22,8 @@ namespace CapsModifier
 
 	You also got an introduction to Smart Nav (Caps + arrow keys). Good job!
 
-	![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04) << Removing unused code with Caps+Delete
+	Here's your next lesson:
 
-	*/
+	![](BtnCapsDeleteTrim;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04) << Removing unused code with Caps+Delete     */
 }
 

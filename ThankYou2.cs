@@ -9,9 +9,7 @@
 		* Missing features?
 		* Not working as expected?
 
-	Let us know through our Support Center (support@devexpress.com) or click the 
-	link below:
+	Let us know through our Support Center (support@devexpress.com) or click 
+	the link below:
 
-	![](SubmitSupportTicket;https://supportcenter.devexpress.com/ ;;0.035,0.035)
-
-*/
+	![](SubmitSupportTicket;https://supportcenter.devexpress.com/ ;;0.035,0.035)                                        */

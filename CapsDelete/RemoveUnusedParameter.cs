@@ -23,7 +23,7 @@ namespace CapsModifier
 		}
 	}
 
-	// ![](BtnMoreCapsDeleteShortcuts;crcommand:OpenFile:MoreCapsDelete.cs;;0.04,0.04) << More Caps+Delete examples...
+	// ![](BtnMoreCapsDeleteShortcuts;crcommand:OpenFile:MoreCapsDelete.cs;;0.03,0.03) << More Caps+Delete examples...
 
 	// (or scroll down to end this lesson now)
 }
@@ -40,4 +40,6 @@ namespace CapsModifier
 		* All Redundant Block Delimiters
 		* Unused Parameters
 
-	![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...  */
+	Here's your next lesson:
+
+	![](BtnCapsInsertTrim;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...  */

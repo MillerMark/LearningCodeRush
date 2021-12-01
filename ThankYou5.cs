@@ -10,6 +10,4 @@
 	Tell developers on the VS Marketplace about your favorite CodeRush features:
 
 	![](ReviewCodeRush;https://marketplace.visualstudio.com/items?itemName=DevExpress.CodeRushforVS2022&ssr=false#review-details ;;0.04,0.04)
-	                                         Click to rate CodeRush ★★★★★!
-
-*/
+	                                       Click to rate CodeRush ★★★★★! */

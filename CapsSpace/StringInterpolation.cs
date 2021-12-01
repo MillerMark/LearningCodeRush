@@ -5,7 +5,7 @@ namespace CapsModifier
 {
 	public partial class StringInterpolation
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to convert to string interpolation: 
+		//`![](CapsSpace;;;0.03,0.03) Caps+Space to convert to string interpolation: 
 
 		public static string FoundRecord(int index)
 		{

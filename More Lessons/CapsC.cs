@@ -1,5 +1,5 @@
 ﻿
- //`![](ArrowNW;;;0.008,0.008)  Press Caps+C at the top of the file to add a copyright header.
+//`![](ArrowNW;;;0.008,0.008)  Press Caps+C at the top of the file to add a copyright header.
 
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace CapsModifier
 	public class CapsC
 	{
 
-		//`![Enable Rich Comments to see embedded images](CapsC;;;0.03,0.03)
+		//`![](CapsC;;;0.03,0.03)
 
 		/*
 		Caps+C lets you add Copyrights, Constructors, Classes, and Contracts, and 
@@ -117,10 +117,7 @@ namespace CapsModifier
 		* add missing Constructors
 		* convert a Conditional to a switch/Case statement (and back)
 		* declare a Class
-		* add method Contracts
-	 */
+		* add method Contracts                                                   */
 
-	//`![](GotIt;vscommand:File.Close)
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }
-
-

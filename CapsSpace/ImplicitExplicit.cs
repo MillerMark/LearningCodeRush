@@ -21,7 +21,7 @@ namespace CapsModifier
 		}
 
 
-		//`![](SmartNav;crcommand:OpenFile:SmartNav.cs;;0.04,0.04)  << Learn about SmartNav...
+		//`![](SmartNav;crcommand:OpenFile:SmartNav.cs;;0.03,0.03)  << Learn about SmartNav...
 
 		//++ Pro Tip
 		// You can alternate Caps+Space with Caps+Down (SmartNav) to convert 
@@ -52,4 +52,4 @@ namespace CapsModifier
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Delete)...
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)  << Skip ahead to the next lesson (Caps+Delete)...

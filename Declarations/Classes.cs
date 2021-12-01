@@ -17,13 +17,12 @@ namespace CapsModifier
 	}
 }
 
+//`++Great Work!
+/*
+You used these shortcuts to declare these code elements:
 
-	//`++Great Work!
-	/*
-		You used these shortcuts to declare these code elements:
+	![](BtnInstantDeclareTable;;;0.02,0.02)
 
-			![](BtnInstantDeclareTable;;;0.02,0.02)
+Here's your next lesson:
 
-		![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04000,0.04000)  << More Caps shortcuts...
-	*/
-}
+![](BtnMoreCapsShortcuts;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04000,0.04000)  << More Caps shortcuts...               */

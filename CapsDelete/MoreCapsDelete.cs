@@ -10,20 +10,20 @@
 			* Redundant Destructors
 			* Discard Variables
 
-		![](BtnShowMe;crcommand:OpenFile:RemoveRedundantDelegateCreation.cs;;0.04000,0.04000) << Continue the guided path
+		![](BtnShowMe;crcommand:OpenFile:RemoveRedundantDelegateCreation.cs;;0.04,0.04) << Continue the guided path
 
 		All Examples (click to try):
 
-		![](BtnRemoveRedundantDelegateCreation;crcommand:OpenFile:RemoveRedundantDelegateCreation.cs;;0.04000,0.04000)
-		![](BtnRemoveUnusedLocal;crcommand:OpenFile:RemoveUnusedLocal.cs;;0.04,0.04)
-		![](BtnRemoveUnusedType;crcommand:OpenFile:RemoveUnusedType.cs;;0.04,0.04)
-		![](BtnRemoveRedundantConstructors;crcommand:OpenFile:RemoveRedundantConstructor.cs;;0.04,0.04)
-		![](BtnRemoveRedundantDestructors;crcommand:OpenFile:RemoveRedundantDestructor.cs;;0.04,0.04)
-		![](BtnRemoveDiscardVariable;crcommand:OpenFile:RemoveDiscardVariable.cs;;0.04,0.04)
+		![](BtnRemoveRedundantDelegateCreation;crcommand:OpenFile:RemoveRedundantDelegateCreation.cs;;0.03,0.03)
+		![](BtnRemoveUnusedLocal;crcommand:OpenFile:RemoveUnusedLocal.cs;;0.03,0.03)
+		![](BtnRemoveUnusedType;crcommand:OpenFile:RemoveUnusedType.cs;;0.03,0.03)
+		![](BtnRemoveRedundantConstructors;crcommand:OpenFile:RemoveRedundantConstructor.cs;;0.03,0.03)
+		![](BtnRemoveRedundantDestructors;crcommand:OpenFile:RemoveRedundantDestructor.cs;;0.03,0.03)
+		![](BtnRemoveDiscardVariable;crcommand:OpenFile:RemoveDiscardVariable.cs;;0.03,0.03)
 
 	 */
 }
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Insert)...
+//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Skip ahead to the next lesson (Caps+Insert)...

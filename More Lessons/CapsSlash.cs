@@ -95,5 +95,5 @@ namespace CapsModifier
 		* Break apart and line-up arguments and parameters
 	*/
 
-	//`![](GotIt;vscommand:File.Close)
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }

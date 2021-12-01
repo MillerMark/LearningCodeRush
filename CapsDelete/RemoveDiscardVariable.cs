@@ -14,7 +14,6 @@ public class RemoveDiscardVariable
 }
 
 //`++Great Work!
-
 /*
 You used Caps+Delete to remove unnecessary or unused code, including:
 
@@ -30,8 +29,6 @@ You used Caps+Delete to remove unnecessary or unused code, including:
 	* Redundant Destructors
 	* Discard Variables
 
-![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...
+	Here's your next lesson:
 
-*/
-
-
+	![](BtnCapsInsertTrim;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Caps+Insert to add new code...            */

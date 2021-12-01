@@ -1,6 +1,6 @@
 ﻿namespace CapsModifier
 {
-	//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.04,0.04) toggles code.
+	//`![](CapsSpace;;;0.04,0.04) toggles code.
 
 	/*
 	Caps+Space is a toggling/conversion tool for your code.
@@ -11,10 +11,10 @@
 		* Expression Bodies
 		* Initializers
 
-	And you can use Caps+Space to inline temporary variables and 
-	so much more!
+	And you can use Caps+Space to inline temporary variables and so much more!
 
 		![](BtnShowMe;crcommand:OpenFile:ImplicitExplicit.cs;;0.04,0.04) << Guided path
+
 
 	Popular Examples (click to try):
 
@@ -26,11 +26,9 @@
 
 	More Examples:
 
-		![](BtnMoreCapsSpaceExamples;crcommand:OpenFile:MoreCapsSpace.cs;;0.03,0.03)
-
-	*/
+		![](BtnMoreCapsSpaceExamples;crcommand:OpenFile:MoreCapsSpace.cs;;0.03,0.03)                                     */
 }
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Delete)...
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)  << Skip ahead to the next lesson (Caps+Delete)...

@@ -6,13 +6,11 @@ namespace CapsModifier
 {
 	public class Locals
 	{
-
 		/*
-			![](CapsL;crcommand:OpenFile:CapsL.cs;;0.03000,0.03000) declares Locals
+		![](CapsL;crcommand:OpenFile:CapsL.cs;;0.03000,0.03000) declares Locals
 
-			You can enter **any expression** onto an empty line, and then use 
-			Caps+L to declare a new local variable for it.
-		*/
+		You can enter **any expression** onto an empty line, and then use 
+		Caps+L to declare a new local variable for it.                       */
 
 		public void Start(Dictionary<int, string> lookup, Action<Customer> callback)
 		{
@@ -26,18 +24,17 @@ namespace CapsModifier
 		}
 
 
-		//`![](BtnCapsQ-Constants;crcommand:OpenFile:Constants.cs;;0.04,0.04) << Next topic in the guided tour...
+		//`![](BtnCapsQ-ConstantsTrim;crcommand:OpenFile:Constants.cs;;0.04,0.04) << Next topic in the guided tour...
 
 		// (or scroll down to end this lesson now)
 	}
 
 
 	//`++Great Work!
-
 	/* 
 	You used these Caps shortcuts to instantly declare code elements:
 
 		![](BtnInstantDeclareTableShort;;;0.02,0.02) 	
 
-	![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04,0.04)  << More Caps Shortcuts...   */
+	![](BtnMoreCapsShortcuts;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04,0.04)  << More Caps Shortcuts...   */
 }

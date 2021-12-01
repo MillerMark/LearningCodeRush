@@ -19,9 +19,9 @@
 			Refactorings that use the Target Picker will also drop a Marker
 			at the location where you started so you can get back quickly.
 
-			![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
+			![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.03,0.03)  << Learn about Markers.
 		*/
 
-		//`![](GotIt;vscommand:File.Close)
+		//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 	}
 }

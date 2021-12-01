@@ -2,7 +2,7 @@
 {
 	public class Constants
 	{
-		//`![](CapsQ;crcommand:OpenFile:CapsQ.cs;;0.03000,0.03000) declares Constants
+		//`![](CapsQ;;;0.03000,0.03000) declares Constants
 
 		public static string GetRelativePath(string str)
 		{//                                        ![](LookHere;;;0.006,0.006) Look here when you try the next one.
@@ -30,9 +30,9 @@
 		}
 	}
 
-	//`![](BtnCapsA-AutoImplemented;crcommand:OpenFile:AutoImplementedProperties.cs;;0.04,0.04) << Next topic in the guided tour...
+	//`![](BtnCapsA-AutoImplementedTrim;crcommand:OpenFile:AutoImplementedProperties.cs;;0.04,0.04) << Next topic in the guided tour...
 }
 
 
 
-//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.02,0.02)  << Skip ahead to the next lesson (More Caps Shortcuts)...
+//`![](NextLesson;crcommand:OpenFile:MoreCapsShortcuts.cs;;0.04,0.04)  << Skip ahead to the next lesson (More Caps Shortcuts)...

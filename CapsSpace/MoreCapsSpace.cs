@@ -1,7 +1,6 @@
 ﻿namespace CapsModifier
 {
 	/*
-	
 	Caps+Space can do even more!
 
 	![](BtnShowMe;crcommand:OpenFile:TernaryExpressions.cs;;0.04,0.04) << Continue the guided path
@@ -24,4 +23,4 @@
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Delete)...
+//`![](NextLesson;crcommand:OpenFile:CapsDelete.cs;;0.04,0.04)  << Skip ahead to the next lesson (Caps+Delete)...

@@ -3,7 +3,7 @@
 	public class CapsR
 	{
 		/*
-		![Enable Rich Comments to see embedded images](CapsR;;;0.04,0.04)
+		![](CapsR;;;0.03,0.03)
 
 		Use Caps+R to Reorder Parameters.
 
@@ -36,10 +36,8 @@
 
 
 	//`++Great Work!
-
 	/*
-		You used Caps+R to Reorder Parameters.
-	*/
+	You used Caps+R to Reorder Parameters.                                     */
 
-	//`![](GotIt;vscommand:File.Close)
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }

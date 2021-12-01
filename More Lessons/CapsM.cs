@@ -60,7 +60,7 @@ namespace CapsModifier
 		{
 			// After moving this class to its own file, use Escape (or Alt+End) to get back.
 
-			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
+			//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.03,0.03)  << Learn about Markers.
 		}
 	}
 
@@ -72,7 +72,7 @@ namespace CapsModifier
 		Move a declaration near its first reference.
 	*/
 
-	//`![](GotIt;vscommand:File.Close)
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }
 
 

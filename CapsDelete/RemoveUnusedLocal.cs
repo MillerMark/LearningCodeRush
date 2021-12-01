@@ -33,5 +33,5 @@ public class RemoveUnusedLocal
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Insert)...
+//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Skip ahead to the next lesson (Caps+Insert)...
 

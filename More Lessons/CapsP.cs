@@ -9,7 +9,7 @@ namespace CapsModifier
 	public class CapsP
 	{
 		/*
-		![Enable Rich Comments to see embedded images](CapsP;;;0.04,0.04)
+		![](CapsP;;;0.03,0.03)
 
 		Use Caps+P to:
 		
@@ -66,7 +66,7 @@ namespace CapsModifier
 		// (or Escape). To get back to where you started, just collect the
 		// marker CodeRush dropped where you started.
 
-		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.04,0.04)  << Learn about Markers.
+		//` ![](BtnMarkers;crcommand:OpenFile:Markers.cs;;0.03,0.03)  << Learn about Markers.
 
 		// So if you need to declare several initialized properties in
 		// a row, just press repeat this sequence:
@@ -134,7 +134,7 @@ namespace CapsModifier
 			* Declare Initialized Property
 	*/
 
-	//`![](GotIt;vscommand:File.Close)
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }
 
 

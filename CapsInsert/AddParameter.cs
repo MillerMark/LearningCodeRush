@@ -17,7 +17,7 @@ namespace CapsModifier
 		}
 
 
-		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs;;0.04,0.04)  << Learn about Text Fields.
+		//`![](BtnTextFields;crcommand:OpenFile:TextFields.cs;;0.03,0.03)  << Learn about Text Fields.
 
 
 		//`            Caps+Insert ![](ArrowDown;;;0.008,0.008) to add a new parameter (e.g., "bool fast").
@@ -89,4 +89,4 @@ namespace CapsModifier
 
 
 
-//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.02,0.02)  << Skip ahead to the next lesson (Declarations)...
+//`![](NextLesson;crcommand:OpenFile:Declarations.cs;;0.04,0.04)  << Skip ahead to the next lesson (Declarations)...

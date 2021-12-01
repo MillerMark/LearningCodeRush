@@ -6,7 +6,7 @@ namespace CapsModifier
 {
 	public class ChangeNotifications
 	{
-		//`![Enable Rich Comments to see embedded images](CapsSpace;;;0.03,0.03) Caps+Space to add change notifications.
+		//`![](CapsSpace;;;0.03,0.03) Caps+Space to add change notifications.
 	}
 
 	//! Note: InterstellarRocket implements INotifyPropertyChanged!!!

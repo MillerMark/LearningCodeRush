@@ -5,21 +5,17 @@ namespace CapsModifier
 {
 	public class CapsA
 	{
-
-		//`![Enable Rich Comments to see embedded images](CapsA;;;0.03,0.03)
+		//`![](CapsA;;;0.03,0.03)
 
 		/*
-
 		Use Caps+A to:
 		
 			* Declare Auto-implemented Properties
-			* Convert properties with backing fields into Auto-implemented properties
-
-		*/
+			* Convert properties with backing fields into Auto-properties    */
 
 		public bool Initialized { get; set; }
 
-		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.04,0.04)  << Learn more about the Target Picker.
+		//` ![](BtnTargetPicker;crcommand:OpenFile:TargetPicker.cs;;0.03,0.03)  << Learn more about the Target Picker.
 
 		void Increment(int value)
 		{
@@ -43,14 +39,13 @@ namespace CapsModifier
 				phoneNumber = value;
 			}
 		}
-
-		//`++Great Work!
-
-		// You used Caps+A to declare Auto-implemented properties and
-		// name Anonymous types!
-
-		//`![](GotIt;vscommand:File.Close)
 	}
+	//`++Great Work!
+	/* 
+	You used Caps+A to declare Auto-implemented properties and name  
+	Anonymous types!                                                         */
+
+	//`![](GotIt;vscommand:File.Close;;0.04,0.04)
 }
 
 

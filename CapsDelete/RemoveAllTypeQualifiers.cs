@@ -2,7 +2,7 @@
 {
 	public class RemoveAllTypeQualifiers
 	{
-		//`![](ShiftCapsDelete;;;0.04,0.04) removes all type qualifiers matching the qualifier at the caret.
+		//`![](ShiftCapsDelete;;;0.03,0.03) removes all type qualifiers matching the qualifier at the caret.
 
 		void TestAssembly()
 		{
@@ -52,4 +52,4 @@
 
 
 
-//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.02,0.02)  << Skip ahead to the next lesson (Caps+Insert)...
+//`![](NextLesson;crcommand:OpenFile:CapsInsert.cs;;0.04,0.04)  << Skip ahead to the next lesson (Caps+Insert)...
