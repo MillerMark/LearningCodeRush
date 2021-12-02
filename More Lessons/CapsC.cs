@@ -3,7 +3,11 @@
 
 using System;
 using System.Collections.Generic;
-// Copyright settings are taken from the User Info options page: ![](Gear;crcommand:Options:User Info;;0.01,0.01)
+
+// Copyright settings are taken from the User Info options page:
+
+//`   ![](BtnUserInfoSettings;crcommand:Options:User Info;;0.03,0.03)
+
 
 namespace CapsModifier
 {

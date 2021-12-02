@@ -64,7 +64,10 @@ namespace CapsModifier
 		// If you need a list of strings, enter "tl.s" (stands for "type -
 		// list of strings").
 
-		// You can enable Templates on the Quick Setup options page. ![](Gear;crcommand:Options:Quick Setup;;0.01,0.01)
+		// You can enable Templates on the Quick Setup options page.
+
+		//`   ![](BtnQuickSetupSettings;crcommand:Options:Quick Setup;;0.03,0.03)
+
 
 		//` ![](T for Types;https://www.youtube.com/watch?v=WiGSSxFLNhI&list=PL8h4jt35t1wgawacCN9wmxq1EN36CNUGk&index=22 ;;0.04,0.04)  << More on Type templates.
 

@@ -37,6 +37,5 @@ with CodeRush, feel free to contact us through our Support Center
 
 //`  ![](DevExpress;www.devexpress.com;;0.02983,0.02983)
 // Copyright © 2021 Developer Express Inc.
-// 
 // All trademarks or registered trademarks are property of their respective
 // owners.
